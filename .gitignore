@@ -1,0 +1,8 @@
+# quarto
+/.quarto/
+**/*.quarto_ipynb
+
+# pycache
+__pycache__/
+*.py[cod]
+*$py.class
