@@ -7,7 +7,7 @@ description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
 author-meta: "Derek Wang"
 
 website:
-  title: "Derek Wang"
+  title: "Xiran 'Derek' Wang"
   image: "https://quarto.org/quarto.png"
   description: "Derek Wang Academic Website"
  
@@ -15,15 +15,14 @@ website:
     background: light 
 
     left: 
-      - text: About
+      - text: Home
         href: index.qmd
 
       - text: Research
-        menu:
-          - text: List of Publications
-            href: publications.qmd
-          - text: Grants
-            href: projects.qmd          
+        href: research.qmd
+
+      - text: Notes
+        href: notes.qmd       
 
     right: 
       - icon: github
@@ -71,5 +70,8 @@ format:
     link-external-newwindow: true
     email-obfuscation: javascript
     link-external-filter: '^(?:http:|https:)\/\/wxrderek\.github\.io\/custom'
-    include-in-header: "files/includes/_academic.qmd"
+    include-in-header: 
+      - "files/includes/_academic.qmd"
+      - text:
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 

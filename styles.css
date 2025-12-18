@@ -1,1 +1,29 @@
-/* css styles */
+/* home */
+#hero-heading {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+
+#hero-heading h2 {
+  margin-top: 1.4rem;
+  margin-bottom: 0.3rem;
+}
+
+#hero-heading ul {
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+#hero-heading p {
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+#hero-heading a {
+  color: #0f1cd5;
+  text-decoration: none;
+}
+
+#hero-heading a:hover {
+  text-decoration: underline;
+}

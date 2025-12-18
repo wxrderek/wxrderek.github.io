@@ -1,14 +1,14 @@
 [
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
+    "objectID": "research.html",
+    "href": "research.html",
     "title": "Publications",
     "section": "",
     "text": "Notes: * corresponding author; GS graduate student advisee; VS visiting scholar;  ESI Highly Cited Paper (top 1%);  ESI Hot Paper (top 0.1%)\nTotal citations as of January 2025:"
   },
   {
-    "objectID": "publications.html#selected-work",
-    "href": "publications.html#selected-work",
+    "objectID": "research.html#selected-work",
+    "href": "research.html#selected-work",
     "title": "Publications",
     "section": "Selected Work",
     "text": "Selected Work\nEinstein, A., Podolsky, B., & Rosen, N. (1935). Can quantum-mechanical description of physical reality be considered complete?. Physical review, 47(10), 777. [pdf] [code and data]   \n\n\n\n\n\n\nEinstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. American Journal of Physics, 33(5), 367. [pdf]"
@@ -16,30 +16,30 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Quarto Academic, PhD",
+    "title": "Xiran ‘Derek’ Wang",
     "section": "",
-    "text": "Lab\n  \n  \n    \n     Uprofile\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n\n  \n  \nI’m a Quarto Academeic Website Template adapted by Dr. Gang He.\nI’m a template that you can fork to build your own website with easy adaptation and deployment.\n\nStar this repository to bookmark it for future reference.\n\nFork this repository and rename it to YourGitHubUserName.github.io.\n\nUpdate the _quarto.yml file to configure your site’s basic settings.\n\nAdd or edit content in the following files and folders:\n\n/posts/ – posts about publications, news, events\n\nteaching.qmd – teaching information\n\nprojects.yml – research or other projects\n\npeople.qmd and /people/ – team or collaborators\n\n/files/ - profiles, images, pdfs, and includes\n\nRender and preview your site locally.\n\nPublish your site using GitHub Pages (make sure configuring your GitHub repository to publish from the docs directory, not the root folder).\nRefine and polish your content and design as needed.\n\n✅ Enjoy your new website!\n\n\n\n\nResearcher, Univerisity\n\n\n\n\n\nPhD, Univerisity"
+    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nI’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in scientific machine learning theory/methods for (bio)physics applications. Specifics include:\n\nLearning dynamical systems\nPhysics-informed architectures\nApplications in microbiology and quantum computation\n\nI’m also curious about graph methods, topological + geometric data analysis, generative modeling, and anything data-driven in general. I was born in Beijing, China and have lived in Cary, NC for the past 10 years. My given and legal name is Xiran; I go by Derek.\n\n\n\nAs part of the Lingchong You Lab, I work with VAE-MLP models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE systems.\nAs part of the Liberata Algorithms Team, I’m developing graph-based metrics/algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2025, I was an AI development intern at Lenovo under the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\n\n\n\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I’m organizing a seminar series and reading group on theory/methods in modern statistics.\nI’m an avid graphic designer of 7+ years, primarily via Photoshop and (more recently) Figma. I serve as a co-director of HackDuke, where I lead the Design Team (apply now for the 2026 Code for Good Hackathon!). I also design for the Duke Math Union. See some past works here.\nI’m also a recreational photographer. I use an old Nikon D3200 and with a 55-210mm lens. I’ve done sports photography in the past; now I do mostly events and nature. Occasionally I volunteer at the Sarah P. Duke Gardens. See some photos here."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Xiran ‘Derek’ Wang",
+    "section": "",
+    "text": "I’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in scientific machine learning theory/methods for (bio)physics applications. Specifics include:\n\nLearning dynamical systems\nPhysics-informed architectures\nApplications in microbiology and quantum computation\n\nI’m also curious about graph methods, topological + geometric data analysis, generative modeling, and anything data-driven in general. I was born in Beijing, China and have lived in Cary, NC for the past 10 years. My given and legal name is Xiran; I go by Derek."
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "Quarto Academic, PhD",
+    "title": "Xiran ‘Derek’ Wang",
     "section": "",
-    "text": "Researcher, Univerisity"
+    "text": "As part of the Lingchong You Lab, I work with VAE-MLP models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE systems.\nAs part of the Liberata Algorithms Team, I’m developing graph-based metrics/algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2025, I was an AI development intern at Lenovo under the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes."
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Quarto Academic, PhD",
+    "objectID": "index.html#involvements",
+    "href": "index.html#involvements",
+    "title": "Xiran ‘Derek’ Wang",
     "section": "",
-    "text": "PhD, Univerisity"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Order By\n      Default\n      \n      \n      \n        Title\n      \n      \n        Team\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+    "text": "I lead the Research Committee for the Statistical Science Majors Union (SSMU), where I’m organizing a seminar series and reading group on theory/methods in modern statistics.\nI’m an avid graphic designer of 7+ years, primarily via Photoshop and (more recently) Figma. I serve as a co-director of HackDuke, where I lead the Design Team (apply now for the 2026 Code for Good Hackathon!). I also design for the Duke Math Union. See some past works here.\nI’m also a recreational photographer. I use an old Nikon D3200 and with a 55-210mm lens. I’ve done sports photography in the past; now I do mostly events and nature. Occasionally I volunteer at the Sarah P. Duke Gardens. See some photos here."
   },
   {
     "objectID": "contact.html",
