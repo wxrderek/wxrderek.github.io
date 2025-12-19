@@ -17,23 +17,32 @@ website:
     left: 
       - text: Home
         href: index.qmd
+      
+      - text: CV
+        href: cv.qmd
 
       - text: Research
         href: research.qmd
 
       - text: Notes
-        href: notes.qmd       
+        href: notes.qmd
+
+      - text: Design
+        href: design.qmd
+
+      - text: Photos
+        href: photos.qmd   
 
     right: 
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/wxrderek
         target: _blank 
   
   page-navigation: true
   
   page-footer: 
     left: "[Derek Wang](https://www.linkedin.com/in/xiran-derek-wang/) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Built on the [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) by [Dr. Gang He](http://drganghe.github.io)"
+    center: "Built on the [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) by [Dr. Gang He](http://drganghe.github.io)"
   
   search:
     location: navbar

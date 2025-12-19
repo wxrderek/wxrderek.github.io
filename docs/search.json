@@ -1,38 +1,38 @@
 [
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Notes: * corresponding author; GS graduate student advisee; VS visiting scholar;  ESI Highly Cited Paper (top 1%);  ESI Hot Paper (top 0.1%)\nTotal citations as of January 2025:"
+    "objectID": "photos.html#about-these-photos",
+    "href": "photos.html#about-these-photos",
+    "title": "Photography",
+    "section": "About These Photos",
+    "text": "About These Photos\nAdd some context or details about your photography work here."
   },
   {
-    "objectID": "research.html#selected-work",
-    "href": "research.html#selected-work",
-    "title": "Publications",
-    "section": "Selected Work",
-    "text": "Selected Work\nEinstein, A., Podolsky, B., & Rosen, N. (1935). Can quantum-mechanical description of physical reality be considered complete?. Physical review, 47(10), 777. [pdf] [code and data]   \n\n\n\n\n\n\nEinstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. American Journal of Physics, 33(5), 367. [pdf]"
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Xiran ‘Derek’ Wang",
     "section": "",
-    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nI’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in data-driven modeling and scientific machine learning theory/methods for (bio)physics applications. Specifics include:\n\nLearning dynamical systems\nPhysics-informed architectures\nApplications in microbiology and quantum computation\n\nI’m also curious about graph methods, topological/geometric data analysis, and generative modeling. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written + typed notes from my past courses here. All are posted with instructor consent; mistakes are my own. Contact me at xiran.wang at duke dot edu.\n\n\n\nAs part of the Lingchong You Lab, I work with VAE-MLP models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE systems.\nAs part of the Liberata Algorithms Team, I’m developing graph-based metrics/algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2025, I was an AI development intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\n\n\n\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I’m organizing a seminar series and reading group on theory/methods in modern statistics.\nI’m an avid graphic designer of 7+ years, primarily via Photoshop and (more recently) Figma. I serve as a co-director of HackDuke, where I lead the Design Team. I also design for the Duke Math Union, in particular for the annual Duke Math Meet. See some past works here.\nI’m also a recreational photographer. I use an old Nikon D3200 and with a 55-210mm lens. I’ve done sports photography in the past; now I do mostly events and nature. Occasionally I volunteer at the Sarah P. Duke Gardens. See some photos here."
+    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nI’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in data-driven modeling and scientific machine learning theory/methods for (bio)physics applications. Specifics include:\n\nLearning dynamical systems\nPhysics-informed architectures\nApplications in microbiology and quantum computation\n\nI’m also curious about graph methods, topological/geometric data analysis, and generative modeling. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written course notes and typed notes on select readings/topics here. All are posted with instructor consent; mistakes are my own.\n\n\n\nAs part of the Lingchong You Lab, I work with VAE-MLP models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE systems.\nAs part of the Liberata Algorithms Team, I’m developing graph-based metrics/algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\n\n\n\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I’m organizing a seminar series and reading group on theory/methods in modern statistics.\nI’m an avid graphic designer of 7+ years, primarily via Photoshop and (more recently) Figma. I serve as a co-director of HackDuke, where I lead the Design Team. I also design for the Duke Math Union, in particular for the annual Duke Math Meet. See some past works here.\nI’m also a recreational photographer. I use an old Nikon D3200 and with a 55-210mm lens. I’ve done sports photography in the past; now I do mostly events and nature. Occasionally I volunteer at the Sarah P. Duke Gardens. See some photos here."
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Xiran ‘Derek’ Wang",
     "section": "",
-    "text": "I’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in data-driven modeling and scientific machine learning theory/methods for (bio)physics applications. Specifics include:\n\nLearning dynamical systems\nPhysics-informed architectures\nApplications in microbiology and quantum computation\n\nI’m also curious about graph methods, topological/geometric data analysis, and generative modeling. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written + typed notes from my past courses here. All are posted with instructor consent; mistakes are my own. Contact me at xiran.wang at duke dot edu."
+    "text": "I’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in data-driven modeling and scientific machine learning theory/methods for (bio)physics applications. Specifics include:\n\nLearning dynamical systems\nPhysics-informed architectures\nApplications in microbiology and quantum computation\n\nI’m also curious about graph methods, topological/geometric data analysis, and generative modeling. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written course notes and typed notes on select readings/topics here. All are posted with instructor consent; mistakes are my own."
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Xiran ‘Derek’ Wang",
     "section": "",
-    "text": "As part of the Lingchong You Lab, I work with VAE-MLP models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE systems.\nAs part of the Liberata Algorithms Team, I’m developing graph-based metrics/algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2025, I was an AI development intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes."
+    "text": "As part of the Lingchong You Lab, I work with VAE-MLP models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE systems.\nAs part of the Liberata Algorithms Team, I’m developing graph-based metrics/algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes."
   },
   {
     "objectID": "index.html#involvements",
@@ -42,10 +42,31 @@
     "text": "I lead the Research Committee for the Statistical Science Majors Union (SSMU), where I’m organizing a seminar series and reading group on theory/methods in modern statistics.\nI’m an avid graphic designer of 7+ years, primarily via Photoshop and (more recently) Figma. I serve as a co-director of HackDuke, where I lead the Design Team. I also design for the Duke Math Union, in particular for the annual Duke Math Meet. See some past works here.\nI’m also a recreational photographer. I use an old Nikon D3200 and with a 55-210mm lens. I’ve done sports photography in the past; now I do mostly events and nature. Occasionally I volunteer at the Sarah P. Duke Gardens. See some photos here."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications"
+  },
+  {
+    "objectID": "photos.html",
+    "href": "photos.html",
+    "title": "Photography",
     "section": "",
-    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
+    "text": "I’m a recreational photographer of 5+ years. I used to specialize in sports photography for my high school Athletics Department, in particular the Cross Country + Track and Field teams. Now, I do mostly events and nature. All photos are for personal, non-commercial use only and are not monetized in any way."
+  },
+  {
+    "objectID": "photos.html#duke-gardens",
+    "href": "photos.html#duke-gardens",
+    "title": "Photography",
+    "section": "Duke Gardens",
+    "text": "Duke Gardens\n\n\n\n   \n❮ ❯\n\n\n\n\n\nPhoto 1 of 4\n\n\nA serene moment in Duke Gardens capturing the natural beauty and tranquility of the landscape."
+  },
+  {
+    "objectID": "photos.html#duke-campus",
+    "href": "photos.html#duke-campus",
+    "title": "Photography",
+    "section": "Duke Campus",
+    "text": "Duke Campus\n\n\n\n   \n❮ ❯\n\n\n\n\n\nPhoto 1 of 4\n\n\nIconic views of Duke University’s beautiful campus architecture and grounds."
   }
 ]

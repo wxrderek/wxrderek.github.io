@@ -1,0 +1,81 @@
+---
+title: "Photography"
+description-meta: "Derek Wang photography"
+page-layout: full
+page-navigation: true
+back-to-top-navigation: true
+toc: true
+toc-location: right
+css:
+  - styles.css
+  - photo.css
+---
+
+I'm a recreational photographer of 5+ years. I used to specialize in sports photography for my high school Athletics Department, in particular
+the Cross Country + Track and Field teams. Now, I do mostly events and nature. 
+All photos  are for personal, non-commercial use only and are not monetized in any way. 
+
+## Duke Gardens
+
+:::{.grid}
+
+:::{.g-col-12 .g-col-md-8}
+<div id="carousel-duke-gardens" class="carousel">
+  <img src="files/images/photo1.jpg" alt="Duke Gardens 1" class="carousel-image active">
+  <img src="files/images/photo2.jpg" alt="Duke Gardens 2" class="carousel-image">
+  <img src="files/images/photo3.jpg" alt="Duke Gardens 3" class="carousel-image">
+  <img src="files/images/photo4.jpg" alt="Duke Gardens 4" class="carousel-image">
+  
+  <button class="carousel-btn prev" onclick="changeSlide(-1, 'duke-gardens')">❮</button>
+  <button class="carousel-btn next" onclick="changeSlide(1, 'duke-gardens')">❯</button>
+</div>
+:::
+
+:::{.g-col-12 .g-col-md-4}
+<div class="carousel-info">
+  <h3>Photo <span id="current-photo-duke-gardens">1</span> of <span id="total-photos-duke-gardens">4</span></h3>
+  <p id="photo-description-duke-gardens">A serene moment in Duke Gardens capturing the natural beauty and tranquility of the landscape.</p>
+</div>
+:::
+
+:::
+
+## Duke Campus
+
+:::{.grid}
+
+:::{.g-col-12 .g-col-md-8}
+<div id="carousel-duke-campus" class="carousel">
+  <img src="files/images/photo1.jpg" alt="Duke Campus 1" class="carousel-image active">
+  <img src="files/images/photo2.jpg" alt="Duke Campus 2" class="carousel-image">
+  <img src="files/images/photo3.jpg" alt="Duke Campus 3" class="carousel-image">
+  <img src="files/images/photo4.jpg" alt="Duke Campus 4" class="carousel-image">
+  
+  <button class="carousel-btn prev" onclick="changeSlide(-1, 'duke-campus')">❮</button>
+  <button class="carousel-btn next" onclick="changeSlide(1, 'duke-campus')">❯</button>
+</div>
+:::
+
+:::{.g-col-12 .g-col-md-4}
+<div class="carousel-info">
+  <h3>Photo <span id="current-photo-duke-campus">1</span> of <span id="total-photos-duke-campus">4</span></h3>
+  <p id="photo-description-duke-campus">Iconic views of Duke University's beautiful campus architecture and grounds.</p>
+</div>
+:::
+
+:::
+
+<script>
+function changeSlide(n, gallery) {
+  const carousel = document.getElementById('carousel-' + gallery);
+  const images = carousel.querySelectorAll('.carousel-image');
+  let currentIndex = Array.from(images).findIndex(img => img.classList.contains('active'));
+  
+  currentIndex = (currentIndex + n + images.length) % images.length;
+  
+  images.forEach(img => img.classList.remove('active'));
+  images[currentIndex].classList.add('active');
+  
+  document.getElementById('current-photo-' + gallery).textContent = currentIndex + 1;
+}
+</script>

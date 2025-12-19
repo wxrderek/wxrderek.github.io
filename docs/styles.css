@@ -19,11 +19,45 @@
     margin-bottom: 0.6rem;
 }
 
+/* global link styling */
+a:hover {
+  color: #0f1cd5 !important;
+}
+
+/* hero heading links */
 #hero-heading a {
   color: #0f1cd5;
   text-decoration: none;
 }
 
 #hero-heading a:hover {
+  text-decoration: underline;
+}
+
+/* navbar links */
+.navbar a:hover {
+  color: #0f1cd5 !important;
+}
+
+.navbar a.active {
+  color: #0f1cd5 !important;
+}
+
+.navbar .nav-link.active {
+  color: #0f1cd5 !important;
+}
+
+/* sidebar links */
+.sidebar a:hover {
+  color: #0f1cd5 !important;
+}
+
+/* footer links */
+.page-footer a {
+  text-decoration: none;
+}
+
+.page-footer a:hover {
+  color: #0f1cd5;
   text-decoration: underline;
 }

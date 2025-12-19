@@ -1,5 +1,8 @@
 ---
 title: "Xiran 'Derek' Wang"
+subtitle: |
+  Physics + Math @ [Duke University](https://www.duke.edu) \
+  Contact: [xiran.wang@duke.edu](mailto:xiran.wang@duke.edu)
 description-meta: "Derek Wang home page"
 image: "files/images/me/half-body.jpg"
 page-navigation: false
@@ -39,8 +42,7 @@ I’m broadly interested in data-driven modeling and scientific machine learning
 I'm also curious about graph methods, topological/geometric data analysis, and generative modeling. 
 I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek. 
 
-I've put some hand-written + typed notes from my past courses [here](). All are posted with instructor consent; mistakes are my own. 
-Contact me at [xiran.wang@duke.edu](mailto:xiran.wang@duke.edu). 
+I've put some hand-written course notes and typed notes on select readings/topics [here](). All are posted with instructor consent; mistakes are my own. 
 
 
 ## Experience
@@ -50,7 +52,7 @@ specifically targeting chaotic ODE systems.
 As part of the [Liberata](https://liberata.info/) Algorithms Team, I'm developing graph-based 
 metrics/algorithms for a new academic publishing system based on continuous authorship shares.
 
-In Summer 2025, I was an AI development intern at [Lenovo](https://www.lenovo.com/us/en/) with the 
+In Summer 2025, I was an AI R&D intern at [Lenovo](https://www.lenovo.com/us/en/) with the 
 [Cloud Service Providers](https://www.lenovo.com/us/en/servers-storage/solutions/cloud-service-provider/), where I assembled
 an AI cluster testbed and looked at network optimization schemes.
 
@@ -61,7 +63,7 @@ seminar series and reading group on theory/methods in modern statistics.
 
 I'm an avid graphic designer of 7+ years, primarily via Photoshop and (more recently) Figma. 
 I serve as a co-director of [HackDuke](https://hackduke.org/), where I lead the Design Team. 
-I also design for the Duke Math Union, in particular for the annual [Duke Math Meet](https://dukemathmeet.org/). See some past works [here]().
+I also design for the Duke Math Union, in particular for the annual [Duke Math Meet](https://dukemathmeet.org/). See some past works [here](https://dukemathmeet.org/).
 
 I'm also a recreational photographer. I use an old Nikon D3200 and with a 55-210mm lens. I've done sports photography in the past; 
 now I do mostly events and nature. Occasionally I volunteer at the [Sarah P. Duke Gardens](https://gardens.duke.edu/). See some photos [here]().

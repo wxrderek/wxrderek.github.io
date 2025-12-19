@@ -1,7 +1,5 @@
 ---
-title: Page Unplugged
+title: Error 404 - Page Not Found
 ---
 
-The page you requested cannot be found (perhaps it was unplugged).
-
-You may want to try searching to find the page's new plug.
+The page you requested is not well-defined and hence cannot be found.
