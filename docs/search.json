@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "photos.html#about-these-photos",
-    "href": "photos.html#about-these-photos",
+    "objectID": "photos.html",
+    "href": "photos.html",
     "title": "Photography",
-    "section": "About These Photos",
-    "text": "About These Photos\nAdd some context or details about your photography work here."
+    "section": "",
+    "text": "I’m a recreational photographer of 5+ years. I used to specialize in sports photography for my high school Athletics Department, in particular the Cross Country + Track and Field teams. Now, I do mostly events and nature. All photos are for personal, non-commercial use only and are not monetized in any way."
+  },
+  {
+    "objectID": "photos.html#duke-gardens",
+    "href": "photos.html#duke-gardens",
+    "title": "Photography",
+    "section": "Duke Gardens",
+    "text": "Duke Gardens\n\n\n\n      \n   \n❮ ❯\n\n\n\n\n\nPhoto 1 of 51\n\n\nA serene moment in Duke Gardens capturing the natural beauty and tranquility of the landscape."
+  },
+  {
+    "objectID": "photos.html#duke-campus",
+    "href": "photos.html#duke-campus",
+    "title": "Photography",
+    "section": "Duke Campus",
+    "text": "Duke Campus\n\n\n\n   \n❮ ❯\n\n\n\n\n\nPhoto 1 of 4\n\n\nIconic views of Duke University’s beautiful campus architecture and grounds."
   },
   {
     "objectID": "contact.html",
@@ -47,26 +61,5 @@
     "title": "Research",
     "section": "Publications",
     "text": "Publications"
-  },
-  {
-    "objectID": "photos.html",
-    "href": "photos.html",
-    "title": "Photography",
-    "section": "",
-    "text": "I’m a recreational photographer of 5+ years. I used to specialize in sports photography for my high school Athletics Department, in particular the Cross Country + Track and Field teams. Now, I do mostly events and nature. All photos are for personal, non-commercial use only and are not monetized in any way."
-  },
-  {
-    "objectID": "photos.html#duke-gardens",
-    "href": "photos.html#duke-gardens",
-    "title": "Photography",
-    "section": "Duke Gardens",
-    "text": "Duke Gardens\n\n\n\n   \n❮ ❯\n\n\n\n\n\nPhoto 1 of 4\n\n\nA serene moment in Duke Gardens capturing the natural beauty and tranquility of the landscape."
-  },
-  {
-    "objectID": "photos.html#duke-campus",
-    "href": "photos.html#duke-campus",
-    "title": "Photography",
-    "section": "Duke Campus",
-    "text": "Duke Campus\n\n\n\n   \n❮ ❯\n\n\n\n\n\nPhoto 1 of 4\n\n\nIconic views of Duke University’s beautiful campus architecture and grounds."
   }
 ]

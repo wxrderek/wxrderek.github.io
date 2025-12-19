@@ -21,10 +21,19 @@ All photos  are for personal, non-commercial use only and are not monetized in a
 
 :::{.g-col-12 .g-col-md-8}
 <div id="carousel-duke-gardens" class="carousel">
-  <img src="files/images/photo1.jpg" alt="Duke Gardens 1" class="carousel-image active">
-  <img src="files/images/photo2.jpg" alt="Duke Gardens 2" class="carousel-image">
-  <img src="files/images/photo3.jpg" alt="Duke Gardens 3" class="carousel-image">
-  <img src="files/images/photo4.jpg" alt="Duke Gardens 4" class="carousel-image">
+  <img src="files/images/photos/duke_gardens/Cherries0321-01.jpg" alt="Duke Gardens 1" class="carousel-image active">
+  <img src="files/images/photos/duke_gardens/Cherries0321-25.jpg" alt="Duke Gardens 2" class="carousel-image">
+  <img src="files/images/photos/duke_gardens/Cherries0321-30.jpg" alt="Duke Gardens 3" class="carousel-image">
+  <img src="files/images/photos/duke_gardens/Cherries0321-31.jpg" alt="Duke Gardens 4" class="carousel-image">
+  <img src="files/images/photos/duke_gardens/Cherries0321-38.jpg" alt="Duke Gardens 5" class="carousel-image">
+  <img src="files/images/photos/duke_gardens/Cherries0321-42.jpg" alt="Duke Gardens 6" class="carousel-image">
+  <img src="files/images/photos/duke_gardens/Cherries0321-55.jpg" alt="Duke Gardens 7" class="carousel-image">
+
+  <img src="files/images/photos/duke_gardens/DG0111-07.jpg" alt="Duke Gardens 8" class="carousel-image">
+  <img src="files/images/photos/duke_gardens/DG0111-14.jpg" alt="Duke Gardens 9" class="carousel-image">
+  <img src="files/images/photos/duke_gardens/DG0111-16.jpg" alt="Duke Gardens 10" class="carousel-image">
+  <img src="files/images/photos/duke_gardens/DG0111-19.jpg" alt="Duke Gardens 11" class="carousel-image">
+  
   
   <button class="carousel-btn prev" onclick="changeSlide(-1, 'duke-gardens')">❮</button>
   <button class="carousel-btn next" onclick="changeSlide(1, 'duke-gardens')">❯</button>
@@ -33,7 +42,7 @@ All photos  are for personal, non-commercial use only and are not monetized in a
 
 :::{.g-col-12 .g-col-md-4}
 <div class="carousel-info">
-  <h3>Photo <span id="current-photo-duke-gardens">1</span> of <span id="total-photos-duke-gardens">4</span></h3>
+  <h3>Photo <span id="current-photo-duke-gardens">1</span> of <span id="total-photos-duke-gardens">51</span></h3>
   <p id="photo-description-duke-gardens">A serene moment in Duke Gardens capturing the natural beauty and tranquility of the landscape.</p>
 </div>
 :::
@@ -65,7 +74,28 @@ All photos  are for personal, non-commercial use only and are not monetized in a
 
 :::
 
+
+
+
 <script>
+const photoDescriptions = {
+  'duke-gardens': [
+    'PLACEHOLDER TEXT.',
+    'PLACEHOLDER TEXT.',
+    'PLACEHOLDER TEXT.',
+    'PLACEHOLDER TEXT.',
+    'PLACEHOLDER TEXT.',
+    'PLACEHOLDER TEXT.',
+  ],
+
+  'duke-campus': [
+    'Iconic views of Duke University\'s beautiful campus architecture and grounds.',
+    'The Duke Chapel at sunset.',
+    'Description for photo 3...',
+    'Description for photo 4...'
+  ]
+};
+
 function changeSlide(n, gallery) {
   const carousel = document.getElementById('carousel-' + gallery);
   const images = carousel.querySelectorAll('.carousel-image');
@@ -75,7 +105,9 @@ function changeSlide(n, gallery) {
   
   images.forEach(img => img.classList.remove('active'));
   images[currentIndex].classList.add('active');
+  images[currentIndex].loading = 'eager'; // Eager load current image
   
   document.getElementById('current-photo-' + gallery).textContent = currentIndex + 1;
+  document.getElementById('photo-description-' + gallery).textContent = photoDescriptions[gallery][currentIndex];
 }
 </script>
