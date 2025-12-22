@@ -1,0 +1,14 @@
+---
+title: "Designs"
+description-meta: "Derek Wang photography"
+page-layout: full
+page-navigation: true
+back-to-top-navigation: true
+toc: true
+toc-location: right
+css:
+  - styles.css
+  - design.css
+---
+
+## Coming soon!

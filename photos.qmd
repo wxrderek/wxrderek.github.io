@@ -11,15 +11,14 @@ css:
   - photo.css
 ---
 
-I'm a recreational photographer of 5+ years. I used to specialize in sports photography for my high school Athletics Department, in particular
+I'm a recreational photographer of 5+ years. I did sports photography for my high school Athletics Department, in particular
 the Cross Country + Track and Field teams. Now, I do mostly events and nature. 
 All photos are for personal, non-commercial use only and are not monetized in any way. 
 
 ## Duke Gardens
 
-I served as a volunteer photographer at the Sarah P. Duke gardens in Spring of 2025, and was lucky to capture both some iconic cherry blossoms
-and the first true snow day in the Triangle in several years. I'm a complete amateur at flowers, so please contact me to correct
-any mislabelings: [xiran.wang@duke.edu](mailto:xiran.wang@duke.edu)
+I served as a volunteer photographer at the Sarah P. Duke gardens in Spring of 2025, and was lucky to capture the first true snow day in the Triangle in several years. 
+I'm a complete amateur at flowers, so please contact me to correct any mislabelings: [xiran.wang@duke.edu](mailto:xiran.wang@duke.edu)
 
 :::{.grid}
 
@@ -86,15 +85,13 @@ any mislabelings: [xiran.wang@duke.edu](mailto:xiran.wang@duke.edu)
 :::{.g-col-12 .g-col-md-4}
 <div class="carousel-info">
   <h3>Photo <span id="current-photo-duke-gardens">1</span> of <span id="total-photos-duke-gardens">47</span></h3>
-  <p id="photo-description-duke-gardens">Three turtles. Photographed on March 22, 2025.</p>
+  <p id="photo-description-duke-gardens">Three turtles on a log. Photographed on March 22, 2025.</p>
 </div>
 :::
 
 :::
 
 ## Duke Campus
-
-Duke's campus is beautiful year round, but especially so in the Spring. 
 
 :::{.grid}
 
@@ -113,7 +110,7 @@ Duke's campus is beautiful year round, but especially so in the Spring.
 :::{.g-col-12 .g-col-md-4}
 <div class="carousel-info">
   <h3>Photo <span id="current-photo-duke-campus">1</span> of <span id="total-photos-duke-campus">4</span></h3>
-  <p id="photo-description-duke-campus">Iconic views of Duke University's beautiful campus architecture and grounds.</p>
+  <p id="photo-description-duke-campus">PLACEHOLDER TEXT.</p>
 </div>
 :::
 

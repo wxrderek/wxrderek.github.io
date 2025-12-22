@@ -1,0 +1,8 @@
+---
+title: "Curriculum Vitae"
+description-meta: "Derek Wang curriculum vitae"
+---
+
+*Last updated Dec. 2026.*
+
+<iframe src="files/Derek-Wang-CV-Dec26.pdf" width="100%" height="1200px" style="border: none;"></iframe>
