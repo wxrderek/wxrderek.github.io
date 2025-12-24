@@ -1,5 +1,5 @@
 ---
-title: "Xiran 'Derek' Wang"
+title: "Derek Wang"
 subtitle: |
   Physics + Math @ [Duke University](https://www.duke.edu) \
   Contact: [xiran.wang@duke.edu](mailto:xiran.wang@duke.edu)
@@ -65,8 +65,7 @@ I'm an avid graphic designer of 7+ years, primarily via Photoshop and (more rece
 I serve as a co-director of [HackDuke](https://hackduke.org/), where I lead the Design Team. 
 I also design for the Duke Math Union, in particular for the annual [Duke Math Meet](https://dukemathmeet.org/). See some past works [here](design.html).
 
-I'm also a recreational photographer. I use an old Nikon D3200 and with a 55-210mm lens. I've done sports photography in the past; 
-now I do mostly events and nature. Occasionally I volunteer at the [Sarah P. Duke Gardens](https://gardens.duke.edu/). See some photos [here](photos.html).
+I'm also a recreational photographer. I've done sports photography in the past; now I do mostly events and nature. See some photos [here](photos.html).
 
 
 :::
