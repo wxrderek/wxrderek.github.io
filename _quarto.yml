@@ -3,13 +3,13 @@ project:
   output-dir: docs
 
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
+description-meta: "Derek Wang personal website"
 author-meta: "Derek Wang"
 
 website:
   title: "Derek Wang"
   image: "https://quarto.org/quarto.png"
-  description: "Derek Wang Academic Website"
+  description: "Derek Wang personal website"
  
   navbar:
     background: light 
@@ -50,23 +50,30 @@ website:
   
   reader-mode: true
 
+  site-url: https://wxrderek.github.io/
+
   draft-mode: unlinked
   
   repo-url: https://github.com/wxrderek/wxrderek.github.io.git
-#  repo-actions: [edit, issue, source]
   
-  open-graph: true 
-  
-  site-url: "https://wxrderek.github.io/"
-  
+  open-graph: true   
   google-analytics:
     tracking-id: ""
     anonymize-ip: true 
 
 bibliography: references.bib
 
+author:
+  name: "Derek Wang"
+  affiliation: "Duke University"
+  email: "xiran.wang@duke.edu"
+
 format:
   html:
+    meta:
+      - name: google-site-verification
+        content: t4mEvu_02oJIFKWntH-yH8PItK4wISyuL3h2MS7tC7g
+    
     theme: cosmo
     css: styles.css
     toc: true
@@ -79,8 +86,9 @@ format:
     link-external-newwindow: true
     email-obfuscation: javascript
     link-external-filter: '^(?:http:|https:)\/\/wxrderek\.github\.io\/custom'
+    
     include-in-header: 
-      - "files/includes/_academic.qmd"
+      - "files/includes/head.html"
       - text:
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 
