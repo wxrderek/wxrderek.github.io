@@ -63,10 +63,10 @@ website:
 
 bibliography: references.bib
 
-author:
-  name: "Derek Wang"
-  affiliation: "Duke University"
-  email: "xiran.wang@duke.edu"
+# author:
+#   name: "Derek Wang"
+#   affiliation: "Duke University"
+#   email: "xiran.wang@duke.edu"
 
 format:
   html:
