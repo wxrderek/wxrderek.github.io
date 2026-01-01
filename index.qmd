@@ -42,7 +42,7 @@ I’m broadly interested in data-driven modeling and scientific machine learning
 I'm also curious about graph methods, topological/geometric data analysis, and generative modeling. 
 I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek. 
 
-I've put some hand-written course notes and typed notes on select readings/topics [here](notes.html). All are posted with instructor consent; mistakes are my own. 
+I've put some hand-written lecture notes and notes on select topics [here](notes.html). 
 
 
 ## Experience

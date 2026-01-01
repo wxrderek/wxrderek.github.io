@@ -11,7 +11,7 @@
     "href": "photos.html#duke-gardens",
     "title": "Photography",
     "section": "Duke Gardens",
-    "text": "Duke Gardens\nI served as a volunteer photographer at the Sarah P. Duke Gardens in Spring of 2025, and was lucky to capture the first true snow day in the Triangle in several years. I’m a complete amateur at flowers, so please contact me to correct any mislabelings: xiran.wang at duke dot edu\n\n\n\n        \n      \n             \n         \n      \n❮ ❯\n\n\n\n\n\nPhoto 1 of 47\n\n\nThree turtles on a log. Photographed on March 22, 2025."
+    "text": "Duke Gardens\nI served as a volunteer photographer at the Sarah P. Duke Gardens in Spring of 2025, and was lucky to capture the first true snow day in the Triangle in several years. I’m a complete amateur at flowers, so please contact me to correct any mislabelings.\n\n\n\n        \n      \n             \n         \n      \n❮ ❯\n\n\n\n\n\nPhoto 1 of 47\n\n\nThree turtles on a log. Photographed on March 22, 2025."
   },
   {
     "objectID": "photos.html#duke-campus",
@@ -19,6 +19,48 @@
     "title": "Photography",
     "section": "Duke Campus",
     "text": "Duke Campus\nSome shots of Duke campus in the Spring (and some in the snow).\n\n\n\n  \n  \n    \n   \n        \n❮ ❯\n\n\n\n\n\nPhoto 1 of 24\n\n\nAbele Quad during Holi. Photographed on March 22, 2025."
+  },
+  {
+    "objectID": "photos.html#duke-math-meet",
+    "href": "photos.html#duke-math-meet",
+    "title": "Photography",
+    "section": "Duke Math Meet",
+    "text": "Duke Math Meet\nI took photos for the 2024 and 2025 iterations. At some point, they will be posted on the Duke Math Meet website."
+  },
+  {
+    "objectID": "photos.html#cary-academy-xctf",
+    "href": "photos.html#cary-academy-xctf",
+    "title": "Photography",
+    "section": "Cary Academy XCTF",
+    "text": "Cary Academy XCTF\nVisit caryacademy_xctf on Instagram for some design and photography work from high school. I made posts from 2023 to 2024. If you were an athlete on the Cross Country and/or Track and Field teams when I was there, and would like to see some old photos, contact me."
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Some supplementary notes on select topics I’ve compiled, mainly intended for students taking courses pertaining to these topics, or for students who may be interested in some introductory discussions. All are essentially written from the perspective of an undergrad peer tutor."
+  },
+  {
+    "objectID": "notes.html#notes-on-select-topics",
+    "href": "notes.html#notes-on-select-topics",
+    "title": "Notes",
+    "section": "",
+    "text": "Some supplementary notes on select topics I’ve compiled, mainly intended for students taking courses pertaining to these topics, or for students who may be interested in some introductory discussions. All are essentially written from the perspective of an undergrad peer tutor."
+  },
+  {
+    "objectID": "notes.html#math-lecture-notes",
+    "href": "notes.html#math-lecture-notes",
+    "title": "Notes",
+    "section": "Math Lecture Notes",
+    "text": "Math Lecture Notes\nHand-written notes from some math courses. All are posted with instructor consent; mistakes are my own."
+  },
+  {
+    "objectID": "notes.html#physics-lecture-notes",
+    "href": "notes.html#physics-lecture-notes",
+    "title": "Notes",
+    "section": "Physics Lecture Notes",
+    "text": "Physics Lecture Notes\nHand-written notes from some physics courses. All are posted with instructor consent; mistakes are my own."
   },
   {
     "objectID": "research.html#publications",
@@ -32,14 +74,14 @@
     "href": "index.html",
     "title": "Derek Wang",
     "section": "",
-    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nI’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in data-driven modeling and scientific machine learning theory/methods for (bio)physics applications. Specifics include:\n\nLearning dynamical systems\nPhysics-informed architectures\nApplications in microbiology and quantum computation\n\nI’m also curious about graph methods, topological/geometric data analysis, and generative modeling. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written course notes and typed notes on select readings/topics here. All are posted with instructor consent; mistakes are my own.\n\n\n\nAs part of the Lingchong You Lab, I work with VAE-MLP models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE systems.\nAs part of the Liberata Algorithms Team, I’m developing graph-based metrics/algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\n\n\n\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I’m organizing a seminar series and reading group on theory/methods in modern statistics.\nI’m an avid graphic designer of 7+ years, primarily via Photoshop and (more recently) Figma. I serve as a co-director of HackDuke, where I lead the Design Team. I also design for the Duke Math Union, in particular for the annual Duke Math Meet. See some past works here.\nI’m also a recreational photographer. I’ve done sports photography in the past; now I do mostly events and nature. See some photos here."
+    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nI’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in data-driven modeling and scientific machine learning theory/methods for (bio)physics applications. Specifics include:\n\nLearning dynamical systems\nPhysics-informed architectures\nApplications in microbiology and quantum computation\n\nI’m also curious about graph methods, topological/geometric data analysis, and generative modeling. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written lecture notes and notes on select topics here.\n\n\n\nAs part of the Lingchong You Lab, I work with VAE-MLP models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE systems.\nAs part of the Liberata Algorithms Team, I’m developing graph-based metrics/algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\n\n\n\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I’m organizing a seminar series and reading group on theory/methods in modern statistics.\nI’m an avid graphic designer of 7+ years, primarily via Photoshop and (more recently) Figma. I serve as a co-director of HackDuke, where I lead the Design Team. I also design for the Duke Math Union, in particular for the annual Duke Math Meet. See some past works here.\nI’m also a recreational photographer. I’ve done sports photography in the past; now I do mostly events and nature. See some photos here."
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Derek Wang",
     "section": "",
-    "text": "I’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in data-driven modeling and scientific machine learning theory/methods for (bio)physics applications. Specifics include:\n\nLearning dynamical systems\nPhysics-informed architectures\nApplications in microbiology and quantum computation\n\nI’m also curious about graph methods, topological/geometric data analysis, and generative modeling. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written course notes and typed notes on select readings/topics here. All are posted with instructor consent; mistakes are my own."
+    "text": "I’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in data-driven modeling and scientific machine learning theory/methods for (bio)physics applications. Specifics include:\n\nLearning dynamical systems\nPhysics-informed architectures\nApplications in microbiology and quantum computation\n\nI’m also curious about graph methods, topological/geometric data analysis, and generative modeling. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written lecture notes and notes on select topics here."
   },
   {
     "objectID": "index.html#experience",
@@ -60,6 +102,6 @@
     "href": "cv.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Last updated Dec. 2026."
+    "text": "Last updated Dec. 2025."
   }
 ]
