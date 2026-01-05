@@ -36,45 +36,7 @@ Hand-written notes from some physics courses. All are posted with instructor con
 const notesData = {
 
   'select-topics': [
-    {
-      title: 'Math 340: Probability',
-      date: 'Spring 2025',
-      description: 'Undergrad introduction to probability theory. Instructor: Zachary Bezemek.',
-      fileSize: '34.7 MB',
-      filePath: 'files/notes/Math340Lec.pdf'
-    },
-
-    {
-      title: 'Math 340: Probability',
-      date: 'Spring 2025',
-      description: 'Undergrad introduction to probability theory. Instructor: Zachary Bezemek.',
-      fileSize: '34.7 MB',
-      filePath: 'files/notes/Math340Lec.pdf'
-    },
-
-    {
-      title: 'Math 340: Probability',
-      date: 'Spring 2025',
-      description: 'Undergrad introduction to probability theory. Instructor: Zachary Bezemek.',
-      fileSize: '34.7 MB',
-      filePath: 'files/notes/Math340Lec.pdf'
-    },
-
-    {
-      title: 'Math 340: Probability',
-      date: 'Spring 2025',
-      description: 'Undergrad introduction to probability theory. Instructor: Zachary Bezemek.',
-      fileSize: '34.7 MB',
-      filePath: 'files/notes/Math340Lec.pdf'
-    },
-
-    {
-      title: 'Math 340: Probability',
-      date: 'Spring 2025',
-      description: 'Undergrad introduction to probability theory. Instructor: Zachary Bezemek.',
-      fileSize: '34.7 MB',
-      filePath: 'files/notes/Math340Lec.pdf'
-    },
+    
   ],
 
   'math-lecture-notes': [
@@ -86,79 +48,10 @@ const notesData = {
       filePath: 'files/notes/Math340Lec.pdf'
     },
 
-    {
-      title: 'Math 340: Probability',
-      date: 'Spring 2025',
-      description: 'Undergrad introduction to probability theory. Instructor: Zachary Bezemek.',
-      fileSize: '34.7 MB',
-      filePath: 'files/notes/Math340Lec.pdf'
-    },
-
-    {
-      title: 'Math 340: Probability',
-      date: 'Spring 2025',
-      description: 'Undergrad introduction to probability theory. Instructor: Zachary Bezemek.',
-      fileSize: '34.7 MB',
-      filePath: 'files/notes/Math340Lec.pdf'
-    },
-
-    {
-      title: 'Math 340: Probability',
-      date: 'Spring 2025',
-      description: 'Undergrad introduction to probability theory. Instructor: Zachary Bezemek.',
-      fileSize: '34.7 MB',
-      filePath: 'files/notes/Math340Lec.pdf'
-    },
-
-    {
-      title: 'Math 340: Probability',
-      date: 'Spring 2025',
-      description: 'Undergrad introduction to probability theory. Instructor: Zachary Bezemek.',
-      fileSize: '34.7 MB',
-      filePath: 'files/notes/Math340Lec.pdf'
-    },
   ],
 
   'physics-lecture-notes': [
-    {
-      title: 'Math 340: Probability',
-      date: 'Spring 2025',
-      description: 'Undergrad introduction to probability theory. Instructor: Zachary Bezemek.',
-      fileSize: '34.7 MB',
-      filePath: 'files/notes/Math340Lec.pdf'
-    },
-
-    {
-      title: 'Math 340: Probability',
-      date: 'Spring 2025',
-      description: 'Undergrad introduction to probability theory. Instructor: Zachary Bezemek.',
-      fileSize: '34.7 MB',
-      filePath: 'files/notes/Math340Lec.pdf'
-    },
-
-    {
-      title: 'Math 340: Probability',
-      date: 'Spring 2025',
-      description: 'Undergrad introduction to probability theory. Instructor: Zachary Bezemek.',
-      fileSize: '34.7 MB',
-      filePath: 'files/notes/Math340Lec.pdf'
-    },
-
-    {
-      title: 'Math 340: Probability',
-      date: 'Spring 2025',
-      description: 'Undergrad introduction to probability theory. Instructor: Zachary Bezemek.',
-      fileSize: '34.7 MB',
-      filePath: 'files/notes/Math340Lec.pdf'
-    },
-
-    {
-      title: 'Math 340: Probability',
-      date: 'Spring 2025',
-      description: 'Undergrad introduction to probability theory. Instructor: Zachary Bezemek.',
-      fileSize: '34.7 MB',
-      filePath: 'files/notes/Math340Lec.pdf'
-    },
+    
   ]
 };
 
