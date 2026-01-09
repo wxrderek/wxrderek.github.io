@@ -37,7 +37,7 @@ I’m broadly interested in data-driven modeling and scientific machine learning
 
   + Learning dynamical systems
   + Physics-informed architectures
-  + Applications in microbiology and quantum computation
+  + Applications in physical and biomedical settings, particularly microbiology and quantum systems. 
 
 I'm also curious about graph methods, topological/geometric data analysis, and generative modeling. 
 I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek. 
