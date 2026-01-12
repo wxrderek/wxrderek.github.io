@@ -29,6 +29,9 @@ website:
       - text: Notes
         href: notes.qmd
 
+      - text: SSMU
+        href: ssmu.qmd
+
       - text: Design
         href: design.qmd
 

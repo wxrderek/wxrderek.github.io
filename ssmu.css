@@ -1,0 +1,115 @@
+.seminar-section {
+  margin-top: 18px;
+  margin-bottom: 40px;
+}
+
+.seminar-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.seminar-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 24px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  display: grid;
+
+  grid-template-columns: 1.2fr 2.5fr 1fr;
+
+  /* spacing */
+  column-gap: 24px;
+  row-gap: 30px;
+
+  align-items: start;
+}
+
+/* hover */
+.seminar-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-color: #777777;
+}
+
+/* ---------- Column 1: speaker info wrapper ---------- */
+
+.seminar-card-left {
+  grid-column: 1;
+  display: grid;
+  row-gap: 10px;
+  align-self: start;
+}
+
+.seminar-card-speaker {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  color: #000000;
+}
+
+.seminar-card-affiliation {
+  font-size: 16px;
+  font-style: italic;
+  color: #000000;
+  margin: 0;
+}
+
+.seminar-card-meta {
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ---------- Column 2: subtitle + description wrapper ---------- */
+
+.seminar-card-center {
+  grid-column: 2;
+  display: grid;
+  row-gap: 12px;
+  align-self: start;
+}
+
+.seminar-card-subtitle {
+  font-size: 20px;
+  color: #000000;
+  margin: 0;
+}
+
+.seminar-card-description {
+  font-size: 14px;
+  color: #000000;
+  margin: 0;
+  line-height: 1.4;
+  white-space: pre-line;
+}
+
+/* ---------- Column 3: headshot wrapper ---------- */
+
+.seminar-card-right {
+  grid-column: 3;
+  display: grid;
+  row-gap: 10px;
+  justify-items: center;
+  align-self: start;
+}
+
+.seminar-card-headshot {
+  width: 160px;
+  height: 160px;
+  border-radius: 16px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.seminar-card-flyer {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.seminar-card-flyer:hover {
+  text-decoration: none;
+}

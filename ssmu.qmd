@@ -1,0 +1,145 @@
+---
+title: "SSMU Research Committee"
+description-meta: "Home page for the Duke Statistical Science Majors Union Research Committee"
+page-layout: full
+back-to-top-navigation: true
+title-block-banner: false
+css: 
+  - styles.css
+  - ssmu.css
+---
+
+This page contains info for the Research Committee of the Duke **Statistical Science Majors Union** (SSMU). We run a seminar series
+featuring researchers doing stats-related work in academia and industry. We also run an undergrad reading group on modern theory/methods
+in statistics and ML. 
+
+We are actively looking for undergrads to **join our committee**! You need not be a Stats major (I'm not). If interested, email me at
+[xiran.wang@duke.edu](mailto:xiran.wang@duke.edu). There is a one-question application. 
+
+
+
+
+## SSMU Seminars
+
+### Upcoming
+
+<div id="seminars-upcoming" class="seminar-section"></div>
+
+### Past
+None yet.
+
+<script>
+const seminarsData = {
+  'upcoming': [
+    {
+      speaker: 'Josh Starmer, PhD',
+      subtitle: 'The Origins of StatQuest and the Intersection of AI, Statistics, and the Sciences',
+      affiliation: 'Founder of StatQuest, Former Researcher at UNC Chapel Hill',
+      date: 'January 13th, 2026',
+      time: '3:15 - 4:15 pm',
+      location: 'Social Sciences 136',
+
+      description: `Josh Starmer, PhD is the founder of the StatQuest <a href="https://www.youtube.com/@statquest" target="_blank">YouTube channel</a>. Originally created to teach statistics concepts to colleagues in a genetics research lab at UNC Chapel Hill, StatQuest has since grown into a widely followed educational platform, known for making complex statistical ideas accessible without sacrificing their rigor. Beyond his 1.56 million subscribers and tens of millions of views, Dr. Starmer is also an accomplished bioinformatics researcher with over 5,000 citations. 
+        
+        In this talk, Dr. Starmer will share the origins of StatQuest, its guiding principles, and its innovative approaches behind its success in communicating complex statistical and machine learning concepts through creativity and storytelling. He will also discuss the intersection of AI, statistics, and the sciences in modern research.
+        
+        Register here on <a href="https://cglink.me/2do/r2275661" target="_blank">Duke Groups</a>. More about StatQuest <a href="https://statquest.org/" target="_blank">here</a>.`,
+      
+      headshot: 'files/ssmu/josh.jpg',
+      flyer: 'files/ssmu/StatQuest-Seminar-Flyer.pdf'
+    },
+
+    {
+      speaker: 'Edric Tam, PhD',
+      subtitle: 'Generative Models and Applications',
+      affiliation: 'Postdoc at Stanford',
+      date: 'February 3rd, 2026',
+      time: '3:15 - 4:15 pm',
+      location: 'Zoom and Wilkinson 126',
+
+      description: `Edric (Ed) Tam, PhD is a statistics and machine learning researcher at Stanford. Ed possesses a Statistics PhD from Duke, degrees from UChicago, Yale, and Johns Hopkins, and industry experience at Google, Meta, Amazon, and Apple.
+
+        In this talk, Ed will discuss generative AI models, their underlying statistics, and their applications in industry and science research. More info coming soon!
+
+        More about Ed <a href="https://edrictam.com/" target="_blank">here</a>.`,
+      
+      headshot: 'files/ssmu/ed.jpg',
+      flyer: 'files/ssmu/Ed-Tam-Seminar-Flyer.pdf'
+    },
+  ],
+  'past': []
+};
+
+
+function createSeminarCard(seminar) {
+  const card = document.createElement('div');
+  card.className = 'seminar-card';
+  card.innerHTML = `
+    <div class="seminar-card-left">
+      <h3 class="seminar-card-speaker">${seminar.speaker}</h3>
+      <p class="seminar-card-affiliation">${seminar.affiliation}</p>
+      <div class="seminar-card-meta">
+        <strong>Date:</strong> ${seminar.date}<br>
+        <strong>Time:</strong> ${seminar.time}<br>
+        <strong>Location:</strong> ${seminar.location}
+      </div>
+    </div>
+
+    <div class="seminar-card-center">
+      <p class="seminar-card-subtitle">${seminar.subtitle}</p>
+      <p class="seminar-card-description">${seminar.description}</p>
+    </div>
+
+    <div class="seminar-card-right">
+      <img src="${seminar.headshot}" alt="${seminar.speaker}" class="seminar-card-headshot">
+      <a href="${seminar.flyer}" class="seminar-card-flyer" target="_blank" rel="noopener noreferrer"> Event Flyer </a>
+    </div>
+  `;
+  return card;
+}
+
+function initializeSeminars() {
+  Object.entries(seminarsData).forEach(([sectionName, seminars]) => {
+    const sectionId = 'seminars-' + sectionName;
+    const section = document.getElementById(sectionId);
+    
+    if (section) {
+      const grid = document.createElement('div');
+      grid.className = 'seminar-grid';
+      seminars.forEach(seminar => {
+        grid.appendChild(createSeminarCard(seminar));
+      });
+      section.appendChild(grid);
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeSeminars);
+</script>
+
+
+
+
+## Reading Group
+We meet **biweekly** on **Fridays**, **5-6pm** in **Perkins Link Group Study 1**. At each meeting, someone presents on a manuscript/excerpt they read, and we discuss. 
+If you're an undergrad interested in theory/methods in stats/ML, feel free to show up! No registration or prerequisites required, but do email me beforehand. 
+
+### Schedule
+
+##### **Spring 2026**
+TBD.
+
+
+
+
+## Members
+### Current
+- Derek Wang (**lead**) --- Physics & Math, c/o 2028
+- Kien Le --- Econ & Stats, c/o 2029
+- Alan Ye --- Math & Philosophy, c/o 2029
+- Parker Upton --- Econ & Stats, c/o 2029
+- Ethan Fazal --- Math & CS, c/o 2028
+- Cooper Ruffing (**exec liaison**) --- Stats, c/o 2027
+
+### Former
+This is our first year of existence, so none yet. 

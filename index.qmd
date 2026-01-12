@@ -59,7 +59,7 @@ an AI cluster testbed and looked at network optimization schemes.
 ## Involvements
 
 I lead the Research Committee for the Statistical Science Majors Union (SSMU), where I'm organizing a 
-seminar series and reading group on theory/methods in modern statistics. 
+seminar series and reading group on theory/methods in modern statistics. More [here](ssmu.html).
 
 I'm an avid graphic designer of 7+ years, primarily via Photoshop and (more recently) Figma. 
 I serve as a co-director of [HackDuke](https://hackduke.org/), where I lead the Design Team. 
