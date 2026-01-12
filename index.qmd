@@ -22,6 +22,10 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/xiran-derek-wang/
       target: _blank
+    - icon: googlescholar
+      text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=kvoSk3cAAAAJ&hl=en
+      target: _blank
     - icon: github
       text: GitHub
       href: https://github.com/wxrderek
