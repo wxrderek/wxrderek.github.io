@@ -61,3 +61,7 @@ a:hover {
   color: #0f1cd5;
   text-decoration: underline;
 }
+
+html {
+  overflow-y: scroll;
+}

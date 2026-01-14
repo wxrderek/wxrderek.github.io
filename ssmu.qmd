@@ -37,7 +37,7 @@ const seminarsData = {
   'upcoming': [
 
     {
-      speaker: 'Edric Tam, PhD',
+      speaker: 'Edric Tam',
       subtitle: 'Generative Models and Applications',
       affiliation: 'Postdoc at Stanford',
       date: 'February 3rd, 2026',
@@ -57,16 +57,31 @@ const seminarsData = {
     {
       speaker: 'Henry Pfister',
       subtitle: 'TBD.',
-      affiliation: 'Addy Family Professor of ECE and Mathematics at Duke',
+      affiliation: 'Addy Family Professor of ECE at Duke',
       date: 'TBD.',
       time: 'TBD.',
       location: 'TBD.',
 
       description: `TBD.`,
       
-      headshot: 'files/ssmu/pfister.jpg',
+      headshot: 'files/images/math-library.jpg',
       flyer: 'files/ssmu/Pfister-Seminar-Flyer.pdf'
     },
+
+    {
+      speaker: 'Galen Reeves',
+      subtitle: 'TBD.',
+      affiliation: 'Associate Professor of ECE and Statistical Science at Duke',
+      date: 'TBD.',
+      time: 'TBD.',
+      location: 'TBD.',
+
+      description: `TBD.`,
+      
+      headshot: 'files/images/math-library.jpg',
+      flyer: 'files/ssmu/Galen-Seminar-Flyer.pdf'
+    },
+    
   ],
 
 
@@ -148,7 +163,110 @@ If you're an undergrad interested in theory/methods in stats/ML, feel free to sh
 ### Schedule
 
 ##### **Spring 2026**
-TBD.
+
+<div id="reading-group-list" class="rg-section"></div>
+
+### Past
+None yet.
+
+
+
+
+<script>
+
+const readingGroupData = [
+  {
+    date: 'January 23, 2026',
+    manuscript: 'Geometric Deep Learning (Bronstein et al), Chapters 2-3',
+    presenter: 'Derek Wang',
+    keywords: ['machine learning theory', 'deep learning', 'high-dimensional data', 'geometric data analysis']
+  },
+  {
+    date: 'February 6, 2026',
+    manuscript: 'TBD',
+    presenter: 'TBD.',
+    keywords: ['NA']
+  },
+  {
+    date: 'February 20, 2026',
+    manuscript: 'TBD',
+    presenter: 'TBD.',
+    keywords: ['NA']
+  },
+  {
+    date: 'March 20, 2026',
+    manuscript: 'TBD',
+    presenter: 'TBD.',
+    keywords: ['NA']
+  },
+  {
+    date: 'April 3, 2026',
+    manuscript: 'TBD',
+    presenter: 'TBD.',
+    keywords: ['NA']
+  },
+  {
+    date: 'April 17, 2026',
+    manuscript: 'TBD',
+    presenter: 'TBD.',
+    keywords: ['NA']
+  }
+];
+
+
+
+function createRGItem(itemData, index) {
+  const el = document.createElement('div');
+  el.className = 'rg-item';
+  el.tabIndex = 0;
+
+  el.innerHTML = `
+    <div class="rg-summary" aria-hidden="false">
+      <p class="rg-date">${itemData.date}</p>
+      <p class="rg-manuscript">${itemData.manuscript}</p>
+    </div>
+
+    <div class="rg-details" id="rg-details-${index}">
+      <div>
+        <p class="rg-presenter"><strong>Presenter:</strong> ${itemData.presenter}</p>
+      </div>
+      <div>
+        <p class="rg-keywords"><strong>Keywords:</strong> <span>${(itemData.keywords||[]).join(', ')}</span></p>
+      </div>
+    </div>
+  `;
+
+  el.addEventListener('click', (e) => {
+    // avoid toggling when clicking inside links or selectable areas in future
+    if (e.target.tagName.toLowerCase() === 'a') return;
+    el.classList.toggle('rg-open');
+  });
+
+  el.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      el.classList.toggle('rg-open');
+    }
+  });
+
+  return el;
+}
+
+
+function initializeReadingGroup() {
+  const container = document.getElementById('reading-group-list');
+  if (!container) return;
+  const list = document.createElement('div');
+  list.className = 'rg-list';
+  readingGroupData.forEach((item, idx) => {
+    list.appendChild(createRGItem(item, idx));
+  });
+  container.appendChild(list);
+}
+
+document.addEventListener('DOMContentLoaded', initializeReadingGroup);
+</script>
+
 
 
 
