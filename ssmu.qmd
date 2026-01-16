@@ -48,10 +48,24 @@ const seminarsData = {
 
         In this talk, Ed will discuss generative AI models, their underlying statistics, and their applications in industry and science research. More info coming soon!
 
-        More about Ed <a href="https://edrictam.com/" target="_blank">here</a>.`,
+        Register here on <a href="https://cglink.me/2do/r2277647" target="_blank">Duke Groups</a>. More about Ed <a href="https://edrictam.com/" target="_blank">here</a>.`,
       
       headshot: 'files/ssmu/ed.jpg',
       flyer: 'files/ssmu/Ed-Tam-Seminar-Flyer.pdf'
+    },
+
+    {
+      speaker: 'Galen Reeves',
+      subtitle: 'TBD.',
+      affiliation: 'Associate Professor of ECE and Statistical Science at Duke',
+      date: 'February 25th, 2026.',
+      time: '3:30 - 4:30 pm',
+      location: 'Physics 235',
+
+      description: `TBD.`,
+      
+      headshot: 'files/ssmu/reeves.jpg',
+      flyer: 'files/ssmu/Galen-Seminar-Flyer.pdf'
     },
 
     {
@@ -66,20 +80,6 @@ const seminarsData = {
       
       headshot: 'files/images/math-library.jpg',
       flyer: 'files/ssmu/Pfister-Seminar-Flyer.pdf'
-    },
-
-    {
-      speaker: 'Galen Reeves',
-      subtitle: 'TBD.',
-      affiliation: 'Associate Professor of ECE and Statistical Science at Duke',
-      date: 'TBD.',
-      time: 'TBD.',
-      location: 'TBD.',
-
-      description: `TBD.`,
-      
-      headshot: 'files/images/math-library.jpg',
-      flyer: 'files/ssmu/Galen-Seminar-Flyer.pdf'
     },
     
   ],
