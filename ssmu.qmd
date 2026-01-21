@@ -48,7 +48,9 @@ const seminarsData = {
 
         <strong>Abstract:</strong> My research lies at the intersection of statistics and “AI", with a focus on two complementary directions: using deep learning/AI models to aid rigorous statistical inference, and using statistical and mathematical tools to understand, evaluate and analyze AI models. In this talk, I will present two projects that illustrate this interplay. The first studies fundamental statistical limitations of deep generative models, explaining why certain modeling failures arise. The second explores how modern AI/ML methods can be used in Bayesian statistical inference.
 
-        Register here on <a href="https://cglink.me/2do/r2277647" target="_blank">Duke Groups</a>. More about Ed <a href="https://edrictam.com/" target="_blank">here</a>.`,
+        Register here on <a href="https://cglink.me/2do/r2277647" target="_blank">Duke Groups</a>. More about Ed <a href="https://edrictam.com/" target="_blank">here</a>.
+        
+        <strong>Zoom Link:</strong> <a href="https://duke.zoom.us/j/91041782536" target="_blank">https://duke.zoom.us/j/91041782536</a>`,
       
       headshot: 'files/ssmu/ed.jpg',
       flyer: 'files/ssmu/Ed-Tam-Seminar-Flyer.pdf'
