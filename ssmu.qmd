@@ -38,7 +38,7 @@ const seminarsData = {
 
     {
       speaker: 'Edric Tam',
-      subtitle: 'Generative Models and Applications',
+      subtitle: 'Statistical Limits to Generative AI (and AI/ML in Bayesian Inference)',
       affiliation: 'Postdoc at Stanford',
       date: 'February 3rd, 2026',
       time: '3:15 - 4:15 pm',
@@ -181,7 +181,7 @@ None yet.
 const readingGroupData = [
   {
     date: 'February 6, 2026',
-    manuscript: 'Geometric Deep Learning (Bronstein et al), Chapters 2-3',
+    manuscript: 'Geometric Deep Learning (Michael Bronstein et al), Chapters 2-4. PDF <a href="https://arxiv.org/abs/2104.13478" target="_blank">here</a>',
     presenter: 'Derek Wang',
     keywords: ['machine learning theory', 'deep learning', 'high-dimensional data', 'geometric data analysis']
   },
