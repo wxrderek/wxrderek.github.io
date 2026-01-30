@@ -21,6 +21,10 @@ We are actively looking for undergrads to **join our committee**! You need not b
 
 ## SSMU Seminars
 
+We always welcome Duke faculty, postdocs, and PhD students from all departments to give talks on their research!
+We also welcome other student organizations to cosponsor these talks, whenever applicable.
+Contact [xiran.wang@duke.edu](mailto:xiran.wang@duke.edu). 
+
 ### Upcoming
 
 <div id="seminars-upcoming" class="seminar-section"></div>
