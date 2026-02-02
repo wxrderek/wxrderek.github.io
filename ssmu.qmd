@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', initializeSeminars);
 
 ## Reading Group
 We meet **biweekly** on **Fridays**, **5-6pm** in **Perkins Link Group Study 1**. At each meeting, someone presents on a manuscript/excerpt they read, and we discuss. 
-If you're an undergrad interested in theory/methods in stats/ML, feel free to show up! No registration or prerequisites required, but do email me beforehand. 
+If you're an undergrad interested in theory/methods in stats/ML, put your name [here](https://forms.gle/oCoNxuBjUF13aN489), and show up! No prerequisites required.  
 
 If you would like to present a manuscript, please fill out [this form](https://forms.gle/NucLu7D1t44HUpQD7). It contains more information about meeting procedures. 
 
