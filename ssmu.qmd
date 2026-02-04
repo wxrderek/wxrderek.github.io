@@ -29,36 +29,21 @@ Contact [xiran.wang@duke.edu](mailto:xiran.wang@duke.edu).
 
 <div id="seminars-upcoming" class="seminar-section"></div>
 
-### Past
+### Past Recordings
+
+<div id="recordings-list" class="recordings-section"></div>
+
+### Past Info
 
 <details>
   <summary>Spring 2026</summary>
   <div id="seminars-past" class="seminar-section"></div>
 </details>
 
+
 <script>
 const seminarsData = {
   'upcoming': [
-
-    {
-      speaker: 'Edric Tam',
-      subtitle: 'Statistical Limits to Generative AI (and AI/ML in Bayesian Inference)',
-      affiliation: 'Postdoc at Stanford',
-      date: 'February 3rd, 2026',
-      time: '3:15 - 4:15 pm',
-      location: 'Zoom and Wilkinson 126',
-
-      description: `Edric (Ed) Tam, PhD is a statistics and machine learning researcher at Stanford. Ed possesses a Statistics PhD from Duke, degrees from UChicago, Yale, and Johns Hopkins, and industry experience at Google, Meta, Amazon, and Apple.
-
-        <strong>Abstract:</strong> My research lies at the intersection of statistics and “AI", with a focus on two complementary directions: using deep learning/AI models to aid rigorous statistical inference, and using statistical and mathematical tools to understand, evaluate and analyze AI models. In this talk, I will present two projects that illustrate this interplay. The first studies fundamental statistical limitations of deep generative models, explaining why certain modeling failures arise. The second explores how modern AI/ML methods can be used in Bayesian statistical inference.
-
-        Register here on <a href="https://cglink.me/2do/r2277647" target="_blank">Duke Groups</a>. More about Ed <a href="https://edrictam.com/" target="_blank">here</a>.
-        
-        <strong>Zoom Link:</strong> <a href="https://duke.zoom.us/j/91041782536" target="_blank">https://duke.zoom.us/j/91041782536</a>`,
-      
-      headshot: 'files/ssmu/ed.jpg',
-      flyer: 'files/ssmu/Ed-Tam-Seminar-Flyer.pdf'
-    },
 
     {
       speaker: 'Galen Reeves',
@@ -108,6 +93,26 @@ const seminarsData = {
       
       headshot: 'files/ssmu/josh.jpg',
       flyer: 'files/ssmu/StatQuest-Seminar-Flyer.pdf'
+    },
+
+    {
+      speaker: 'Edric Tam',
+      subtitle: 'Statistical Limits of Generative AI (and AI/ML in Bayesian Inference)',
+      affiliation: 'Postdoc at Stanford',
+      date: 'February 3rd, 2026',
+      time: '3:15 - 4:15 pm',
+      location: 'Zoom and Wilkinson 126',
+
+      description: `Edric (Ed) Tam, PhD is a statistics and machine learning researcher at Stanford. Ed possesses a Statistics PhD from Duke, degrees from UChicago, Yale, and Johns Hopkins, and industry experience at Google, Meta, Amazon, and Apple.
+
+        <strong>Abstract:</strong> My research lies at the intersection of statistics and “AI", with a focus on two complementary directions: using deep learning/AI models to aid rigorous statistical inference, and using statistical and mathematical tools to understand, evaluate and analyze AI models. In this talk, I will present two projects that illustrate this interplay. The first studies fundamental statistical limitations of deep generative models, explaining why certain modeling failures arise. The second explores how modern AI/ML methods can be used in Bayesian statistical inference.
+
+        Register here on <a href="https://cglink.me/2do/r2277647" target="_blank">Duke Groups</a>. More about Ed <a href="https://edrictam.com/" target="_blank">here</a>.
+        
+        <strong>Zoom Link:</strong> <a href="https://duke.zoom.us/j/91041782536" target="_blank">https://duke.zoom.us/j/91041782536</a>`,
+      
+      headshot: 'files/ssmu/ed.jpg',
+      flyer: 'files/ssmu/Ed-Tam-Seminar-Flyer.pdf'
     },
   ]
 };
@@ -159,6 +164,44 @@ function initializeSeminars() {
 document.addEventListener('DOMContentLoaded', initializeSeminars);
 </script>
 
+
+<script>
+
+const recordingsData = [
+  {
+    speaker: '<strong>Edric Tam</strong> -- Statistical Limits of Generative AI',
+    date: 'February 3rd, 2026',
+    link: 'https://duke.zoom.us/rec/share/wTQLDZacyioeIFyXGVnQLG1yKFQlmG6TY3Qt25uZjYd0BXpGfFfIDK4oCXD-cCCM.19D_D11y3cM7UB3Q',
+    linkText: 'Watch'
+  }
+];
+
+function createRecordingItem(recording) {
+  const el = document.createElement('div');
+  el.className = 'recording-item';
+  
+  el.innerHTML = `
+    <div class="recording-speaker">${recording.speaker}</div>
+    <div class="recording-date">${recording.date}</div>
+    <a href="${recording.link}" class="recording-link" target="_blank" rel="noopener noreferrer">${recording.linkText}</a>
+  `;
+  
+  return el;
+}
+
+function initializeRecordings() {
+  const container = document.getElementById('recordings-list');
+  if (!container) return;
+  const list = document.createElement('div');
+  list.className = 'recordings-list';
+  recordingsData.forEach(recording => {
+    list.appendChild(createRecordingItem(recording));
+  });
+  container.appendChild(list);
+}
+
+document.addEventListener('DOMContentLoaded', initializeRecordings);
+</script>
 
 
 

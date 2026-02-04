@@ -166,12 +166,13 @@ gtag('config', '', { 'anonymize_ip': true});
   <li><a href="#ssmu-seminars" id="toc-ssmu-seminars" class="nav-link active" data-scroll-target="#ssmu-seminars">SSMU Seminars</a>
   <ul class="collapse">
   <li><a href="#upcoming" id="toc-upcoming" class="nav-link" data-scroll-target="#upcoming">Upcoming</a></li>
-  <li><a href="#past" id="toc-past" class="nav-link" data-scroll-target="#past">Past</a></li>
+  <li><a href="#past-recordings" id="toc-past-recordings" class="nav-link" data-scroll-target="#past-recordings">Past Recordings</a></li>
+  <li><a href="#past-info" id="toc-past-info" class="nav-link" data-scroll-target="#past-info">Past Info</a></li>
   </ul></li>
   <li><a href="#reading-group" id="toc-reading-group" class="nav-link" data-scroll-target="#reading-group">Reading Group</a>
   <ul class="collapse">
   <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
-  <li><a href="#past-1" id="toc-past-1" class="nav-link" data-scroll-target="#past-1">Past</a></li>
+  <li><a href="#past" id="toc-past" class="nav-link" data-scroll-target="#past">Past</a></li>
   </ul></li>
   <li><a href="#members" id="toc-members" class="nav-link" data-scroll-target="#members">Members</a>
   <ul class="collapse">
@@ -224,8 +225,14 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
 
 </div>
 </section>
-<section id="past" class="level3">
-<h3 class="anchored" data-anchor-id="past">Past</h3>
+<section id="past-recordings" class="level3">
+<h3 class="anchored" data-anchor-id="past-recordings">Past Recordings</h3>
+<div id="recordings-list" class="recordings-section">
+
+</div>
+</section>
+<section id="past-info" class="level3">
+<h3 class="anchored" data-anchor-id="past-info">Past Info</h3>
 <details>
 <summary>
 Spring 2026
@@ -237,26 +244,6 @@ Spring 2026
 <script>
 const seminarsData = {
   'upcoming': [
-
-    {
-      speaker: 'Edric Tam',
-      subtitle: 'Statistical Limits to Generative AI (and AI/ML in Bayesian Inference)',
-      affiliation: 'Postdoc at Stanford',
-      date: 'February 3rd, 2026',
-      time: '3:15 - 4:15 pm',
-      location: 'Zoom and Wilkinson 126',
-
-      description: `Edric (Ed) Tam, PhD is a statistics and machine learning researcher at Stanford. Ed possesses a Statistics PhD from Duke, degrees from UChicago, Yale, and Johns Hopkins, and industry experience at Google, Meta, Amazon, and Apple.
-
-        <strong>Abstract:</strong> My research lies at the intersection of statistics and “AI", with a focus on two complementary directions: using deep learning/AI models to aid rigorous statistical inference, and using statistical and mathematical tools to understand, evaluate and analyze AI models. In this talk, I will present two projects that illustrate this interplay. The first studies fundamental statistical limitations of deep generative models, explaining why certain modeling failures arise. The second explores how modern AI/ML methods can be used in Bayesian statistical inference.
-
-        Register here on <a href="https://cglink.me/2do/r2277647" target="_blank">Duke Groups</a>. More about Ed <a href="https://edrictam.com/" target="_blank">here</a>.
-        
-        <strong>Zoom Link:</strong> <a href="https://duke.zoom.us/j/91041782536" target="_blank">https://duke.zoom.us/j/91041782536</a>`,
-      
-      headshot: 'files/ssmu/ed.jpg',
-      flyer: 'files/ssmu/Ed-Tam-Seminar-Flyer.pdf'
-    },
 
     {
       speaker: 'Galen Reeves',
@@ -307,6 +294,26 @@ const seminarsData = {
       headshot: 'files/ssmu/josh.jpg',
       flyer: 'files/ssmu/StatQuest-Seminar-Flyer.pdf'
     },
+
+    {
+      speaker: 'Edric Tam',
+      subtitle: 'Statistical Limits of Generative AI (and AI/ML in Bayesian Inference)',
+      affiliation: 'Postdoc at Stanford',
+      date: 'February 3rd, 2026',
+      time: '3:15 - 4:15 pm',
+      location: 'Zoom and Wilkinson 126',
+
+      description: `Edric (Ed) Tam, PhD is a statistics and machine learning researcher at Stanford. Ed possesses a Statistics PhD from Duke, degrees from UChicago, Yale, and Johns Hopkins, and industry experience at Google, Meta, Amazon, and Apple.
+
+        <strong>Abstract:</strong> My research lies at the intersection of statistics and “AI", with a focus on two complementary directions: using deep learning/AI models to aid rigorous statistical inference, and using statistical and mathematical tools to understand, evaluate and analyze AI models. In this talk, I will present two projects that illustrate this interplay. The first studies fundamental statistical limitations of deep generative models, explaining why certain modeling failures arise. The second explores how modern AI/ML methods can be used in Bayesian statistical inference.
+
+        Register here on <a href="https://cglink.me/2do/r2277647" target="_blank">Duke Groups</a>. More about Ed <a href="https://edrictam.com/" target="_blank">here</a>.
+        
+        <strong>Zoom Link:</strong> <a href="https://duke.zoom.us/j/91041782536" target="_blank">https://duke.zoom.us/j/91041782536</a>`,
+      
+      headshot: 'files/ssmu/ed.jpg',
+      flyer: 'files/ssmu/Ed-Tam-Seminar-Flyer.pdf'
+    },
   ]
 };
 
@@ -356,6 +363,43 @@ function initializeSeminars() {
 
 document.addEventListener('DOMContentLoaded', initializeSeminars);
 </script>
+<script>
+
+const recordingsData = [
+  {
+    speaker: '<strong>Edric Tam</strong> -- Statistical Limits of Generative AI',
+    date: 'February 3rd, 2026',
+    link: 'https://duke.zoom.us/rec/share/wTQLDZacyioeIFyXGVnQLG1yKFQlmG6TY3Qt25uZjYd0BXpGfFfIDK4oCXD-cCCM.19D_D11y3cM7UB3Q',
+    linkText: 'Watch'
+  }
+];
+
+function createRecordingItem(recording) {
+  const el = document.createElement('div');
+  el.className = 'recording-item';
+  
+  el.innerHTML = `
+    <div class="recording-speaker">${recording.speaker}</div>
+    <div class="recording-date">${recording.date}</div>
+    <a href="${recording.link}" class="recording-link" target="_blank" rel="noopener noreferrer">${recording.linkText}</a>
+  `;
+  
+  return el;
+}
+
+function initializeRecordings() {
+  const container = document.getElementById('recordings-list');
+  if (!container) return;
+  const list = document.createElement('div');
+  list.className = 'recordings-list';
+  recordingsData.forEach(recording => {
+    list.appendChild(createRecordingItem(recording));
+  });
+  container.appendChild(list);
+}
+
+document.addEventListener('DOMContentLoaded', initializeRecordings);
+</script>
 </section>
 </section>
 <section id="reading-group" class="level2">
@@ -371,8 +415,8 @@ document.addEventListener('DOMContentLoaded', initializeSeminars);
 </div>
 </section>
 </section>
-<section id="past-1" class="level3">
-<h3 class="anchored" data-anchor-id="past-1">Past</h3>
+<section id="past" class="level3">
+<h3 class="anchored" data-anchor-id="past">Past</h3>
 <p>None yet.</p>
 <script>
 
