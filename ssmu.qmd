@@ -47,16 +47,18 @@ const seminarsData = {
 
     {
       speaker: 'Galen Reeves',
-      subtitle: 'TBD.',
+      subtitle: 'Information Theory for High-Dimensional Inference and Machine Learning',
       affiliation: 'Associate Professor of ECE and Statistical Science at Duke',
       date: 'February 25th, 2026.',
       time: '3:30 - 4:30 pm',
       location: 'Physics 235',
 
-      description: `TBD.`,
+      description: `Professor Galen Reeves is an Associate Professor of Electrical and Computer Engineering and Statistical Science at Duke. Prof. Reeves is an accomplished information theorist who studies machine learning, high-dimensional inference, and signal processing tasks. He will give an overview of his work and its applications to engineering, physics, math, and more.
+      
+      Register here on <a href="https://cglink.me/2do/r2278625" target="_blank">Duke Groups</a>.`,
       
       headshot: 'files/ssmu/reeves.jpg',
-      flyer: 'files/ssmu/Galen-Seminar-Flyer.pdf'
+      flyer: 'files/ssmu/Reeves-Seminar-Flyer.pdf'
     },
 
     {
@@ -234,9 +236,9 @@ const readingGroupData = [
   },
   {
     date: 'February 20, 2026',
-    manuscript: 'TBD',
-    presenter: 'TBD.',
-    keywords: ['NA']
+    manuscript: 'Geometry and Dynamics in the Embedding Space of Neural Encoders (manuscripts TBD)',
+    presenter: 'Derek Wang',
+    keywords: ['generative modeling', 'machine learning theory', 'dynamical systems', 'deep learning']
   },
   {
     date: 'March 20, 2026',
