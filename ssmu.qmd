@@ -44,21 +44,19 @@ Contact [xiran.wang@duke.edu](mailto:xiran.wang@duke.edu).
 <script>
 const seminarsData = {
   'upcoming': [
-
     {
-      speaker: 'Quant Research Panel',
-      subtitle: 'TBD.',
-      affiliation: 'TBD.',
-      date: 'March 25th',
-      time: '7:00 - 8:00 pm',
-      location: 'Zoom',
+      speaker: 'Davis Vaughan',
+      subtitle: 'Existential crisis! Is my degree worthless?',
+      affiliation: 'Software Engineer at Posit (Positron and tidyverse)',
+      date: 'April 8th',
+      time: 'TBD',
+      location: 'TBD',
 
       description: `TBD.`,
       
-      headshot: 'files/images/math-library.jpg',
-      flyer: 'files/ssmu/Quant-Panel-Flyer.pdf'
+      headshot: 'files/ssmu/vaughan.jpg',
+      flyer: 'files/ssmu/Vaughan-Seminar-Flyer.pdf'
     },
-
     {
       speaker: 'Henry Pfister',
       subtitle: 'TBD.',
@@ -67,7 +65,9 @@ const seminarsData = {
       time: '6:00 - 7:00 pm',
       location: 'Teer 203',
 
-      description: `TBD.`,
+      description: `<strong>Cosponsored with DuQIS (Duke Quantum Information Society).</strong>
+      
+        Professor Henry Pfister is the Addy Family Professor of ECE and Math at Duke, with expertise spanning classical and quantum information theory, error correction, communications, and machine learning. He will discuss some recent work.`,
       
       headshot: 'files/ssmu/pfister.jpg',
       flyer: 'files/ssmu/Pfister-Seminar-Flyer.pdf'
@@ -123,7 +123,9 @@ const seminarsData = {
       time: '3:30 - 4:30 pm',
       location: 'Physics 235',
 
-      description: `Professor Galen Reeves is an Associate Professor of Electrical and Computer Engineering and Statistical Science at Duke. Prof. Reeves is an accomplished information theorist who studies machine learning, high-dimensional inference, and signal processing tasks. He will give an overview of his work and its applications to engineering, physics, math, and more.
+      description: `<strong>Cosponsored with DUMU (Duke Math Union).</strong>
+        
+        Professor Galen Reeves is an Associate Professor of Electrical and Computer Engineering and Statistical Science at Duke. Prof. Reeves is an accomplished information theorist who studies machine learning, high-dimensional inference, and signal processing tasks. He will give an overview of his work and its applications to engineering, physics, math, and more.
       
       Register here on <a href="https://cglink.me/2do/r2278625" target="_blank">Duke Groups</a>.`,
       
@@ -245,13 +247,13 @@ None yet.
 const readingGroupData = [
   {
     date: 'February 6, 2026',
-    manuscript: 'Geometric Deep Learning (Michael Bronstein et al), Chapters 2-4. PDF <a href="https://arxiv.org/abs/2104.13478" target="_blank">here</a>',
+    manuscript: 'Geometric Deep Learning (Bronstein et al, 2021), Chapters 2-4. PDF <a href="https://arxiv.org/abs/2104.13478" target="_blank">here</a>',
     presenter: 'Derek Wang',
     keywords: ['machine learning theory', 'deep learning', 'high-dimensional data', 'geometric data analysis']
   },
   {
     date: 'February 20, 2026',
-    manuscript: 'Geometry and Dynamics in the Embedding Space of Neural Encoders (manuscripts TBD)',
+    manuscript: 'Geometry and Dynamics in the Embedding Space of Neural Encoders (primarly reference is Lee et al, 2025). PDF <a href="https://arxiv.org/abs/2501.09876" target="_blank">here</a>',
     presenter: 'Derek Wang',
     keywords: ['generative modeling', 'machine learning theory', 'dynamical systems', 'deep learning']
   },
@@ -262,16 +264,16 @@ const readingGroupData = [
     keywords: ['NA']
   },
   {
-    date: 'April 3, 2026',
+    date: 'April 10, 2026',
     manuscript: 'TBD',
-    presenter: 'TBD.',
+    presenter: 'Ethan Fazal',
     keywords: ['NA']
   },
   {
-    date: 'April 17, 2026',
-    manuscript: 'TBD',
-    presenter: 'TBD.',
-    keywords: ['NA']
+    date: 'April 24, 2026',
+    manuscript: 'Transformers Meet In-Context Learning: A Universal Approximation Theory (Li et al, 2025). PDF <a href="https://arxiv.org/abs/2506.05200" target="_blank">here</a>',
+    presenter: 'Derek Wang',
+    keywords: ['machine learning theory', 'transformers']
   }
 ];
 
