@@ -263,15 +263,15 @@ const readingGroupData = [
   },
   {
     date: 'March 20, 2026',
-    manuscript: 'Flow Matching for Generative Modeling: From CNFs to Straight Flows and Beyond',
+    manuscript: 'Flow Matching for Generative Modeling: From CNFs to Straight Flows and Beyond. Slides <a href="files/ssmu/flow_matching.pdf" target="_blank">here</a>',
     presenter: 'Aashish Cheruvu',
     keywords: ['generative modeling', 'machine learning theory']
   },
   {
     date: 'April 10, 2026',
-    manuscript: 'TBD',
+    manuscript: 'Inferring Networks of Diffusion and Influence (Gomez-Rodriguez et al, 2010). PDF <a href="https://arxiv.org/abs/1006.0234" target="_blank">here</a>',
     presenter: 'Ethan Fazal',
-    keywords: ['NA']
+    keywords: ['network theory', 'information theory', 'statistical inference']
   },
   {
     date: 'April 24, 2026',
