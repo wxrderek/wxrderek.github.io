@@ -24,6 +24,7 @@ We are actively looking for undergrads to **join our committee**! You need not b
 We always welcome Duke faculty, postdocs, and PhD students from all departments to give talks on their research!
 We also welcome other student organizations to cosponsor these talks, whenever applicable.
 Contact [xiran.wang@duke.edu](mailto:xiran.wang@duke.edu). 
+For the **2026-2027** school year, we plan to host **four** seminars in the Fall and **four** seminars in the Spring. 
 
 ### Upcoming
 
@@ -44,23 +45,6 @@ Contact [xiran.wang@duke.edu](mailto:xiran.wang@duke.edu).
 <script>
 const seminarsData = {
   'upcoming': [
-    {
-      speaker: 'Davis Vaughan',
-      subtitle: 'Existential crisis! Is my degree worthless?',
-      affiliation: 'Software Engineer at Posit (Positron and tidyverse)',
-      date: 'April 8th',
-      time: '4:30 - 5:30 pm',
-      location: 'Old Chemistry 116',
-
-      description: `Davis Vaughan is a software engineer at Posit working on Positron, a new data science focused IDE, and the set of R packages that make up the tidyverse. He is also the co-creator of Air, a popular R code formatter.
-      
-      <strong>Abstract:</strong> With the rapid advancement of AI tooling, things can feel a little bleak for students looking to join the workforce. Will AI take all of the jobs? Will I even enjoy the work that I'm doing? Is my degree worthless!?
-
-      In this talk, Davis will walk through a number of concrete examples of how he and his colleagues at Posit use Claude Code and other AI tools to amplify their own skills, rather than replace them. He hopes that getting a glimpse into how these tools are used on a day-to-day basis can ease a bit of that existential dread you might be feeling, instead leaving you excited about how they can be used to improve the quality of code, not just the quantity of it.`,
-      
-      headshot: 'files/ssmu/vaughan.jpg',
-      flyer: 'files/ssmu/Vaughan-Seminar-Flyer.pdf'
-    },
     {
       speaker: 'Henry Pfister',
       subtitle: 'TBD.',
@@ -119,7 +103,7 @@ const seminarsData = {
       flyer: 'files/ssmu/Ed-Tam-Seminar-Flyer.pdf'
     },
 
-     {
+    {
       speaker: 'Galen Reeves',
       subtitle: 'Information Theory for High-Dimensional Inference and Signal Processing',
       affiliation: 'Associate Professor of ECE and Statistical Science at Duke',
@@ -135,6 +119,24 @@ const seminarsData = {
       
       headshot: 'files/ssmu/reeves.jpg',
       flyer: 'files/ssmu/Reeves-Seminar-Flyer.pdf'
+    },
+
+    {
+      speaker: 'Davis Vaughan',
+      subtitle: 'Existential crisis! Is my degree worthless?',
+      affiliation: 'Software Engineer at Posit (Positron and tidyverse)',
+      date: 'April 8th',
+      time: '4:30 - 5:30 pm',
+      location: 'Old Chemistry 116',
+
+      description: `Davis Vaughan is a software engineer at Posit working on Positron, a new data science focused IDE, and the set of R packages that make up the tidyverse. He is also the co-creator of Air, a popular R code formatter.
+      
+      <strong>Abstract:</strong> With the rapid advancement of AI tooling, things can feel a little bleak for students looking to join the workforce. Will AI take all of the jobs? Will I even enjoy the work that I'm doing? Is my degree worthless!?
+
+      In this talk, Davis will walk through a number of concrete examples of how he and his colleagues at Posit use Claude Code and other AI tools to amplify their own skills, rather than replace them. He hopes that getting a glimpse into how these tools are used on a day-to-day basis can ease a bit of that existential dread you might be feeling, instead leaving you excited about how they can be used to improve the quality of code, not just the quantity of it.`,
+      
+      headshot: 'files/ssmu/vaughan.jpg',
+      flyer: 'files/ssmu/Davis-Seminar-Flyer.pdf'
     },
 
   ]
@@ -229,10 +231,11 @@ document.addEventListener('DOMContentLoaded', initializeRecordings);
 
 
 ## Reading Group
-We meet **biweekly** on **Fridays**, **5-6pm** in **Perkins Link Group Study 1**. At each meeting, someone presents on a manuscript/excerpt they read, and we discuss. 
+We meet roughly **biweekly** on **Fridays**, **5-6pm** in **Perkins Link Group Study 1**. At each meeting, someone presents on a manuscript/excerpt they read, and we discuss. 
 If you're an undergrad interested in theory/methods in stats/ML, put your name [here](https://forms.gle/oCoNxuBjUF13aN489), and show up! No prerequisites required.  
 
 If you would like to present a manuscript, please fill out [this form](https://forms.gle/NucLu7D1t44HUpQD7). It contains more information about meeting procedures. 
+For the **2026-2027** school year, we will meet **four** times in the Fall and **five** times in the Spring.  
 
 ### Schedule
 
