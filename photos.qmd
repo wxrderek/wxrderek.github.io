@@ -11,13 +11,13 @@ css:
   - photo.css
 ---
 
-I'm a recreational photographer of 5+ years. I use an old Nikon D3200 and with a 55-210mm lens. 
+I use an old Nikon D3200 and with a 55-210mm lens. 
 I did sports photography for my high school Athletics Department, in particular the Cross Country + Track and Field teams. Now, I do mostly events and nature. 
 All photos are for personal, non-commercial use only and are not monetized in any way. 
 
 ## Duke Gardens
 
-I served as a volunteer photographer at the [Sarah P. Duke Gardens](https://gardens.duke.edu/) in Spring of 2025, and was lucky to capture the first true snow day in the Triangle in several years. 
+I served as a volunteer photographer at the [Sarah P. Duke Gardens](https://gardens.duke.edu/) in Spring 2025, and was lucky to capture the first true snow day in the Triangle in several years. 
 I'm a complete amateur at flowers, so please contact me to correct any mislabelings.
 
 :::{.grid}

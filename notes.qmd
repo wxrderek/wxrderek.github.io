@@ -15,7 +15,7 @@ css:
 
 Some supplementary notes on select topics I've compiled, mainly intended for students taking courses
 pertaining to these topics, or for students who may be interested in some introductory discussions. All are
-essentially written from the perspective of an undergrad peer tutor. 
+essentially written from the perspective of a peer tutor. 
 
 <div id="notes-select-topics" class="notes-section"></div>
 

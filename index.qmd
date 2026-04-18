@@ -37,24 +37,27 @@ about:
 
 ## About Me
 I'm an undergrad at [Duke University](https://www.duke.edu) studying Physics and Mathematics, with a minor in Statistical Science. 
-I’m broadly interested in data-driven modeling and scientific machine learning theory/methods for (bio)physics applications. Specifics include:
+I’m broadly interested in scientific machine learning theory/methods. Specifics include:
 
   + Learning dynamical systems
-  + Physics-informed architectures
-  + Applications in microbiology, public health, quantum systems. 
+  + Theory of generative modeling
+  + Physics-informed methods
+  + Geometric and dynamics perspectives
 
-I'm also curious about graph methods, topological/geometric data analysis, and generative modeling. 
+I care about applications in microbiology, materials, and quantum systems. I'm also curious about graph methods and representation learning in general. 
 I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek. 
 
 I've put some hand-written lecture notes and notes on select topics [here](notes.html). 
 
 
 ## Experience
-As part of the [Lingchong You Lab](https://www.youlab.bio/), I work with VAE-MLP models for time-series parameter estimation on bacterial growth curves,
-specifically targeting chaotic ODE systems. 
+As part of the [Lingchong You Lab](https://www.youlab.bio/), I work with VAE models for time-series parameter estimation on bacterial growth curves,
+specifically targeting chaotic ODE-driven systems. 
 
-As part of the [Liberata](https://liberata.info/) Algorithms Team, I'm developing graph-based 
-metrics/algorithms for a new academic publishing system based on continuous authorship shares.
+As part of the [Liberata](https://liberata.info/) Algorithms Team, I'm developing graph- and embedding-based algorithms
+for a new academic publishing system based on continuous authorship shares.
+
+In Summer 2026, I will be an undergrad research intern at [Oak Ridge National Lab](https://www.ornl.gov/). 
 
 In Summer 2025, I was an AI R&D intern at [Lenovo](https://www.lenovo.com/us/en/) with the 
 [Cloud Service Providers](https://www.lenovo.com/us/en/servers-storage/solutions/cloud-service-provider/), where I assembled
@@ -62,12 +65,15 @@ an AI cluster testbed and looked at network optimization schemes.
 
 ## Involvements
 
-I lead the Research Committee for the Statistical Science Majors Union (SSMU), where I'm organizing a 
+I lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a 
 seminar series and reading group on theory/methods in modern statistics. More [here](ssmu.html).
 
-I'm an avid graphic designer of 7+ years, primarily via Photoshop and (more recently) Figma. 
-I serve as a co-director of [HackDuke](https://hackduke.org/), where I lead the Design Team. 
-I also design for the Duke Math Union, in particular for the annual [Duke Math Meet](https://dukemathmeet.org/). See some past works [here](design.html).
+I am also a part of the Math Community Team in the Duke Math Department, where I help run undergrad engagement activities, including a mini-colloquium series.
+I will also serve as an Event Coordinator for the Society of Physics Students at Duke.
+
+I'm a graphic designer of 8+ years, primarily via Photoshop and (more recently) Figma. 
+I served as a co-director of [HackDuke](https://hackduke.org/) in 2025-2026, where I led the Design Team. 
+I also design for the Duke Math Union, in particular the annual [Duke Math Meet](https://dukemathmeet.org/). See some past works [here](design.html).
 
 I'm also a recreational photographer. I've done sports photography in the past; now I do mostly events and nature. See some photos [here](photos.html).
 

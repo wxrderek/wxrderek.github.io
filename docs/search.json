@@ -4,14 +4,14 @@
     "href": "photos.html",
     "title": "Photography",
     "section": "",
-    "text": "I’m a recreational photographer of 5+ years. I use an old Nikon D3200 and with a 55-210mm lens. I did sports photography for my high school Athletics Department, in particular the Cross Country + Track and Field teams. Now, I do mostly events and nature. All photos are for personal, non-commercial use only and are not monetized in any way."
+    "text": "I use an old Nikon D3200 and with a 55-210mm lens. I did sports photography for my high school Athletics Department, in particular the Cross Country + Track and Field teams. Now, I do mostly events and nature. All photos are for personal, non-commercial use only and are not monetized in any way."
   },
   {
     "objectID": "photos.html#duke-gardens",
     "href": "photos.html#duke-gardens",
     "title": "Photography",
     "section": "Duke Gardens",
-    "text": "Duke Gardens\nI served as a volunteer photographer at the Sarah P. Duke Gardens in Spring of 2025, and was lucky to capture the first true snow day in the Triangle in several years. I’m a complete amateur at flowers, so please contact me to correct any mislabelings.\n\n\n\n        \n      \n             \n         \n      \n❮ ❯\n\n\n\n\n\nPhoto 1 of 47\n\n\nThree turtles on a log. Photographed on March 22, 2025."
+    "text": "Duke Gardens\nI served as a volunteer photographer at the Sarah P. Duke Gardens in Spring 2025, and was lucky to capture the first true snow day in the Triangle in several years. I’m a complete amateur at flowers, so please contact me to correct any mislabelings.\n\n\n\n        \n      \n             \n         \n      \n❮ ❯\n\n\n\n\n\nPhoto 1 of 47\n\n\nThree turtles on a log. Photographed on March 22, 2025."
   },
   {
     "objectID": "photos.html#duke-campus",
@@ -67,28 +67,28 @@
     "href": "index.html",
     "title": "Derek Wang",
     "section": "",
-    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n      Google Scholar\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nI’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in data-driven modeling and scientific machine learning theory/methods for (bio)physics applications. Specifics include:\n\nLearning dynamical systems\nPhysics-informed architectures\nApplications in microbiology, public health, quantum systems.\n\nI’m also curious about graph methods, topological/geometric data analysis, and generative modeling. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written lecture notes and notes on select topics here.\n\n\n\nAs part of the Lingchong You Lab, I work with VAE-MLP models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE systems.\nAs part of the Liberata Algorithms Team, I’m developing graph-based metrics/algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\n\n\n\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I’m organizing a seminar series and reading group on theory/methods in modern statistics. More here.\nI’m an avid graphic designer of 7+ years, primarily via Photoshop and (more recently) Figma. I serve as a co-director of HackDuke, where I lead the Design Team. I also design for the Duke Math Union, in particular for the annual Duke Math Meet. See some past works here.\nI’m also a recreational photographer. I’ve done sports photography in the past; now I do mostly events and nature. See some photos here."
+    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n      Google Scholar\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nI’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in scientific machine learning theory/methods. Specifics include:\n\nLearning dynamical systems\nTheory of generative modeling\nPhysics-informed methods\nGeometric and dynamics perspectives\n\nI care about applications in microbiology, materials, and quantum systems. I’m also curious about graph methods and representation learning in general. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written lecture notes and notes on select topics here.\n\n\n\nAs part of the Lingchong You Lab, I work with VAE models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE-driven systems.\nAs part of the Liberata Algorithms Team, I’m developing graph- and embedding-based algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2026, I will be an undergrad research intern at Oak Ridge National Lab.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\n\n\n\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a seminar series and reading group on theory/methods in modern statistics. More here.\nI am also a part of the Math Community Team in the Duke Math Department, where I help run undergrad engagement activities, including a mini-colloquium series. I will also serve as an Event Coordinator for the Society of Physics Students at Duke.\nI’m a graphic designer of 8+ years, primarily via Photoshop and (more recently) Figma. I served as a co-director of HackDuke in 2025-2026, where I led the Design Team. I also design for the Duke Math Union, in particular the annual Duke Math Meet. See some past works here.\nI’m also a recreational photographer. I’ve done sports photography in the past; now I do mostly events and nature. See some photos here."
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Derek Wang",
     "section": "",
-    "text": "I’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in data-driven modeling and scientific machine learning theory/methods for (bio)physics applications. Specifics include:\n\nLearning dynamical systems\nPhysics-informed architectures\nApplications in microbiology, public health, quantum systems.\n\nI’m also curious about graph methods, topological/geometric data analysis, and generative modeling. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written lecture notes and notes on select topics here."
+    "text": "I’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in scientific machine learning theory/methods. Specifics include:\n\nLearning dynamical systems\nTheory of generative modeling\nPhysics-informed methods\nGeometric and dynamics perspectives\n\nI care about applications in microbiology, materials, and quantum systems. I’m also curious about graph methods and representation learning in general. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written lecture notes and notes on select topics here."
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Derek Wang",
     "section": "",
-    "text": "As part of the Lingchong You Lab, I work with VAE-MLP models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE systems.\nAs part of the Liberata Algorithms Team, I’m developing graph-based metrics/algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes."
+    "text": "As part of the Lingchong You Lab, I work with VAE models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE-driven systems.\nAs part of the Liberata Algorithms Team, I’m developing graph- and embedding-based algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2026, I will be an undergrad research intern at Oak Ridge National Lab.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes."
   },
   {
     "objectID": "index.html#involvements",
     "href": "index.html#involvements",
     "title": "Derek Wang",
     "section": "",
-    "text": "I lead the Research Committee for the Statistical Science Majors Union (SSMU), where I’m organizing a seminar series and reading group on theory/methods in modern statistics. More here.\nI’m an avid graphic designer of 7+ years, primarily via Photoshop and (more recently) Figma. I serve as a co-director of HackDuke, where I lead the Design Team. I also design for the Duke Math Union, in particular for the annual Duke Math Meet. See some past works here.\nI’m also a recreational photographer. I’ve done sports photography in the past; now I do mostly events and nature. See some photos here."
+    "text": "I lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a seminar series and reading group on theory/methods in modern statistics. More here.\nI am also a part of the Math Community Team in the Duke Math Department, where I help run undergrad engagement activities, including a mini-colloquium series. I will also serve as an Event Coordinator for the Society of Physics Students at Duke.\nI’m a graphic designer of 8+ years, primarily via Photoshop and (more recently) Figma. I served as a co-director of HackDuke in 2025-2026, where I led the Design Team. I also design for the Duke Math Union, in particular the annual Duke Math Meet. See some past works here.\nI’m also a recreational photographer. I’ve done sports photography in the past; now I do mostly events and nature. See some photos here."
   },
   {
     "objectID": "research.html",
@@ -109,14 +109,14 @@
     "href": "notes.html",
     "title": "Notes",
     "section": "",
-    "text": "Some supplementary notes on select topics I’ve compiled, mainly intended for students taking courses pertaining to these topics, or for students who may be interested in some introductory discussions. All are essentially written from the perspective of an undergrad peer tutor."
+    "text": "Some supplementary notes on select topics I’ve compiled, mainly intended for students taking courses pertaining to these topics, or for students who may be interested in some introductory discussions. All are essentially written from the perspective of a peer tutor."
   },
   {
     "objectID": "notes.html#notes-on-select-topics",
     "href": "notes.html#notes-on-select-topics",
     "title": "Notes",
     "section": "",
-    "text": "Some supplementary notes on select topics I’ve compiled, mainly intended for students taking courses pertaining to these topics, or for students who may be interested in some introductory discussions. All are essentially written from the perspective of an undergrad peer tutor."
+    "text": "Some supplementary notes on select topics I’ve compiled, mainly intended for students taking courses pertaining to these topics, or for students who may be interested in some introductory discussions. All are essentially written from the perspective of a peer tutor."
   },
   {
     "objectID": "notes.html#math-lecture-notes",

@@ -45,22 +45,7 @@ For the **2026-2027** school year, we plan to host **four** seminars in the Fall
 <script>
 const seminarsData = {
   'upcoming': [
-    {
-      speaker: 'Henry Pfister',
-      subtitle: 'TBD.',
-      affiliation: 'Addy Family Professor of ECE and Math at Duke',
-      date: 'April 16th',
-      time: '6:00 - 7:00 pm',
-      location: 'Teer 203',
-
-      description: `<strong>Cosponsored with DuQIS (Duke Quantum Information Society).</strong>
-      
-        Professor Henry Pfister is the Addy Family Professor of ECE and Math at Duke, with expertise spanning classical and quantum information theory, error correction, communications, and machine learning. He will discuss some recent work.`,
-      
-      headshot: 'files/ssmu/pfister.jpg',
-      flyer: 'files/ssmu/Pfister-Seminar-Flyer.pdf'
-    },
-    
+        
   ],
 
 
@@ -137,6 +122,22 @@ const seminarsData = {
       
       headshot: 'files/ssmu/vaughan.jpg',
       flyer: 'files/ssmu/Davis-Seminar-Flyer.pdf'
+    },
+
+    {
+      speaker: 'Henry Pfister',
+      subtitle: 'Low Density Parity Check Codes',
+      affiliation: 'Addy Family Professor of ECE and Math at Duke',
+      date: 'April 16th',
+      time: '6:00 - 7:00 pm',
+      location: 'Teer 203',
+
+      description: `<strong>Cosponsored with DuQIS (Duke Quantum Information Society).</strong>
+      
+        Professor Henry Pfister is the Addy Family Professor of ECE and Math at Duke, with expertise spanning classical and quantum information theory, error correction, communications, and machine learning. He will discuss some recent work.`,
+      
+      headshot: 'files/ssmu/pfister.jpg',
+      flyer: 'files/ssmu/Pfister-Seminar-Flyer.pdf'
     },
 
   ]
