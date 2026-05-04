@@ -166,13 +166,13 @@ gtag('config', '', { 'anonymize_ip': true});
   <li><a href="#ssmu-seminars" id="toc-ssmu-seminars" class="nav-link active" data-scroll-target="#ssmu-seminars">SSMU Seminars</a>
   <ul class="collapse">
   <li><a href="#upcoming" id="toc-upcoming" class="nav-link" data-scroll-target="#upcoming">Upcoming</a></li>
+  <li><a href="#past" id="toc-past" class="nav-link" data-scroll-target="#past">Past</a></li>
   <li><a href="#past-recordings" id="toc-past-recordings" class="nav-link" data-scroll-target="#past-recordings">Past Recordings</a></li>
-  <li><a href="#past-info" id="toc-past-info" class="nav-link" data-scroll-target="#past-info">Past Info</a></li>
   </ul></li>
   <li><a href="#reading-group" id="toc-reading-group" class="nav-link" data-scroll-target="#reading-group">Reading Group</a>
   <ul class="collapse">
-  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
-  <li><a href="#past" id="toc-past" class="nav-link" data-scroll-target="#past">Past</a></li>
+  <li><a href="#upcoming-1" id="toc-upcoming-1" class="nav-link" data-scroll-target="#upcoming-1">Upcoming</a></li>
+  <li><a href="#past-1" id="toc-past-1" class="nav-link" data-scroll-target="#past-1">Past</a></li>
   </ul></li>
   <li><a href="#members" id="toc-members" class="nav-link" data-scroll-target="#members">Members</a>
   <ul class="collapse">
@@ -225,30 +225,78 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
 
 </div>
 </section>
-<section id="past-recordings" class="level3">
-<h3 class="anchored" data-anchor-id="past-recordings">Past Recordings</h3>
-<div id="recordings-list" class="recordings-section">
+<section id="past" class="level3">
+<h3 class="anchored" data-anchor-id="past">Past</h3>
+<div id="seminars-past-container">
 
 </div>
 </section>
-<section id="past-info" class="level3">
-<h3 class="anchored" data-anchor-id="past-info">Past Info</h3>
-<details>
-<summary>
-Spring 2026
-</summary>
-<div id="seminars-past" class="seminar-section">
+<section id="past-recordings" class="level3">
+<h3 class="anchored" data-anchor-id="past-recordings">Past Recordings</h3>
+<div id="recordings-past-container">
 
 </div>
-</details>
 <script>
 const seminarsData = {
   'upcoming': [
-        
+    {
+      speaker: 'TBD',
+      subtitle: 'TBD',
+      affiliation: 'TBD',
+      date: 'Week of Sept. 7th',
+      time: 'TBD',
+      location: 'TBD',
+
+      description: `TBD.`,
+      
+      headshot: 'files/images/math-library.jpg',
+      flyer: 'files/ssmu/BLANK-Seminar-Flyer.pdf'
+    },
+
+    {
+      speaker: 'TBD',
+      subtitle: 'TBD',
+      affiliation: 'TBD',
+      date: 'Week of Sept. 28th',
+      time: 'TBD',
+      location: 'TBD',
+
+      description: `TBD.`,
+      
+      headshot: 'files/images/math-library.jpg',
+      flyer: 'files/ssmu/BLANK-Seminar-Flyer.pdf'
+    },
+
+    {
+      speaker: 'TBD',
+      subtitle: 'TBD',
+      affiliation: 'TBD',
+      date: 'Week of Oct. 12th',
+      time: 'TBD',
+      location: 'TBD',
+
+      description: `TBD.`,
+      
+      headshot: 'files/images/math-library.jpg',
+      flyer: 'files/ssmu/BLANK-Seminar-Flyer.pdf'
+    },
+
+    {
+      speaker: 'TBD',
+      subtitle: 'TBD',
+      affiliation: 'TBD',
+      date: 'Week of Nov. 9th',
+      time: 'TBD',
+      location: 'TBD',
+
+      description: `TBD.`,
+      
+      headshot: 'files/images/math-library.jpg',
+      flyer: 'files/ssmu/BLANK-Seminar-Flyer.pdf'
+    }, 
   ],
 
-
-  'past': [
+  'Spring 2026': [
     {
       speaker: 'Josh Starmer, PhD',
       subtitle: 'The Origins of StatQuest and the Intersection of AI, Statistics, and the Sciences',
@@ -333,13 +381,17 @@ const seminarsData = {
 
       description: `<strong>Cosponsored with DuQIS (Duke Quantum Information Society).</strong>
       
-        Professor Henry Pfister is the Addy Family Professor of ECE and Math at Duke, with expertise spanning classical and quantum information theory, error correction, communications, and machine learning. He will discuss some recent work.`,
+        Professor Henry Pfister is the Addy Family Professor of ECE and Math at Duke, with expertise spanning classical and quantum information theory, error correction, communications, and machine learning. He will provide an overview of low density parity check (LDPC) codes for quantum error correction, and discuss some recent work.`,
       
       headshot: 'files/ssmu/pfister.jpg',
       flyer: 'files/ssmu/Pfister-Seminar-Flyer.pdf'
     },
 
-  ]
+  ],
+
+  'Fall 2026': [
+    
+  ],
 };
 
 
@@ -371,33 +423,61 @@ function createSeminarCard(seminar) {
 }
 
 function initializeSeminars() {
-  Object.entries(seminarsData).forEach(([sectionName, seminars]) => {
-    const sectionId = 'seminars-' + sectionName;
-    const section = document.getElementById(sectionId);
-    
-    if (section) {
-      const grid = document.createElement('div');
-      grid.className = 'seminar-grid';
-      seminars.forEach(seminar => {
-        grid.appendChild(createSeminarCard(seminar));
-      });
-      section.appendChild(grid);
-    }
-  });
+  // Handle upcoming section
+  const upcomingSection = document.getElementById('seminars-upcoming');
+  if (upcomingSection && seminarsData.upcoming) {
+    const grid = document.createElement('div');
+    grid.className = 'seminar-grid';
+    seminarsData.upcoming.forEach(seminar => {
+      grid.appendChild(createSeminarCard(seminar));
+    });
+    upcomingSection.appendChild(grid);
+  }
+  
+  // Handle past semesters - dynamically create dropdowns
+  const pastContainer = document.getElementById('seminars-past-container');
+  if (pastContainer) {
+    Object.entries(seminarsData).forEach(([sectionName, seminars]) => {
+      if (sectionName !== 'upcoming' && seminars.length > 0) {
+        const details = document.createElement('details');
+        const summary = document.createElement('summary');
+        summary.textContent = sectionName;
+        details.appendChild(summary);
+        
+        const section = document.createElement('div');
+        section.className = 'seminar-section';
+        const grid = document.createElement('div');
+        grid.className = 'seminar-grid';
+        seminars.forEach(seminar => {
+          grid.appendChild(createSeminarCard(seminar));
+        });
+        section.appendChild(grid);
+        details.appendChild(section);
+        
+        pastContainer.appendChild(details);
+      }
+    });
+  }
 }
 
 document.addEventListener('DOMContentLoaded', initializeSeminars);
 </script>
 <script>
 
-const recordingsData = [
-  {
-    speaker: '<strong>Edric Tam</strong> -- Statistical Limits of Generative AI',
-    date: 'February 3rd, 2026',
-    link: 'https://duke.zoom.us/rec/share/wTQLDZacyioeIFyXGVnQLG1yKFQlmG6TY3Qt25uZjYd0BXpGfFfIDK4oCXD-cCCM.19D_D11y3cM7UB3Q',
-    linkText: 'Watch'
-  }
-];
+const recordingsData = {
+  'Spring 2026': [
+    {
+      speaker: '<strong>Edric Tam</strong> -- Statistical Limits of Generative AI',
+      date: 'February 3rd, 2026',
+      link: 'https://duke.zoom.us/rec/share/wTQLDZacyioeIFyXGVnQLG1yKFQlmG6TY3Qt25uZjYd0BXpGfFfIDK4oCXD-cCCM.19D_D11y3cM7UB3Q',
+      linkText: 'Watch'
+    }
+  ],
+
+  'Fall 2026': [
+
+  ],
+};
 
 function createRecordingItem(recording) {
   const el = document.createElement('div');
@@ -413,14 +493,29 @@ function createRecordingItem(recording) {
 }
 
 function initializeRecordings() {
-  const container = document.getElementById('recordings-list');
-  if (!container) return;
-  const list = document.createElement('div');
-  list.className = 'recordings-list';
-  recordingsData.forEach(recording => {
-    list.appendChild(createRecordingItem(recording));
+  const pastContainer = document.getElementById('recordings-past-container');
+  if (!pastContainer) return;
+  
+  Object.entries(recordingsData).forEach(([sectionName, recordings]) => {
+    if (recordings.length > 0) {
+      const details = document.createElement('details');
+      const summary = document.createElement('summary');
+      summary.textContent = sectionName;
+      details.appendChild(summary);
+      
+      const section = document.createElement('div');
+      section.className = 'recordings-section';
+      const list = document.createElement('div');
+      list.className = 'recordings-list';
+      recordings.forEach(recording => {
+        list.appendChild(createRecordingItem(recording));
+      });
+      section.appendChild(list);
+      details.appendChild(section);
+      
+      pastContainer.appendChild(details);
+    }
   });
-  container.appendChild(list);
 }
 
 document.addEventListener('DOMContentLoaded', initializeRecordings);
@@ -430,53 +525,62 @@ document.addEventListener('DOMContentLoaded', initializeRecordings);
 <section id="reading-group" class="level2">
 <h2 class="anchored" data-anchor-id="reading-group">Reading Group</h2>
 <p>We meet roughly <strong>biweekly</strong> on <strong>Fridays</strong>, <strong>5-6pm</strong> in <strong>Perkins Link Group Study 1</strong>. At each meeting, someone presents on a manuscript/excerpt they read, and we discuss. If you’re an undergrad interested in theory/methods in stats/ML, put your name <a href="https://forms.gle/oCoNxuBjUF13aN489">here</a>, and show up! No prerequisites required.</p>
-<p>If you would like to present a manuscript, please fill out <a href="https://forms.gle/NucLu7D1t44HUpQD7">this form</a>. It contains more information about meeting procedures. For the <strong>2026-2027</strong> school year, we will meet <strong>four</strong> times in the Fall and <strong>five</strong> times in the Spring.</p>
-<section id="schedule" class="level3">
-<h3 class="anchored" data-anchor-id="schedule">Schedule</h3>
-<section id="spring-2026" class="level5">
-<h5 class="anchored" data-anchor-id="spring-2026"><strong>Spring 2026</strong></h5>
-<div id="reading-group-list" class="rg-section">
+<p>If you would like to present a manuscript, please fill out <a href="https://forms.gle/NucLu7D1t44HUpQD7">this form</a>. It contains more information about meeting procedures. For the <strong>2026-2027</strong> school year, we will meet <strong>four</strong> times in the Fall and <strong>four</strong> times in the Spring.</p>
+<section id="upcoming-1" class="level3">
+<h3 class="anchored" data-anchor-id="upcoming-1">Upcoming</h3>
+<div id="reading-group-upcoming" class="rg-section">
 
 </div>
 </section>
-</section>
-<section id="past" class="level3">
-<h3 class="anchored" data-anchor-id="past">Past</h3>
-<p>None yet.</p>
+<section id="past-1" class="level3">
+<h3 class="anchored" data-anchor-id="past-1">Past</h3>
+<div id="reading-group-past-container">
+
+</div>
 <script>
 
-const readingGroupData = [
-  {
-    date: 'February 6, 2026',
-    manuscript: 'Geometric Deep Learning (Bronstein et al, 2021), Chapters 2-4. PDF <a href="https://arxiv.org/abs/2104.13478" target="_blank">here</a>',
-    presenter: 'Derek Wang',
-    keywords: ['machine learning theory', 'deep learning', 'high-dimensional data', 'geometric data analysis']
-  },
-  {
-    date: 'February 20, 2026',
-    manuscript: 'Geometry and Dynamics in the Embedding Space of Neural Encoders (primarly reference is Lee et al, 2025). PDF <a href="https://arxiv.org/abs/2501.09876" target="_blank">here</a>',
-    presenter: 'Derek Wang',
-    keywords: ['generative modeling', 'machine learning theory', 'dynamical systems', 'deep learning']
-  },
-  {
-    date: 'March 20, 2026',
-    manuscript: 'Flow Matching for Generative Modeling: From CNFs to Straight Flows and Beyond. Slides <a href="files/ssmu/flow_matching.pdf" target="_blank">here</a>',
-    presenter: 'Aashish Cheruvu',
-    keywords: ['generative modeling', 'machine learning theory']
-  },
-  {
-    date: 'April 10, 2026',
-    manuscript: 'Inferring Networks of Diffusion and Influence (Gomez-Rodriguez et al, 2010). PDF <a href="https://arxiv.org/abs/1006.0234" target="_blank">here</a>',
-    presenter: 'Ethan Fazal',
-    keywords: ['network theory', 'information theory', 'statistical inference']
-  },
-  {
-    date: 'April 24, 2026',
-    manuscript: 'Transformers Meet In-Context Learning: A Universal Approximation Theory (Li et al, 2025). PDF <a href="https://arxiv.org/abs/2506.05200" target="_blank">here</a>',
-    presenter: 'Derek Wang',
-    keywords: ['machine learning theory', 'transformers']
-  }
-];
+const readingGroupData = {
+  'upcoming': [
+    {
+      date: 'September ??, 2026',
+      manuscript: 'Transformers Meet In-Context Learning: A Universal Approximation Theory (Li et al, 2025). PDF <a href="https://arxiv.org/abs/2506.05200" target="_blank">here</a>',
+      presenter: 'Derek Wang',
+      keywords: ['machine learning theory', 'transformers']
+    }
+  ],
+
+  'Spring 2026': [
+    {
+      date: 'February 6, 2026',
+      manuscript: 'Geometric Deep Learning (Bronstein et al, 2021), Chapters 2-4. PDF <a href="https://arxiv.org/abs/2104.13478" target="_blank">here</a>',
+      presenter: 'Derek Wang',
+      keywords: ['machine learning theory', 'deep learning', 'high-dimensional data', 'geometric data analysis']
+    },
+    {
+      date: 'February 20, 2026',
+      manuscript: 'Geometry and Dynamics in the Embedding Space of Neural Encoders (primarly reference is Lee et al, 2025). PDF <a href="https://arxiv.org/abs/2501.09876" target="_blank">here</a>',
+      presenter: 'Derek Wang',
+      keywords: ['generative modeling', 'machine learning theory', 'dynamical systems', 'deep learning']
+    },
+    {
+      date: 'March 20, 2026',
+      manuscript: 'Flow Matching for Generative Modeling: From CNFs to Straight Flows and Beyond. Slides <a href="files/ssmu/flow_matching.pdf" target="_blank">here</a>',
+      presenter: 'Aashish Cheruvu',
+      keywords: ['generative modeling', 'machine learning theory']
+    },
+    {
+      date: 'April 10, 2026',
+      manuscript: 'Inferring Networks of Diffusion and Influence (Gomez-Rodriguez et al, 2010). PDF <a href="https://arxiv.org/abs/1006.0234" target="_blank">here</a>',
+      presenter: 'Ethan Fazal',
+      keywords: ['network theory', 'graph theory', 'statistical inference']
+    },
+  ],
+
+  'Fall 2026': [
+
+  ],
+
+};
 
 
 
@@ -519,14 +623,41 @@ function createRGItem(itemData, index) {
 
 
 function initializeReadingGroup() {
-  const container = document.getElementById('reading-group-list');
-  if (!container) return;
-  const list = document.createElement('div');
-  list.className = 'rg-list';
-  readingGroupData.forEach((item, idx) => {
-    list.appendChild(createRGItem(item, idx));
-  });
-  container.appendChild(list);
+  // Handle upcoming section
+  const upcomingSection = document.getElementById('reading-group-upcoming');
+  if (upcomingSection && readingGroupData.upcoming) {
+    const list = document.createElement('div');
+    list.className = 'rg-list';
+    readingGroupData.upcoming.forEach((item, idx) => {
+      list.appendChild(createRGItem(item, idx));
+    });
+    upcomingSection.appendChild(list);
+  }
+  
+  // Handle past semesters - dynamically create dropdowns
+  const pastContainer = document.getElementById('reading-group-past-container');
+  if (pastContainer) {
+    Object.entries(readingGroupData).forEach(([sectionName, items]) => {
+      if (sectionName !== 'upcoming' && items.length > 0) {
+        const details = document.createElement('details');
+        const summary = document.createElement('summary');
+        summary.textContent = sectionName;
+        details.appendChild(summary);
+        
+        const section = document.createElement('div');
+        section.className = 'rg-section';
+        const list = document.createElement('div');
+        list.className = 'rg-list';
+        items.forEach((item, idx) => {
+          list.appendChild(createRGItem(item, idx));
+        });
+        section.appendChild(list);
+        details.appendChild(section);
+        
+        pastContainer.appendChild(details);
+      }
+    });
+  }
 }
 
 document.addEventListener('DOMContentLoaded', initializeReadingGroup);
