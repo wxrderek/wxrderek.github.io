@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Derek Wang">
-<meta name="description" content="Information, pdfs, and social metrics of papers">
+<meta name="description" content="Derek Wang custom math games">
 
-<title>Research – Derek Wang</title>
+<title>Custom Math (Board/Party) Games – Derek Wang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,8 +83,8 @@ gtag('config', '', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="research.css">
-<meta property="og:title" content="Research – Derek Wang">
+<link rel="stylesheet" href="math-games.css">
+<meta property="og:title" content="Custom Math (Board/Party) Games – Derek Wang">
 <meta property="og:description" content="Derek Wang personal website">
 <meta property="og:image" content="https://quarto.org/quarto.png">
 <meta property="og:site_name" content="Derek Wang">
@@ -116,7 +116,7 @@ gtag('config', '', { 'anonymize_ip': true});
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> 
+    <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -136,7 +136,7 @@ gtag('config', '', { 'anonymize_ip': true});
 <span class="menu-text">Photos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./math-games.html"> 
+    <a class="nav-link active" href="./math-games.html" aria-current="page"> 
 <span class="menu-text">Math-Games</span></a>
   </li>  
 </ul>
@@ -167,7 +167,7 @@ gtag('config', '', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#coming-soon" id="toc-coming-soon" class="nav-link active" data-scroll-target="#coming-soon">Coming soon!</a></li>
+  <li><a href="#second-rule" id="toc-second-rule" class="nav-link active" data-scroll-target="#second-rule">5 Second Rule</a></li>
   </ul>
 </nav>
     </div>
@@ -176,7 +176,7 @@ gtag('config', '', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
+<h1 class="title">Custom Math (Board/Party) Games</h1>
 </div>
 
 
@@ -193,12 +193,219 @@ gtag('config', '', { 'anonymize_ip': true});
 </header>
 
 
-<section id="coming-soon" class="level2">
-<h2 class="anchored" data-anchor-id="coming-soon">Coming soon!</h2>
-<p>As of now, see <a href="cv.html">CV</a> for research experience.</p>
-<center>
-<hr style="width:50%">
-</center>
+<p>Here I’ve compiled some math-themed versions of board/party games. I only provide the “cards” or equivalent textual components of each game. You probably need a physical set to actually play these.</p>
+<section id="second-rule" class="level2">
+<h2 class="anchored" data-anchor-id="second-rule">5 Second Rule</h2>
+<div id="fsr-container" class="fsr-container">
+  <div id="fsr-menu" class="fsr-menu"></div>
+  <div id="fsr-content" class="fsr-content">
+    <div id="fsr-cards" class="fsr-cards"></div>
+  </div>
+</div>
+
+<script>
+
+let currentTheme = null;
+let currentIndex = 0;
+
+const fsrThemes = {
+  'General': [
+    { front: 'Name <strong>3</strong> branches of mathematics categorized as <strong>algebra</strong>', back: '<strong>Sample Responses:</strong> algebraic topology, algebraic geometry, algebraic number theory' },
+    { front: 'Name <strong>3</strong> branches of mathematics categorized as <strong>analysis</strong>', back: '<strong>Sample Responses:</strong> real analysis, complex analysis, functional analysis, stochastic analysis' },
+    { front: 'Name <strong>3</strong> branches of <strong>applied mathematics</strong>', back: '<strong>Sample Responses:</strong> mathematical biology, mathematical physics, scientific computing, algorithms' },
+    { front: 'Name <strong>3 transforms</strong> of any kind', back: '<strong>Sample Responses:</strong> Legendre, Fourier, Laplace' },
+    { front: 'Name <strong>3</strong> objects one may refer to as <strong>conjugate</strong> in any sense', back: '<strong>Sample Responses:</strong> conjugate variables, roots of polynomials, complex conjugates, conjugate matrices, conjugate transpose' },
+    { front: 'Name <strong>3 spaces</strong> of any kind', back: '<strong>Sample Responses:</strong> vector space, metric space, inner product space, Hilbert space, Banach space, tangent space, phase space' },
+    { front: 'Name <strong>3</strong> objects one may refer to as <strong>normal</strong> in any sense', back: '<strong>Sample Responses:</strong> matrices, subgroups, orthogonal lines, modes' },
+    { front: 'Name <strong>3</strong> properties any function might have', back: '<strong>Sample Responses:</strong> injectivity, surjectivity, bijectivity' },
+    { front: 'Name <strong>3 inequalities</strong> of any kind', back: '<strong>Sample Responses:</strong> AM-GM, Cauchy-Schwarz inequality, triangle inequality, Markov\'s inequality' },
+    { front: 'Name <strong>3</strong> things that begin with <strong>eigen-</strong>', back: '<strong>Sample Responses:</strong> eigenvector, eigenvalue, eigenspace, eigenfunction, eigenmodes' },
+    { front: 'Name <strong>3</strong> ways to use a lower-case <strong>delta</strong> symbol', back: '<strong>Sample Responses:</strong> Kronecker delta, Dirac delta, a small angle, variation of a functional' },
+  ],
+
+  'People': [
+    { front: 'Name <strong>3</strong> mathematicians considered to be important figures in <strong>algebra</strong>', back: '<strong>Sample Responses:</strong> Galois, Abel, Noether, Lagrange, Gauss' },
+    { front: 'Name <strong>3</strong> mathematicians considered to be important figures in <strong>analysis</strong>', back: '<strong>Sample Responses:</strong> Cauchy, Weierstrass, Riemann, Lebesgue, Leibniz, Hilbert, Banach' },
+    { front: 'Name <strong>3</strong> mathematicians considered to be important figures in <strong>geometry</strong>', back: '<strong>Sample Responses:</strong> Euclid, Riemann, Poincare, Minkowski' },
+    { front: 'Name <strong>3</strong> things named after <strong>Euler</strong>', back: '<strong>Sample Responses:</strong> Euler\'s identity, Euler-Lagrange equations, Eulerian circuit, Euler angles, Euler\'s equations' },
+    { front: 'Name <strong>3</strong> things named after <strong>Gauss</strong>', back: '<strong>Sample Responses:</strong> Gauss\' law, Gaussian distribution, Gaussian integers, Gaussian elimination' },
+    { front: 'Name <strong>3</strong> things named after <strong>Cauchy</strong>', back: '<strong>Sample Responses:</strong> Cauchy sequence, Cauchy-Euler ODE, Cauchy-Schwarz inequality, Cauchy\'s Theorem, Cauchy completeness' },
+    { front: 'Name <strong>3</strong> things named after <strong>2 or more</strong> mathematicians', back: '<strong>Sample Responses:</strong> Cauchy-Schwarz inequality, Euler-Lagrange equations, Heine-Borel Theorem, Bolzano-Weierstrass Theorem, Riemann-Stieltjes integral, Fokker-Planck equation, Hamilton-Jacobi-Bellman equation, Calderbank-Shor-Steane codes' },
+    
+  ],
+
+  'Calculus': [
+    { front: 'Name <strong>3</strong> theorems from <strong>vector calculus</strong>', back: '<strong>Sample Responses:</strong> Stokes\' Theorem, Green\'s Theorem, Divergence Theorem' },
+    { front: 'Name <strong>3</strong> ways to <strong>differentiate</strong> a function in any sense', back: '<strong>Sample Responses:</strong> gradient, curl, divergence' },
+    { front: 'Name <strong>3</strong> "rules" of <strong>differentiation</strong>', back: '<strong>Sample Responses:</strong> power rule, product rule, chain rule, quotient rule, l\'Hopital\'s rule, Leibniz rule' },
+    { front: 'Name <strong>3 integration</strong> techniques', back: '<strong>Sample Responses:</strong> integration by parts, partial fractions, Leibniz rule' },
+    { front: 'Name <strong>3</strong> types of <strong>vector integrals</strong>', back: '<strong>Sample Responses:</strong> line integral, path integral, surface integral' },
+  ],
+
+  'Linear Algebra': [
+    { front: 'Name <strong>3</strong> ways to <strong>decompose</strong> a matrix', back: '<strong>Sample Responses:</strong> LU, QR, SVD' },
+    { front: 'Name <strong>3</strong> ways to characterize a <strong>matrix</strong>', back: '<strong>Sample Responses:</strong> invertible, upper triangular, symmetric, orthogonal, Hermitian, unitary' },
+    { front: 'Name <strong>3</strong> canonical <strong>matrix forms</strong>', back: '<strong>Sample Responses:</strong> row reduced echelon form, Smith normal form, Hermite normal form' },
+    { front: 'Name <strong>3</strong> ways to conclude a square matrix is <strong>invertible</strong>', back: '<strong>Sample Responses:</strong> full rank, trivial null space, column space = codomain' },
+    { front: 'Name <strong>3 vector space axioms</strong>', back: '<strong>Sample Responses:</strong> additive identity, additive inverse, closure under vector addition, closure under scalar multiplication' },
+  ],
+
+  'Differential Eqns': [
+    { front: 'Name <strong>3</strong> ways to solve an <strong>inhomogeneous ODE</strong>', back: '<strong>Sample Responses:</strong> integrating factor, undetermined coefficients, variation of parameters' },
+    { front: 'Name <strong>3</strong> types of <strong>equilibrium points</strong> for a linear autonomous system', back: '<strong>Sample Responses:</strong> nodal source/sink, spiral source/sink, saddle' },
+    { front: 'Name <strong>3</strong> standard <strong>PDEs</strong>', back: '<strong>Sample Responses:</strong> heat equation, wave equation, Hamilton-Jacobi equation, Fokker-Planck equation' },
+  ],
+  
+  'Probability/Stats/ML': [
+    { front: 'Name <strong>3</strong> ways for a <strong>random variable</strong> to converge', back: '<strong>Sample Responses:</strong> in distribution, in probability, almost surely' },
+    { front: 'Name <strong>3</strong> tests for <strong>statistical significance</strong>', back: '<strong>Sample Responses:</strong> z-test, t-test, f-test, chi-square test' },
+    { front: 'Name <strong>3 optimization algorithms</strong>', back: '<strong>Sample Responses:</strong> gradient descent, stochastic gradient descent, proximal gradient descent' },
+    { front: 'Name <strong>3 dimension reduction</strong> methods', back: '<strong>Sample Responses:</strong> PCA, MDS, Isomap, tSNE' },
+    { front: 'Name <strong>3 MCMC sampling</strong> methods', back: '<strong>Sample Responses:</strong> Gibbs, Metropolis-Hastings, Langevin dynamics' },
+  ],
+
+  'Abstract Algebra': [
+    { front: 'Name <strong>3 algebraic structures</strong>', back: '<strong>Sample Responses:</strong> group, ring, field, vector space' },
+    { front: 'Name <strong>3</strong> ways to characterize a <strong>group</strong>', back: '<strong>Sample Responses:</strong> cyclic, permutation, dihedral, Abelian' },
+    { front: 'Name <strong>3</strong> ways to characterize a <strong>ring</strong>', back: '<strong>Sample Responses:</strong> division ring, integral domain, prime factorization domain, principal ideal domain, Euclidean domain' },
+    { front: 'Name <strong>3 platonic solids</strong>', back: '<strong>Sample Responses:</strong> tetrahedron, cube, octahedron, icosahedron, dodecahedron' },
+    { front: 'Name <strong>3</strong> groups of <strong>order up to 10</strong>', back: '<strong>Sample Responses:</strong> cyclic groups of order 2 through 10, Klein-4 group, S3 or D3, D4' },
+    { front: 'Name <strong>3</strong> groups of <strong>order greater than 10</strong>', back: '<strong>Sample Responses:</strong> cyclic groups of order more than 10, S4 and up, D6 and up, icosahedral group, Mathieu group, Monster group' },
+    { front: 'Name <strong>3</strong> ways to characterize a <strong>subgroup</strong>', back: '<strong>Sample Responses:</strong> normal, center, centralizer, normalizer, stabilizer, commutator' },
+    { front: 'Name <strong>3 group axioms</strong>', back: '<strong>Sample Responses:</strong> closure, identity, inverses, associativity' },
+  ],
+
+  'Real Analysis': [
+    { front: 'Name <strong>3</strong> equivalent characterizations of the <strong>completeness</strong> of the <strong>reals</strong>', back: '<strong>Sample Responses:</strong> Bolzano-Weierstrass Theorem, Heine-Borel Theorem, least upper bound property, Cauchy completeness, Monotone Convergence Theorem, Nested Interval property' },
+    { front: 'Name <strong>3</strong> properties from which <strong>Riemann integrability</strong> follows', back: '<strong>Sample Responses:</strong> continuity, monotonicity, finite set of discontinuities' },
+    { front: 'Name <strong>3</strong> tests for the <strong>convergence</strong> of a <strong>numerical series</strong>', back: '<strong>Sample Responses:</strong> ratio test, root test, comparison test, integral test, Dirichlet test' },
+    { front: 'Name <strong>3</strong> types of <strong>series</strong>', back: '<strong>Sample Responses:</strong> power series, Taylor series, Maclaurin series, Fourier series' },
+    { front: 'Name <strong>3</strong> definitions that implicate an <strong>epsilon</strong> alongside a <strong>delta</strong> or <strong>N</strong>', back: '<strong>Sample Responses:</strong> limit of a sequence, Cauchy sequence, continuity' },
+    { front: 'Name <strong>3</strong> theorems associated with <strong>differentation</strong>', back: '<strong>Sample Responses:</strong> Fundamental Theorem of Calculus, Mean-Value Theorem, Taylor\'s Theorem' },
+  ],
+
+  'Mathematical Physics': [
+    { front: 'Name <strong>3</strong> pairs of <strong>observables</strong> to which the <strong>uncertainty principle</strong> applies', back: '<strong>Sample Responses:</strong> position and momentum, time and energy, x- and y-components of angular momentum' },
+    { front: 'Name <strong>3</strong> types of <strong>raising/lowering operators</strong> in quantum mechanics', back: '<strong>Sample Responses:</strong> harmonic oscillator, angular momentum, spin, electron number' },
+    { front: 'Name <strong>3</strong> formulations of <strong>classical mechanics</strong>', back: '<strong>Sample Responses:</strong> Newtonian, Lagrangian, Hamiltonian' },
+    { front: 'Name <strong>3</strong> classes of <strong>special functions</strong> arising in physics', back: '<strong>Sample Responses:</strong> Bessel functions, Legendre polynomials, Laguerre polynomials, Hermite polynomials' },
+    { front: 'Name <strong>3 noninertial forces</strong> in a <strong>rotating reference frame</strong>', back: '<strong>Sample Responses:</strong> centrifugal, Coriolis, tangential noninertial' },
+    { front: 'Name <strong>3</strong> systems that exhibit the <strong>harmonic oscillator</strong> in some parameter or configuration regime', back: '<strong>Sample Responses:</strong> spring-mass system, simple pendulum, LC circuit' },
+    { front: 'Name <strong>3</strong> 2-by-2 <strong>Hermitian</strong> matrices', back: '<strong>Sample Responses:</strong> Pauli X, Y and Z, Hadamard' },
+    
+  ],
+
+};
+
+function createFsrCard(card) {
+  const cardEl = document.createElement('div');
+  cardEl.className = 'fsr-card';
+  cardEl.innerHTML = `
+    <div class="fsr-card-inner">
+      <div class="fsr-card-front">
+        <p>${card.front}</p>
+      </div>
+      <div class="fsr-card-back">
+        <p>${card.back}</p>
+      </div>
+    </div>
+  `;
+  
+  cardEl.addEventListener('click', function() {
+    this.classList.toggle('fsr-card-flipped');
+  });
+  
+  return cardEl;
+}
+
+function displayFsrTheme(themeName) {
+  currentTheme = themeName;
+  currentIndex = 0;
+
+  renderSingleCard();
+
+  // Update active button
+  document.querySelectorAll('.fsr-menu-button').forEach(btn => {
+    btn.classList.toggle('fsr-active', btn.textContent === themeName);
+  });
+}
+
+function initializeFsr() {
+  const menu = document.getElementById('fsr-menu');
+  
+  const menuTitle = document.createElement('h3');
+  menuTitle.className = 'fsr-menu-title';
+  menuTitle.textContent = 'Categories';
+  menu.appendChild(menuTitle);
+  
+  const buttonContainer = document.createElement('div');
+  buttonContainer.className = 'fsr-button-container';
+  
+  Object.keys(fsrThemes).forEach((themeName, index) => {
+    const btn = document.createElement('button');
+    btn.className = 'fsr-menu-button';
+    btn.textContent = themeName;
+    
+    btn.addEventListener('click', function() {
+      displayFsrTheme(themeName);
+    });
+    
+    if (index === 0) {
+      btn.classList.add('fsr-active');
+    }
+    
+    buttonContainer.appendChild(btn);
+  });
+  
+  menu.appendChild(buttonContainer);
+  displayFsrTheme(Object.keys(fsrThemes)[0]);
+}
+
+function renderSingleCard() {
+  const container = document.getElementById('fsr-cards');
+  container.innerHTML = '';
+
+  const cards = fsrThemes[currentTheme];
+  const card = cards[currentIndex];
+
+  const cardEl = createFsrCard(card);
+
+  // navigation
+  const nav = document.createElement('div');
+  nav.className = 'fsr-nav';
+
+  const prevBtn = document.createElement('button');
+  prevBtn.textContent = '❮ Prev';
+
+  const nextBtn = document.createElement('button');
+  nextBtn.textContent = 'Next ❯';
+
+  const counter = document.createElement('span');
+  counter.textContent = `${currentIndex + 1} / ${cards.length}`;
+
+  prevBtn.onclick = () => {
+    currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+    renderSingleCard();
+  };
+
+  nextBtn.onclick = () => {
+    currentIndex = (currentIndex + 1) % cards.length;
+    renderSingleCard();
+  };
+
+  nav.appendChild(prevBtn);
+  nav.appendChild(counter);
+  nav.appendChild(nextBtn);
+
+  container.appendChild(cardEl);
+  container.appendChild(nav);
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  initializeFsr();
+});
+
+</script>
 
 
 </section>

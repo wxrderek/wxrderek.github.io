@@ -68,8 +68,8 @@ an AI cluster testbed and looked at network optimization schemes.
 I lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a 
 seminar series and reading group on theory/methods in modern statistics. More [here](ssmu.html).
 
-I am also a part of the Math Community Team in the Duke Math Department, where I help run undergrad engagement activities, including a mini-colloquium series.
-I will also serve as an Event Coordinator for the Society of Physics Students at Duke.
+I am also a part of the Math Community Team in the Duke Math Department, where I help run undergrad activities, including a mini-colloquium series. 
+I made some custom math board/party games [here](math-games.html). I also serve as an Event Coordinator for the Society of Physics Students.
 
 I'm a graphic designer of 8+ years, primarily via Photoshop and (more recently) Figma. 
 I served as a co-director of [HackDuke](https://hackduke.org/) in 2025-2026, where I led the Design Team. 

@@ -35,74 +35,18 @@
     "text": "Cary Academy XCTF\nVisit caryacademy_xctf on Instagram for some design and photography work from high school. I made posts from 2023 to 2024. If you were an athlete on the Cross Country and/or Track and Field teams when I was there, and would like to see some old photos, contact me."
   },
   {
-    "objectID": "ssmu.html",
-    "href": "ssmu.html",
-    "title": "SSMU Research Committee",
+    "objectID": "math-games.html",
+    "href": "math-games.html",
+    "title": "Custom Math (Board/Party) Games",
     "section": "",
-    "text": "This page contains info for the Research Committee of the Duke Statistical Science Majors Union (SSMU). We run a seminar series featuring researchers doing stats-related work in academia and industry. We also run an undergrad reading group on modern theory/methods in statistics and ML.\nWe are actively looking for undergrads to join our committee! You need not be a Stats major (I’m not). If interested, email me at xiran.wang at duke dot edu. There is a one-question application."
+    "text": "Here I’ve compiled some math-themed versions of board/party games. I only provide the “cards” or equivalent textual components of each game. You probably need a physical set to actually play these."
   },
   {
-    "objectID": "ssmu.html#ssmu-seminars",
-    "href": "ssmu.html#ssmu-seminars",
-    "title": "SSMU Research Committee",
-    "section": "SSMU Seminars",
-    "text": "SSMU Seminars\nWe always welcome Duke faculty, postdocs, and PhD students from all departments to give talks on their research! We also welcome other student organizations to cosponsor these talks, whenever applicable. Contact xiran.wang at duke dot edu. For the 2026-2027 school year, we plan to host four seminars in the Fall and four seminars in the Spring.\n\nUpcoming\n\n\n\n\n\nPast\n\n\n\n\n\nPast Recordings"
-  },
-  {
-    "objectID": "ssmu.html#reading-group",
-    "href": "ssmu.html#reading-group",
-    "title": "SSMU Research Committee",
-    "section": "Reading Group",
-    "text": "Reading Group\nWe meet roughly biweekly on Fridays, 5-6pm in Perkins Link Group Study 1. At each meeting, someone presents on a manuscript/excerpt they read, and we discuss. If you’re an undergrad interested in theory/methods in stats/ML, put your name here, and show up! No prerequisites required.\nIf you would like to present a manuscript, please fill out this form. It contains more information about meeting procedures. For the 2026-2027 school year, we will meet four times in the Fall and four times in the Spring.\n\nUpcoming\n\n\n\n\n\nPast"
-  },
-  {
-    "objectID": "ssmu.html#members",
-    "href": "ssmu.html#members",
-    "title": "SSMU Research Committee",
-    "section": "Members",
-    "text": "Members\n\nCurrent\n\nDerek Wang (lead) — Physics & Math, c/o 2028\nAashish Cheruvu — BME & ECE, c/o 2028\nKien Le — Econ & Stats, c/o 2029\nAlan Ye — Math & Philosophy, c/o 2029\nParker Upton — Econ & Stats, c/o 2029\nEthan Fazal — Math & CS, c/o 2028\nCooper Ruffing (exec liaison) — Stats, c/o 2027\n\n\n\nFormer\nThis is our first year of existence, so none yet."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Derek Wang",
-    "section": "",
-    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n      Google Scholar\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nI’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in scientific machine learning theory/methods. Specifics include:\n\nLearning dynamical systems\nTheory of generative modeling\nPhysics-informed methods\nGeometric and dynamics perspectives\n\nI care about applications in microbiology, materials, and quantum systems. I’m also curious about graph methods and representation learning in general. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written lecture notes and notes on select topics here.\n\n\n\nAs part of the Lingchong You Lab, I work with VAE models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE-driven systems.\nAs part of the Liberata Algorithms Team, I’m developing graph- and embedding-based algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2026, I will be an undergrad research intern at Oak Ridge National Lab.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\n\n\n\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a seminar series and reading group on theory/methods in modern statistics. More here.\nI am also a part of the Math Community Team in the Duke Math Department, where I help run undergrad engagement activities, including a mini-colloquium series. I will also serve as an Event Coordinator for the Society of Physics Students at Duke.\nI’m a graphic designer of 8+ years, primarily via Photoshop and (more recently) Figma. I served as a co-director of HackDuke in 2025-2026, where I led the Design Team. I also design for the Duke Math Union, in particular the annual Duke Math Meet. See some past works here.\nI’m also a recreational photographer. I’ve done sports photography in the past; now I do mostly events and nature. See some photos here."
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Derek Wang",
-    "section": "",
-    "text": "I’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in scientific machine learning theory/methods. Specifics include:\n\nLearning dynamical systems\nTheory of generative modeling\nPhysics-informed methods\nGeometric and dynamics perspectives\n\nI care about applications in microbiology, materials, and quantum systems. I’m also curious about graph methods and representation learning in general. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written lecture notes and notes on select topics here."
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Derek Wang",
-    "section": "",
-    "text": "As part of the Lingchong You Lab, I work with VAE models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE-driven systems.\nAs part of the Liberata Algorithms Team, I’m developing graph- and embedding-based algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2026, I will be an undergrad research intern at Oak Ridge National Lab.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes."
-  },
-  {
-    "objectID": "index.html#involvements",
-    "href": "index.html#involvements",
-    "title": "Derek Wang",
-    "section": "",
-    "text": "I lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a seminar series and reading group on theory/methods in modern statistics. More here.\nI am also a part of the Math Community Team in the Duke Math Department, where I help run undergrad engagement activities, including a mini-colloquium series. I will also serve as an Event Coordinator for the Society of Physics Students at Duke.\nI’m a graphic designer of 8+ years, primarily via Photoshop and (more recently) Figma. I served as a co-director of HackDuke in 2025-2026, where I led the Design Team. I also design for the Duke Math Union, in particular the annual Duke Math Meet. See some past works here.\nI’m also a recreational photographer. I’ve done sports photography in the past; now I do mostly events and nature. See some photos here."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "As of now, see CV for research experience."
-  },
-  {
-    "objectID": "research.html#coming-soon",
-    "href": "research.html#coming-soon",
-    "title": "Research",
-    "section": "",
-    "text": "As of now, see CV for research experience."
+    "objectID": "math-games.html#second-rule",
+    "href": "math-games.html#second-rule",
+    "title": "Custom Math (Board/Party) Games",
+    "section": "5 Second Rule",
+    "text": "5 Second Rule"
   },
   {
     "objectID": "notes.html",
@@ -131,6 +75,76 @@
     "title": "Notes",
     "section": "Physics Lecture Notes",
     "text": "Physics Lecture Notes\nHand-written notes from some physics courses. All are posted with instructor consent; mistakes are my own."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "As of now, see CV for research experience."
+  },
+  {
+    "objectID": "research.html#coming-soon",
+    "href": "research.html#coming-soon",
+    "title": "Research",
+    "section": "",
+    "text": "As of now, see CV for research experience."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Derek Wang",
+    "section": "",
+    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n      Google Scholar\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nI’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in scientific machine learning theory/methods. Specifics include:\n\nLearning dynamical systems\nTheory of generative modeling\nPhysics-informed methods\nGeometric and dynamics perspectives\n\nI care about applications in microbiology, materials, and quantum systems. I’m also curious about graph methods and representation learning in general. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written lecture notes and notes on select topics here.\n\n\n\nAs part of the Lingchong You Lab, I work with VAE models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE-driven systems.\nAs part of the Liberata Algorithms Team, I’m developing graph- and embedding-based algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2026, I will be an undergrad research intern at Oak Ridge National Lab.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\n\n\n\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a seminar series and reading group on theory/methods in modern statistics. More here.\nI am also a part of the Math Community Team in the Duke Math Department, where I help run undergrad activities, including a mini-colloquium series. I made some custom math board/party games here. I also serve as an Event Coordinator for the Society of Physics Students.\nI’m a graphic designer of 8+ years, primarily via Photoshop and (more recently) Figma. I served as a co-director of HackDuke in 2025-2026, where I led the Design Team. I also design for the Duke Math Union, in particular the annual Duke Math Meet. See some past works here.\nI’m also a recreational photographer. I’ve done sports photography in the past; now I do mostly events and nature. See some photos here."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Derek Wang",
+    "section": "",
+    "text": "I’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m broadly interested in scientific machine learning theory/methods. Specifics include:\n\nLearning dynamical systems\nTheory of generative modeling\nPhysics-informed methods\nGeometric and dynamics perspectives\n\nI care about applications in microbiology, materials, and quantum systems. I’m also curious about graph methods and representation learning in general. I was born in Beijing, China and live in Cary, NC. My given name is Xiran; I go by Derek.\nI’ve put some hand-written lecture notes and notes on select topics here."
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Derek Wang",
+    "section": "",
+    "text": "As part of the Lingchong You Lab, I work with VAE models for time-series parameter estimation on bacterial growth curves, specifically targeting chaotic ODE-driven systems.\nAs part of the Liberata Algorithms Team, I’m developing graph- and embedding-based algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2026, I will be an undergrad research intern at Oak Ridge National Lab.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes."
+  },
+  {
+    "objectID": "index.html#involvements",
+    "href": "index.html#involvements",
+    "title": "Derek Wang",
+    "section": "",
+    "text": "I lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a seminar series and reading group on theory/methods in modern statistics. More here.\nI am also a part of the Math Community Team in the Duke Math Department, where I help run undergrad activities, including a mini-colloquium series. I made some custom math board/party games here. I also serve as an Event Coordinator for the Society of Physics Students.\nI’m a graphic designer of 8+ years, primarily via Photoshop and (more recently) Figma. I served as a co-director of HackDuke in 2025-2026, where I led the Design Team. I also design for the Duke Math Union, in particular the annual Duke Math Meet. See some past works here.\nI’m also a recreational photographer. I’ve done sports photography in the past; now I do mostly events and nature. See some photos here."
+  },
+  {
+    "objectID": "ssmu.html",
+    "href": "ssmu.html",
+    "title": "SSMU Research Committee",
+    "section": "",
+    "text": "This page contains info for the Research Committee of the Duke Statistical Science Majors Union (SSMU). We run a seminar series featuring researchers doing stats-related work in academia and industry. We also run an undergrad reading group on modern theory/methods in statistics and ML.\nWe are actively looking for undergrads to join our committee! You need not be a Stats major (I’m not). If interested, email me at xiran.wang at duke dot edu. There is a one-question application."
+  },
+  {
+    "objectID": "ssmu.html#ssmu-seminars",
+    "href": "ssmu.html#ssmu-seminars",
+    "title": "SSMU Research Committee",
+    "section": "SSMU Seminars",
+    "text": "SSMU Seminars\nWe always welcome Duke faculty, postdocs, and PhD students from all departments to give talks on their research! We also welcome other student organizations to cosponsor these talks, whenever applicable. Contact xiran.wang at duke dot edu. For the 2026-2027 school year, we plan to host four seminars in the Fall and four seminars in the Spring.\n\nUpcoming\n\n\n\n\n\nPast\n\n\n\n\n\nPast Recordings"
+  },
+  {
+    "objectID": "ssmu.html#reading-group",
+    "href": "ssmu.html#reading-group",
+    "title": "SSMU Research Committee",
+    "section": "Reading Group",
+    "text": "Reading Group\nWe meet roughly biweekly on Fridays, 5-6pm in Perkins Link Group Study 1. At each meeting, someone presents on a manuscript/excerpt they read, and we discuss. If you’re an undergrad interested in theory/methods in stats/ML, put your name here, and show up! No prerequisites required.\nIf you would like to present a manuscript, please fill out this form. It contains more information about meeting procedures. For the 2026-2027 school year, we will meet four times in the Fall and four times in the Spring.\n\nUpcoming\n\n\n\n\n\nPast"
+  },
+  {
+    "objectID": "ssmu.html#members",
+    "href": "ssmu.html#members",
+    "title": "SSMU Research Committee",
+    "section": "Members",
+    "text": "Members\n\nCurrent\n\nDerek Wang (lead) — Physics & Math, c/o 2028\nAashish Cheruvu — BME & ECE, c/o 2028\nKien Le — Econ & Stats, c/o 2029\nAlan Ye — Math & Philosophy, c/o 2029\nParker Upton — Econ & Stats, c/o 2029\nEthan Fazal — Math & CS, c/o 2028\nCooper Ruffing (exec liaison) — Stats, c/o 2027\n\n\n\nFormer\nThis is our first year of existence, so none yet."
   },
   {
     "objectID": "cv.html",

@@ -1,0 +1,241 @@
+/* ---------- 5 Second Rule ---------- */
+
+.fsr-container {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 30px;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.fsr-menu {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+}
+
+.fsr-menu-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+  color: #000000;
+  text-align: center;
+}
+
+.fsr-button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  max-height: 272px;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+.fsr-menu-button {
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.fsr-menu-button:hover {
+  background-color: #efefef;
+  border-color: #d0d0d0;
+}
+
+.fsr-menu-button.fsr-active {
+  background-color: #0f1cd5;
+  color: #ffffff;
+  border-color: #0f1cd5;
+}
+
+.fsr-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.fsr-cards {
+  width: 100%;
+}
+
+.fsr-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.fsr-card {
+  cursor: pointer;
+  height: 280px;
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.fsr-card:hover {
+  border-color: #0f1cd5;
+  box-shadow: 0 4px 12px rgba(15, 28, 213, 0.1);
+}
+
+.fsr-card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.fsr-card-front,
+.fsr-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 18px;
+  top: 0;
+  left: 0;
+}
+
+.fsr-card-front {
+  background-color: #ffffff;
+  color: #000000;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.fsr-card-back {
+  background-color: #f5f5f5;
+  color: #000000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.fsr-card.fsr-card-flipped .fsr-card-front {
+  opacity: 0;
+}
+
+.fsr-card.fsr-card-flipped .fsr-card-back {
+  opacity: 1;
+}
+
+.fsr-card-front p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.fsr-card-back p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.fsr-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.fsr-nav button {
+  background-color: #0f1cd5;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.fsr-nav span {
+  font-size: 16px;
+  color: #000000;
+}
+
+@media (max-width: 1024px) {
+  .fsr-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .fsr-menu {
+    position: relative;
+    top: 0;
+    padding: 16px;
+  }
+
+  .fsr-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    max-height: 280px;
+    overflow-y: auto;
+    padding-right: 6px;
+  }
+
+  .fsr-button-container::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .fsr-button-container::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 8px;
+  }
+
+  .fsr-button-container::-webkit-scrollbar-thumb {
+    background: #c8c8c8;
+    border-radius: 8px;
+  }
+
+  .fsr-button-container::-webkit-scrollbar-thumb:hover {
+    background: #999999;
+  }
+
+  .fsr-menu-button {
+    flex: 1;
+    min-width: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fsr-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fsr-card {
+    height: 240px;
+  }
+
+  .fsr-card-front p,
+  .fsr-card-back p {
+    font-size: 14px;
+  }
+}
+
