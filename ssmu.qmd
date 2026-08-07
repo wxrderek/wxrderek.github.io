@@ -14,17 +14,17 @@ featuring researchers doing stats-related work in academia and industry. We also
 in statistics and ML. 
 
 We are actively looking for undergrads to **join our committee**! You need not be a Stats major (I'm not). If interested, email me at
-[xiran.wang@duke.edu](mailto:xiran.wang@duke.edu). There is a one-question application. 
+**xiran [dot] wang [at] duke [dot] edu**. There is a short application. 
 
 
 
 
 ## SSMU Seminars
 
-We always welcome Duke faculty, postdocs, and PhD students from all departments to give talks on their research!
-We also welcome other student organizations to cosponsor these talks, whenever applicable.
-Contact [xiran.wang@duke.edu](mailto:xiran.wang@duke.edu). 
-For the **2026-2027** school year, we plan to host **four** seminars in the Fall and **four** seminars in the Spring. 
+We always welcome Duke faculty, postdocs, and PhD students from all departments to talk about their research!
+We also welcome other student organizations to cosponsor these talks. Email me if you want to give or cosponsor a talk.
+
+For the **2026-2027** school year, we plan to host **three** seminars in the Fall and **four** seminars in the Spring. 
 
 ### Upcoming
 
@@ -43,19 +43,6 @@ For the **2026-2027** school year, we plan to host **four** seminars in the Fall
 <script>
 const seminarsData = {
   'upcoming': [
-    {
-      speaker: 'TBD',
-      subtitle: 'TBD',
-      affiliation: 'TBD',
-      date: 'Week of Sept. 7th',
-      time: 'TBD',
-      location: 'TBD',
-
-      description: `TBD.`,
-      
-      headshot: 'files/images/math-library.jpg',
-      flyer: 'files/ssmu/BLANK-Seminar-Flyer.pdf'
-    },
 
     {
       speaker: 'TBD',
@@ -330,15 +317,20 @@ document.addEventListener('DOMContentLoaded', initializeRecordings);
 
 
 ## Reading Group
-We meet roughly **biweekly** on **Fridays**, **5-6pm** in **Perkins Link Group Study 1**. At each meeting, someone presents on a manuscript/excerpt they read, and we discuss. 
-If you're an undergrad interested in theory/methods in stats/ML, put your name [here](https://forms.gle/oCoNxuBjUF13aN489), and show up! No prerequisites required.  
+We meet roughly triweekly on **Fridays**, **5-6pm** in **Perkins Link Group Study 1**. At each meeting, someone presents on a manuscript/excerpt they read, and we discuss. 
+If you're an undergrad interested in theory/methods in stats/ML, put your name [here](https://forms.gle/CjDY6RXVbAuidamb9), and show up! No prerequisites required.  
 
-If you would like to present a manuscript, please fill out [this form](https://forms.gle/NucLu7D1t44HUpQD7). It contains more information about meeting procedures. 
+If you would like to present a manuscript, please email me. 
 For the **2026-2027** school year, we will meet **four** times in the Fall and **four** times in the Spring.  
+
 
 ### Upcoming
 
 <div id="reading-group-upcoming" class="rg-section"></div>
+
+### Recommended Manuscripts
+
+<div id="reading-group-recommended"></div>
 
 ### Past
 
@@ -352,10 +344,31 @@ For the **2026-2027** school year, we will meet **four** times in the Fall and *
 const readingGroupData = {
   'upcoming': [
     {
-      date: 'September ??, 2026',
-      manuscript: 'Transformers Meet In-Context Learning: A Universal Approximation Theory (Li et al, 2025). PDF <a href="https://arxiv.org/abs/2506.05200" target="_blank">here</a>',
+      date: 'September 18, 2026',
+      manuscript: 'Compressed Sensing using Generative Models (Bora et al, 2017). PDF <a href="https://arxiv.org/abs/1703.03208" target="_blank">here</a>',
       presenter: 'Derek Wang',
-      keywords: ['machine learning theory', 'transformers']
+      keywords: ['compressed sensing', 'signal processing', 'generative modeling']
+    },
+
+    {
+      date: 'October 9, 2026',
+      manuscript: 'Learning Many-Body Hamiltonians with Heisenberg-Limited Scaling (Huang et al, 2023). PDF <a href="https://link.aps.org/accepted/10.1103/PhysRevLett.130.200403" target="_blank">here</a>',
+      presenter: 'Derek Wang',
+      keywords: ['quantum learning theory', 'quantum information', 'statistical learning theory']
+    },
+
+    {
+      date: 'October 30, 2026',
+      manuscript: '??',
+      presenter: '??',
+      keywords: []
+    },
+
+    {
+      date: 'November 20, 2026',
+      manuscript: '??',
+      presenter: '??',
+      keywords: []
     }
   ],
 
@@ -391,6 +404,22 @@ const readingGroupData = {
   ],
 
 };
+
+
+const recommendedData = [
+  {
+    manuscript: 'Manifold-Based Signal Recovery and Parameter Estimation from Compressive Measurements (Wakin, 2010). PDF <a href="https://arxiv.org/abs/1002.1247" target="_blank">here</a>',
+    keywords: ['compressed sensing', 'signal processing', 'information geometry'],
+    prerequisite: 'Linear algebra, exposure to differential geometry.'
+  },
+
+  {
+    manuscript: 'On the Statistical Capacity of Deep Generative Models (Tam and Dunson, 2025). PDF <a href="https://arxiv.org/abs/2501.07763" target="_blank">here</a>',
+    keywords: ['generative modeling', 'deep learning', 'statistical learning theory'],
+    prerequisite: 'Probability, exposure to statistical learning theory.'
+  },
+
+];
 
 
 
@@ -470,7 +499,56 @@ function initializeReadingGroup() {
   }
 }
 
+function createRecItem(itemData, index) {
+  const el = document.createElement('div');
+  el.className = 'rec-item';
+  el.tabIndex = 0;
+
+  el.innerHTML = `
+    <div class="rec-summary">
+      <p class="rec-manuscript">${itemData.manuscript}</p>
+    </div>
+
+    <div class="rec-details" id="rec-details-${index}">
+      <div>
+        <p class="rec-keywords"><strong>Keywords:</strong> <span>${(itemData.keywords||[]).join(', ')}</span></p>
+      </div>
+      <div>
+        <p class="rec-prerequisite"><strong>Recommended prerequisite:</strong> ${itemData.prerequisite}</p>
+      </div>
+    </div>
+  `;
+
+  el.addEventListener('click', (e) => {
+    // avoid toggling when clicking inside links or selectable areas in future
+    if (e.target.tagName.toLowerCase() === 'a') return;
+    el.classList.toggle('rec-open');
+  });
+
+  el.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      el.classList.toggle('rec-open');
+    }
+  });
+
+  return el;
+}
+
+function initializeRecommended() {
+  const section = document.getElementById('reading-group-recommended');
+  if (!section) return;
+  const list = document.createElement('div');
+  list.className = 'rec-list';
+  recommendedData.forEach((item, idx) => {
+    list.appendChild(createRecItem(item, idx));
+  });
+  section.appendChild(list);
+}
+
+
 document.addEventListener('DOMContentLoaded', initializeReadingGroup);
+document.addEventListener('DOMContentLoaded', initializeRecommended);
 </script>
 
 
@@ -478,7 +556,11 @@ document.addEventListener('DOMContentLoaded', initializeReadingGroup);
 
 
 ## Members
-### Current
+### 2026-2027 (current)
+- Derek Wang (**lead**) --- Physics & Math, c/o 2028
+- Cooper Ruffing (**exec liaison**) --- Stats, c/o 2027
+
+### 2025-2026
 - Derek Wang (**lead**) --- Physics & Math, c/o 2028
 - Aashish Cheruvu --- BME & ECE, c/o 2028
 - Kien Le --- Econ & Stats, c/o 2029
@@ -486,6 +568,3 @@ document.addEventListener('DOMContentLoaded', initializeReadingGroup);
 - Parker Upton --- Econ & Stats, c/o 2029
 - Ethan Fazal --- Math & CS, c/o 2028
 - Cooper Ruffing (**exec liaison**) --- Stats, c/o 2027
-
-### Former
-This is our first year of existence, so none yet. 

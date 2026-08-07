@@ -9,9 +9,7 @@ css:
   - research.css
 ---
 
-
-## Coming soon!
-As of now, see [CV](cv.html) for research experience.    
+See [CV](cv.html) for research experience.    
 
 
 

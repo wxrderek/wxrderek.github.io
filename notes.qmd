@@ -32,6 +32,12 @@ Hand-written notes from some physics courses. All are posted with instructor con
 
 <div id="notes-physics-lecture-notes" class="notes-section"></div>
 
+## Miscellaneous Things
+Some miscellaneous things I've written, including course projects, workshop / seminar notes, and other stuff. 
+This is primarily for my own reference.
+
+<div id="notes-misc" class="notes-section"></div>
+
 <script>
 const notesData = {
 
@@ -43,6 +49,10 @@ const notesData = {
       fileSize: '0.3 MB',
       filePath: 'files/notes/sets-for-linear-algebra.pdf'
     },
+  ],
+
+  'misc': [
+
   ],
 
   'math-lecture-notes': [
