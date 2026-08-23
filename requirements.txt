@@ -1,0 +1,2 @@
+# Used by scripts/lock-note.py to AES-256 encrypt some PDF files
+pikepdf

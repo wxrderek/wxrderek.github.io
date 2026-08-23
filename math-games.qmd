@@ -61,6 +61,8 @@ const fsrThemes = {
     { front: 'Name <strong>3</strong> mathematicians with notable contributions in <strong>computer science</strong>', back: '<strong>Sample Responses:</strong> Turing, Shannon, Lovelace, Shor, Calderbank' },
     { front: 'Name <strong>3</strong> mathematicians with notable contributions in <strong>mathematical finance</strong>', back: '<strong>Sample Responses:</strong> Black and Scholes, Jim Simons' },
     { front: 'Name <strong>3</strong> mathematicians with notable contributions in <strong>mathematical physics</strong>', back: '<strong>Sample Responses:</strong> Gauss, Euler, Lagrange, Laplace, von Neumann, Noether, Hilbert, Weyl' },
+    { front: 'Name <strong>3</strong> areas of mathematics in which <strong>Terence Tao</strong> has expertise', back: '<strong>Sample Responses:</strong> analytic number theory, compressed sensing, PDEs, harmonic analysis' },
+    { front: 'Name <strong>3 2026 Fields Medalists</strong>', back: '<strong>Sample Responses:</strong> Hong Wang, Yu Deng, Jacob Tsimerman, John Pardon' },
 
   ],
 
@@ -106,8 +108,14 @@ const fsrThemes = {
     { front: 'Name <strong>3</strong> stochastic processes which are characterized as <strong>Markovian</strong>', back: '<strong>Sample Responses:</strong> random walks, Brownian motion, Poisson process, Langevin dynamics' },
     { front: 'Name <strong>3</strong> ways to assess a <strong>statistical model</strong>', back: '<strong>Sample Responses:</strong> R2, RMSE, AIC or BIC' },
     { front: 'Name <strong>3</strong> assumptions of generic <strong>linear models</strong>', back: '<strong>Sample Responses:</strong> underlying linear relationship, independence of errors, equal variance of errors' },
-    { front: 'Name <strong>3</strong> standard machine learning <strong>architectures</strong>', back: '<strong>Sample Responses:</strong> CNN, transformer, U-Net, GAN, VAE' },
+    { front: 'Name <strong>3</strong> standard machine learning <strong>architectures</strong> or architectural components', back: '<strong>Sample Responses:</strong> CNN, ResNet, U-Net, GAN, VAE' },
     { front: 'Name <strong>3 regularization</strong> techniques in machine learning', back: '<strong>Sample Responses:</strong> L2, L1 or LASSO, dropout, weight decay' },
+    { front: 'Name <strong>3</strong> different names for the <strong>Kolmogorov forward equation</strong> or its approximations and special cases', back: '<strong>Sample Responses:</strong> Fokker-Planck equation, Klein-Kramers equation, Smoluchowski equation, convection-diffusion equation, continuity equation' },
+    { front: 'Name <strong>3</strong> methods for <strong>weight initialization</strong> in neural networks', back: '<strong>Sample Responses:</strong> Xavier, LeCun, He' },
+    { front: 'Name <strong>3 activation functions</strong> commonly used in neural networks', back: '<strong>Sample Responses:</strong> ReLU, Leaky ReLU, tanh, sigmoid, softmax' },
+    { front: 'Name the <strong>3</strong> computer sciences known (somewhat controversially) as the <strong>Godfathers of AI</strong>', back: '<strong>Sample Responses:</strong> Geoffrey Hinton, Yoshua Bengio, Yann LeCun' },
+    { front: 'Name <strong>3</strong> iconic machine learning architectures known as major milestones toward modern AI', back: '<strong>Sample Responses:</strong> LeNet, LSTM, AlexNet, ResNet, AlphaGo, GPT-3, AlphaFold 2' },
+
   ],
 
   'Abstract Algebra': [
@@ -143,6 +151,8 @@ const fsrThemes = {
     { front: 'Name <strong>3 noninertial forces</strong> in a <strong>rotating reference frame</strong>', back: '<strong>Sample Responses:</strong> centrifugal, Coriolis, tangential noninertial' },
     { front: 'Name <strong>3</strong> systems that exhibit the <strong>harmonic oscillator</strong> in some parameter or configuration regime', back: '<strong>Sample Responses:</strong> spring-mass system, simple pendulum, LC circuit' },
     { front: 'Name <strong>3</strong> 2-by-2 <strong>Hermitian</strong> matrices', back: '<strong>Sample Responses:</strong> Pauli X, Y and Z, Hadamard' },
+    { front: 'Name <strong>3 impossibility theorems</strong> commonly implicated in quantum information theory', back: '<strong>Sample Responses:</strong> no-cloning, no-communication, no-broadcasting, Eastin-Knill' },
+    { front: 'Name <strong>3 probability distributions</strong> commonly implicated in physics', back: '<strong>Sample Responses:</strong> Boltzmann, Bose-Einstein, Fermi-Dirac' },
     
   ],
 

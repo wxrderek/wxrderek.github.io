@@ -6,3 +6,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# unencrypted originals of password-locked notes (see scripts/lock-note.py)
+/private/
