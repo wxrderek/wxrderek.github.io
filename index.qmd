@@ -96,27 +96,4 @@ I also design for the Duke Math Union, in particular the annual [Duke Math Meet]
 
 See some photos [here](photos.html).
 
-
-## Things I have/plan to participated in
-
-  + [2026 Duke-ORNL Workshop on Advanced Microscopy & Data-Driven Materials Science](https://dmi.duke.edu/event/1329); [Fall 2026, Duke University]
-  + [Rhodes IID Adventures in Sampling](https://sites.duke.edu/adventuresinsampling/); [Fall 2026, Duke University]
-  + [Duke Math Graduate Summer School in Stochastics, Dynamics, and Machine Learning](https://sites.duke.edu/stochasticdynamics26/); [Summer 2026, Duke University]
-  + [2026 Gene Golub SIAM Summer School on Fault-tolerant Algorithms in Quantum Computing](https://sites.duke.edu/siamss2026/) (2nd week); [Summer 2026, Duke University]
-  + QuEra Neutral Atom and Quantum Error Correction Workshop at ORNL; [Summer 2026, Oak Ridge National Lab]
-  + Rhodes IID Algorithmic Advances in Generative AI Conference; [Spring 2026, Duke University]
-
-## Resources I like
-  + MSRI Summer School on Electronic Structure Theory; by Lin Lin and Jianfeng Lu; 2016 [lecture recordings on MSRI website [here](https://www.slmath.org/summer-schools/778)]
-  + Handbook of Convergence Theorems for (Stochastic) Gradient Methods; by Guillaume Garrigos and Robert M. Gower; last revised 2024 [arxiv [here](https://arxiv.org/abs/2301.11235)]
-  + An Introduction to Flow Matching and Diffusion Models; by Peter Holderrieth and Ezra Erives; last revised 2026 [arxiv [here](https://arxiv.org/abs/2506.02070)]
-  + An Introduction to Variational Autoencoders; by Durk Kingma and Max Welling; last revised 2019 [arxiv [here](https://arxiv.org/abs/1906.02691)]
-
-## Links I visit often
-  + Duke Math events page [link [here](https://math.duke.edu/events)]
-  + Math REU programs; maintained by Steve Butler [link [here](https://sites.google.com/view/mathreu)]
-  + [HoopGrids.com](https://hoopgrids.com/)
-  + [Era Ball](https://eraball.com/)
-
-
 :::
