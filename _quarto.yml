@@ -39,7 +39,10 @@ website:
         href: photos.qmd
 
       - text: Math-Games
-        href: math-games.qmd   
+        href: math-games.qmd  
+
+      - text: Misc
+        href: misc.qmd 
 
     right: 
       - icon: github

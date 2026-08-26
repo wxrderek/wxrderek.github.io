@@ -49,6 +49,90 @@
     "text": "5 Second Rule"
   },
   {
+    "objectID": "misc.html",
+    "href": "misc.html",
+    "title": "Miscellaneous",
+    "section": "",
+    "text": "2026 Duke-ORNL Workshop on Advanced Microscopy & Data-Driven Materials Science; [Fall 2026, Duke University]\nRhodes IID Adventures in Sampling; [Fall 2026, Duke University]\nDuke Math Graduate Summer School in Stochastics, Dynamics, and Machine Learning; [Summer 2026, Duke University]\nGene Golub SIAM Summer School on Fault-tolerant Algorithms in Quantum Computing; [Summer 2026, Duke University]\nQuEra Neutral Atom and Quantum Error Correction Workshop at ORNL; [Summer 2026, Oak Ridge National Lab]\nRhodes IID Algorithmic Advances in Generative AI Conference; [Spring 2026, Duke University]"
+  },
+  {
+    "objectID": "misc.html#things-i-haveplan-to-participated-in",
+    "href": "misc.html#things-i-haveplan-to-participated-in",
+    "title": "Miscellaneous",
+    "section": "",
+    "text": "2026 Duke-ORNL Workshop on Advanced Microscopy & Data-Driven Materials Science; [Fall 2026, Duke University]\nRhodes IID Adventures in Sampling; [Fall 2026, Duke University]\nDuke Math Graduate Summer School in Stochastics, Dynamics, and Machine Learning; [Summer 2026, Duke University]\nGene Golub SIAM Summer School on Fault-tolerant Algorithms in Quantum Computing; [Summer 2026, Duke University]\nQuEra Neutral Atom and Quantum Error Correction Workshop at ORNL; [Summer 2026, Oak Ridge National Lab]\nRhodes IID Algorithmic Advances in Generative AI Conference; [Spring 2026, Duke University]"
+  },
+  {
+    "objectID": "misc.html#resources-i-like",
+    "href": "misc.html#resources-i-like",
+    "title": "Miscellaneous",
+    "section": "Resources I like",
+    "text": "Resources I like\n\nMSRI Summer School on Electronic Structure Theory; by Lin Lin and Jianfeng Lu; 2016 [recordings on MSRI here]\nHandbook of Convergence Theorems for (Stochastic) Gradient Methods; by Guillaume Garrigos and Robert M. Gower; last revised 2024 [arxiv here]\nAn Introduction to Flow Matching and Diffusion Models; by Peter Holderrieth and Ezra Erives; last revised 2026 [arxiv here]\nAn Introduction to Variational Autoencoders; by Durk Kingma and Max Welling; last revised 2019 [arxiv here]"
+  },
+  {
+    "objectID": "misc.html#links-i-visit-often",
+    "href": "misc.html#links-i-visit-often",
+    "title": "Miscellaneous",
+    "section": "Links I visit often",
+    "text": "Links I visit often\n\nDuke Math events page [link here]\nMath REU programs; maintained by Steve Butler [link here]\nHoopGrids.com\nEra Ball"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Derek Wang",
+    "section": "",
+    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n      Google Scholar\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nDuQuantum is the first annual quantum computing hackathon at Duke. We invite quantum enthusiasts to tackle challenges designed by industry leaders and gain experience with state-of-the-art quantum tools. All undergrad, Master’s and PhD students are eligible. Mailing list here.\n\n\n\n\n\n\n\nI’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m interested in scientific machine learning theory/methods from a (stochastic) dynamics and geometry perspective. Specifics include\n\nTheory: mathematical foundations of generative modeling, transformers\nMethods: learning dynamics, physics-informed techniques\nApplications: microbiology, materials, quantum chemistry\n\nRecently I’ve become interested in quantum information and learning. I was born in Beijing, China. My given name is Xiran; I go by Derek.\nI’ve put some notes and other stuff I’ve written here, mainly for my own reference.\n\n\n\nAs part of the Lingchong You Lab, I work on ML for time-series parameter estimation and forecasting for bacterial growth.\nIn Summer 2026, I was a research intern at Oak Ridge National Lab mentored by Stephan Irle and Max Lupo Pasini. Here I used GNNs to learn electron densities of drug-like molecules.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\nThroughout the 2025-26 school year, as part of the Liberata Algorithms Team, I developed graph- and embedding-based algorithms for a new academic publishing system based on continuous authorship shares.\n\n\n\nI’m a co-lead organizer of the new DuQuantum quantum computing hackathon at Duke. This is a collaboration between the Duke Quantum Information Society (DuQIS) and HackDuke.\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a seminar series and reading group on theory/methods in modern statistics. More here.\nI’m also a part of the Math Community Team in the Duke Math Department, where I help run undergrad activities, including a mini-colloquium series. I made some custom math board/party games here. I also serve as an Event Coordinator for the Society of Physics Students.\nI’m a graphic designer of 8+ years. Lately I use Figma. I served as a co-director of HackDuke in 2025-2026, where I led the Design Team. I also design for the Duke Math Union, in particular the annual Duke Math Meet. See some past works here.\nSee some photos here.\n\n\n\n\n2026 Duke-ORNL Workshop on Advanced Microscopy & Data-Driven Materials Science; [Fall 2026, Duke University]\nRhodes IID Adventures in Sampling; [Fall 2026, Duke University]\nDuke Math Graduate Summer School in Stochastics, Dynamics, and Machine Learning; [Summer 2026, Duke University]\n2026 Gene Golub SIAM Summer School on Fault-tolerant Algorithms in Quantum Computing (2nd week); [Summer 2026, Duke University]\nQuEra Neutral Atom and Quantum Error Correction Workshop at ORNL; [Summer 2026, Oak Ridge National Lab]\nRhodes IID Algorithmic Advances in Generative AI Conference; [Spring 2026, Duke University]\n\n\n\n\n\nMSRI Summer School on Electronic Structure Theory; by Lin Lin and Jianfeng Lu; 2016 [lecture recordings on MSRI website here]\nHandbook of Convergence Theorems for (Stochastic) Gradient Methods; by Guillaume Garrigos and Robert M. Gower; last revised 2024 [arxiv here]\nAn Introduction to Flow Matching and Diffusion Models; by Peter Holderrieth and Ezra Erives; last revised 2026 [arxiv here]\nAn Introduction to Variational Autoencoders; by Durk Kingma and Max Welling; last revised 2019 [arxiv here]\n\n\n\n\n\nDuke Math events page [link here]\nMath REU programs; maintained by Steve Butler [link here]\nHoopGrids.com\nEra Ball"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Derek Wang",
+    "section": "",
+    "text": "I’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m interested in scientific machine learning theory/methods from a (stochastic) dynamics and geometry perspective. Specifics include\n\nTheory: mathematical foundations of generative modeling, transformers\nMethods: learning dynamics, physics-informed techniques\nApplications: microbiology, materials, quantum chemistry\n\nRecently I’ve become interested in quantum information and learning. I was born in Beijing, China. My given name is Xiran; I go by Derek.\nI’ve put some notes and other stuff I’ve written here, mainly for my own reference."
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Derek Wang",
+    "section": "",
+    "text": "As part of the Lingchong You Lab, I work on ML for time-series parameter estimation and forecasting for bacterial growth.\nIn Summer 2026, I was a research intern at Oak Ridge National Lab mentored by Stephan Irle and Max Lupo Pasini. Here I used GNNs to learn electron densities of drug-like molecules.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\nThroughout the 2025-26 school year, as part of the Liberata Algorithms Team, I developed graph- and embedding-based algorithms for a new academic publishing system based on continuous authorship shares."
+  },
+  {
+    "objectID": "index.html#involvements",
+    "href": "index.html#involvements",
+    "title": "Derek Wang",
+    "section": "",
+    "text": "I’m a co-lead organizer of the new DuQuantum quantum computing hackathon at Duke. This is a collaboration between the Duke Quantum Information Society (DuQIS) and HackDuke.\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a seminar series and reading group on theory/methods in modern statistics. More here.\nI’m also a part of the Math Community Team in the Duke Math Department, where I help run undergrad activities, including a mini-colloquium series. I made some custom math board/party games here. I also serve as an Event Coordinator for the Society of Physics Students.\nI’m a graphic designer of 8+ years. Lately I use Figma. I served as a co-director of HackDuke in 2025-2026, where I led the Design Team. I also design for the Duke Math Union, in particular the annual Duke Math Meet. See some past works here.\nSee some photos here."
+  },
+  {
+    "objectID": "index.html#things-i-haveplan-to-participated-in",
+    "href": "index.html#things-i-haveplan-to-participated-in",
+    "title": "Derek Wang",
+    "section": "",
+    "text": "2026 Duke-ORNL Workshop on Advanced Microscopy & Data-Driven Materials Science; [Fall 2026, Duke University]\nRhodes IID Adventures in Sampling; [Fall 2026, Duke University]\nDuke Math Graduate Summer School in Stochastics, Dynamics, and Machine Learning; [Summer 2026, Duke University]\n2026 Gene Golub SIAM Summer School on Fault-tolerant Algorithms in Quantum Computing (2nd week); [Summer 2026, Duke University]\nQuEra Neutral Atom and Quantum Error Correction Workshop at ORNL; [Summer 2026, Oak Ridge National Lab]\nRhodes IID Algorithmic Advances in Generative AI Conference; [Spring 2026, Duke University]"
+  },
+  {
+    "objectID": "index.html#resources-i-like",
+    "href": "index.html#resources-i-like",
+    "title": "Derek Wang",
+    "section": "",
+    "text": "MSRI Summer School on Electronic Structure Theory; by Lin Lin and Jianfeng Lu; 2016 [lecture recordings on MSRI website here]\nHandbook of Convergence Theorems for (Stochastic) Gradient Methods; by Guillaume Garrigos and Robert M. Gower; last revised 2024 [arxiv here]\nAn Introduction to Flow Matching and Diffusion Models; by Peter Holderrieth and Ezra Erives; last revised 2026 [arxiv here]\nAn Introduction to Variational Autoencoders; by Durk Kingma and Max Welling; last revised 2019 [arxiv here]"
+  },
+  {
+    "objectID": "index.html#links-i-visit-often",
+    "href": "index.html#links-i-visit-often",
+    "title": "Derek Wang",
+    "section": "",
+    "text": "Duke Math events page [link here]\nMath REU programs; maintained by Steve Butler [link here]\nHoopGrids.com\nEra Ball"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "See CV for research experience."
+  },
+  {
     "objectID": "notes.html",
     "href": "notes.html",
     "title": "Notes",
@@ -82,41 +166,6 @@
     "title": "Notes",
     "section": "Miscellaneous Things",
     "text": "Miscellaneous Things\nSome miscellaneous things I’ve written, including course projects, workshop / seminar notes, and other stuff. This is primarily for my own reference."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "See CV for research experience."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Derek Wang",
-    "section": "",
-    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n      Google Scholar\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nDuQuantum is the first annual quantum computing hackathon at Duke. We invite quantum enthusiasts to tackle challenges designed by industry leaders and gain experience with state-of-the-art quantum tools. All undergrad, Master’s and PhD students are eligible. Mailing list here.\n\n\n\n\n\n\n\nI’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m interested in scientific machine learning theory/methods from a geometry and dynamics perspective. Specifics include\n\nTheory: mathematical foundations of generative modeling, transformers\nMethods: learning dynamics, physics-informed techniques\nApplications: microbiology, materials, quantum chemistry\n\nRecently I’ve become interested in quantum information and learning. I was born in Beijing, China. My given name is Xiran; I go by Derek.\nI’ve put some notes and other stuff I’ve written here.\n\n\n\nAs part of the Lingchong You Lab, I work on ML for time-series parameter estimation and forecasting for bacterial growth.\nAs part of the Liberata Algorithms Team, I’m developing graph- and embedding-based algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2026, I was a research intern at Oak Ridge National Lab mentored by Stephan Irle and Max Lupo Pasini. Here I used GNNs to learn electron densities of drug-like molecules.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\n\n\n\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a seminar series and reading group on theory/methods in modern statistics. More here.\nI am also a part of the Math Community Team in the Duke Math Department, where I help run undergrad activities, including a mini-colloquium series. I made some custom math board/party games here. I also serve as an Event Coordinator for the Society of Physics Students.\nI’m a graphic designer of 8+ years. Lately I use Figma. I served as a co-director of HackDuke in 2025-2026, where I led the Design Team. I also design for the Duke Math Union, in particular the annual Duke Math Meet. See some past works here.\nSee some photos here."
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Derek Wang",
-    "section": "",
-    "text": "I’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m interested in scientific machine learning theory/methods from a geometry and dynamics perspective. Specifics include\n\nTheory: mathematical foundations of generative modeling, transformers\nMethods: learning dynamics, physics-informed techniques\nApplications: microbiology, materials, quantum chemistry\n\nRecently I’ve become interested in quantum information and learning. I was born in Beijing, China. My given name is Xiran; I go by Derek.\nI’ve put some notes and other stuff I’ve written here."
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Derek Wang",
-    "section": "",
-    "text": "As part of the Lingchong You Lab, I work on ML for time-series parameter estimation and forecasting for bacterial growth.\nAs part of the Liberata Algorithms Team, I’m developing graph- and embedding-based algorithms for a new academic publishing system based on continuous authorship shares.\nIn Summer 2026, I was a research intern at Oak Ridge National Lab mentored by Stephan Irle and Max Lupo Pasini. Here I used GNNs to learn electron densities of drug-like molecules.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes."
-  },
-  {
-    "objectID": "index.html#involvements",
-    "href": "index.html#involvements",
-    "title": "Derek Wang",
-    "section": "",
-    "text": "I lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a seminar series and reading group on theory/methods in modern statistics. More here.\nI am also a part of the Math Community Team in the Duke Math Department, where I help run undergrad activities, including a mini-colloquium series. I made some custom math board/party games here. I also serve as an Event Coordinator for the Society of Physics Students.\nI’m a graphic designer of 8+ years. Lately I use Figma. I served as a co-director of HackDuke in 2025-2026, where I led the Design Team. I also design for the Duke Math Union, in particular the annual Duke Math Meet. See some past works here.\nSee some photos here."
   },
   {
     "objectID": "ssmu.html",
