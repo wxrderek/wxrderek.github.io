@@ -28,3 +28,5 @@ css:
   + Math REU programs; maintained by Steve Butler [link [here](https://sites.google.com/view/mathreu)]
   + [HoopGrids.com](https://hoopgrids.com/)
   + [Era Ball](https://eraball.com/)
+  + [Krillion](https://krillion.io/)
+  + [CATfishing](https://catfishing.net/game/today)

@@ -323,7 +323,7 @@ const readingGroupData = {
     },
 
     {
-      date: 'October 9, 2026',
+      date: 'October 16, 2026',
       manuscript: '??',
       presenter: '??',
       keywords: []
