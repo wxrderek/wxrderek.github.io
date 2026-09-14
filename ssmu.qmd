@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', initializeRecordings);
 
 
 ## Reading Group
-The broad topic is theory and methods in modern statistics and machin learning. We meet roughly triweekly on **Fridays**, **5-6pm** in **Perkins Link Group Study 1**. At each meeting, someone presents on a manuscript/excerpt they read, and we discuss. 
+The broad topic is theory and methods in modern statistics and machin learning. We meet roughly triweekly on **Fridays**, **5-6pm** in **Perkins Link Group Study 1**. At each meeting, someone presents on a manuscript, and we discuss. 
 If you're an undergrad interested in theory/methods research in stats/ML, put your name [here](https://forms.gle/CjDY6RXVbAuidamb9), and show up! No prerequisites required.  
 
 If you would like to present a manuscript, please email me. 
