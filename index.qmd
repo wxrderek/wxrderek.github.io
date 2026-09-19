@@ -88,9 +88,9 @@ I'm a co-lead organizer of the new [DuQuantum](https://duquantum.org/) quantum c
 between the Duke Quantum Information Society ([DuQIS](https://www.dukeqis.org/)) and [HackDuke](https://hackduke.org/).
 
 I lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a 
-seminar series and reading group on theory/methods in modern statistics. More [here](ssmu.html).
+seminar series and reading group on theory/methods in modern statistics and machine learning. More [here](ssmu.html).
 
-I'm also a part of the Math Community Team in the Duke Math Department, where I help run undergrad activities, including a mini-colloquium series. 
+I'm also a part of the [Math Community Team](duke-math.html) in the Duke Math Department, where I help run undergrad activities, including a mini-colloquium series. 
 I also serve as an Event Coordinator for the Society of Physics Students.
 
 I'm a graphic designer of 8+ years. Lately I use Figma. 
