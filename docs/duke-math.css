@@ -239,6 +239,257 @@
   }
 }
 
+/* ---------- Codenames ---------- */
+
+.cn-container {
+  --cn-red: #d64541;
+  --cn-blue: #0f1cd5;
+  --cn-bystander: #cfcfcf;
+  --cn-assassin: #111111;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  max-width: 800px;
+}
+
+.cn-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.cn-start {
+  background-color: #0f1cd5;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+/* next turn takes the color of the team that plays next */
+.cn-next-red {
+  background-color: var(--cn-red);
+}
+
+.cn-next-blue {
+  background-color: var(--cn-blue);
+}
+
+.cn-start:disabled {
+  background-color: #cfcfcf;
+  color: #ffffff;
+  cursor: not-allowed;
+}
+
+.cn-clue {
+  width: 56px;
+  padding: 8px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.cn-clue:focus {
+  outline: none;
+  border-color: #0f1cd5;
+}
+
+.cn-clue:disabled {
+  background-color: #f5f5f5;
+}
+
+.cn-status {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cn-status-red {
+  color: #d64541;
+}
+
+.cn-status-blue {
+  color: #0f1cd5;
+}
+
+.cn-board {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.cn-card {
+  cursor: pointer;
+  height: 90px;
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 14px;
+  padding: 6px;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.cn-card:hover {
+  border-color: #0f1cd5;
+  box-shadow: 0 4px 12px rgba(15, 28, 213, 0.1);
+}
+
+.cn-card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.cn-card-front,
+.cn-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  box-sizing: border-box;
+  border-radius: 9px;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cn-card-front {
+  background-color: #ffffff;
+  color: #000000;
+  opacity: 1;
+}
+
+.cn-card-back {
+  opacity: 0;
+}
+
+.cn-card.cn-card-flipped .cn-card-front {
+  opacity: 0;
+}
+
+.cn-card.cn-card-flipped .cn-card-back {
+  opacity: 1;
+}
+
+.cn-card-front p,
+.cn-card-back p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.cn-label {
+  margin-top: 2px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cn-red .cn-card-back       { background-color: var(--cn-red); color: #ffffff; }
+.cn-blue .cn-card-back      { background-color: var(--cn-blue); color: #ffffff; }
+.cn-bystander .cn-card-back { background-color: var(--cn-bystander); color: #000000; }
+.cn-assassin .cn-card-back  { background-color: var(--cn-assassin); color: #ffffff; }
+
+.cn-board.cn-frozen .cn-card {
+  cursor: default;
+}
+
+.cn-board.cn-frozen .cn-card:not(.cn-card-flipped):hover {
+  border-color: #e0e0e0;
+  box-shadow: none;
+}
+
+.cn-card.cn-card-flipped {
+  cursor: default;
+  box-shadow: none;
+}
+
+.cn-red.cn-card-flipped       { border-color: var(--cn-red); }
+.cn-blue.cn-card-flipped      { border-color: var(--cn-blue); }
+.cn-bystander.cn-card-flipped { border-color: var(--cn-bystander); }
+.cn-assassin.cn-card-flipped  { border-color: var(--cn-assassin); }
+
+.cn-key-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.cn-key {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4px;
+  width: 240px;
+  aspect-ratio: 1;
+  padding: 10px;
+  margin: 12px auto 0;
+  background-color: #ffffff;
+  border: 6px solid #e0e0e0;
+  border-radius: 14px;
+  box-sizing: border-box;
+}
+
+.cn-key[hidden] {
+  display: none;
+}
+
+.cn-key-red  { border-color: var(--cn-red); }
+.cn-key-blue { border-color: var(--cn-blue); }
+
+.cn-key-cell {
+  border-radius: 4px;
+}
+
+.cn-key-cell.cn-red       { background-color: var(--cn-red); }
+.cn-key-cell.cn-blue      { background-color: var(--cn-blue); }
+.cn-key-cell.cn-bystander { background-color: var(--cn-bystander); }
+.cn-key-cell.cn-assassin  { background-color: var(--cn-assassin); }
+
+@media (max-width: 768px) {
+  .cn-board {
+    gap: 6px;
+  }
+
+  .cn-card {
+    height: 64px;
+    padding: 3px;
+    border-radius: 10px;
+  }
+
+  .cn-card-front,
+  .cn-card-back {
+    padding: 2px;
+    border-radius: 7px;
+  }
+
+  .cn-card-front p,
+  .cn-card-back p {
+    font-size: 12px;
+  }
+
+  .cn-label {
+    font-size: 8px;
+  }
+
+  .cn-key {
+    width: 180px;
+    padding: 8px;
+    gap: 3px;
+  }
+}
+
 /* ---------- mini-colloquia ---------- */
 
 .mc-section {

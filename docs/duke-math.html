@@ -180,6 +180,7 @@ gtag('config', '', { 'anonymize_ip': true});
   </ul></li>
   <li><a href="#math-games" id="toc-math-games" class="nav-link" data-scroll-target="#math-games">Math Games</a>
   <ul class="collapse">
+  <li><a href="#math-codenames" id="toc-math-codenames" class="nav-link" data-scroll-target="#math-codenames">Math Codenames</a></li>
   <li><a href="#second-rule" id="toc-second-rule" class="nav-link" data-scroll-target="#second-rule">5 Second Rule</a></li>
   </ul></li>
   </ul>
@@ -367,6 +368,232 @@ document.addEventListener('DOMContentLoaded', initializeMiniColloquia);
 <section id="math-games" class="level2">
 <h2 class="anchored" data-anchor-id="math-games">Math Games</h2>
 <p>Here I’ve compiled some math-themed versions of board/party games. I only provide the “cards” or equivalent textual components of each game. You probably need a physical set to actually play some of these.</p>
+<section id="math-codenames" class="level3">
+<h3 class="anchored" data-anchor-id="math-codenames">Math Codenames</h3>
+<p>Words curtesy of <a href="linkedin.com/in/ethan-fazal">Ethan Fazal</a>.</p>
+<div id="cn-container" class="cn-container">
+  <div class="cn-controls">
+    <button id="cn-start" class="cn-start">Start game</button>
+    <input id="cn-clue" class="cn-clue" type="number" min="1" max="9" placeholder="#" aria-label="Number of cards called by spymaster">
+    <button id="cn-next" class="cn-start" disabled="">Next turn</button>
+    <span id="cn-status" class="cn-status"></span>
+  </div>
+  <div id="cn-board" class="cn-board"></div>
+  <div class="cn-key-controls">
+    <button id="cn-key-toggle" class="cn-start">Check Key Card</button>
+  </div>
+  <div id="cn-key" class="cn-key" hidden=""></div>
+</div>
+
+<script>
+
+const cnWords = [
+  'Power', 'Root', 'Function', 'Table', 'Limit', 'Series', 'Plane', 'Ring',
+  'Field', 'Graph', 'Model', 'Random', 'Proof', 'Degree', 'Vector', 'Base',
+  'Theorem', 'Law', 'Letter', 'Change', 'Sum', 'Continuous', 'Square', 'Circle',
+  'Area', 'Wave', 'Half', 'Equation', 'Inequality', 'Time', 'Cross', 'Decay',
+  'Growth', 'Solution', 'Intersect', 'Distribution', 'Union', 'Set', 'Quad',
+  'Term', 'Right', 'Angle', 'Line', 'Skew', 'Mid', 'Point', 'Coordinate',
+  'Axis', 'Construction', 'Complex', 'Polar', 'Rule', 'Differentiate', 'Integral',
+  'Result', 'Constant', 'Second', 'Prime', 'Dual', 'Basis', 'Anti', 'Approximate',
+  'Taylor', 'Zero', 'Maximum', 'Minimum', 'Local', 'Global', 'Slope', 'Rate',
+  'Tangent', 'Curve', 'Peak', 'Concave', 'Convex', 'Matrix', 'Commute', 'Transpose',
+  'Algebra', 'Linear', 'System', 'Triangle', 'Product', 'Dot', 'Inner', 'Free',
+  'Projection', 'Normal', 'Simple', 'Reduce', 'Gauss', 'Eliminate', 'Textbook',
+  'Eigen', 'Lambda', 'Space', 'Span', 'Dimension', 'Transform', 'Identity',
+  'Inverse', 'Map', 'Scale', 'Diagonal', 'Independent', 'Symmetry', 'Rank',
+  'Null', 'Kernel', 'Scalar', 'Green', 'Surface', 'Volume', 'Level', 'Saddle',
+  'Gradient', 'Flow', 'Flux', 'Path', 'Partial', 'Boundary', 'Direction',
+  'Implicit', 'Diverge', 'Height', 'Discrete', 'Probability', 'Converge',
+  'Number', 'Uniform', 'Count', 'Event', 'Fair', 'Risk', 'Sample', 'Draw',
+  'Condition', 'Average', 'Vary', 'Process', 'Dynamic', 'Stable', 'Heat',
+  'Initial', 'Fourier', 'Source', 'Sink', 'Center', 'Asymptote', 'Resonate',
+  'Euler', 'Factor', 'Even', 'Odd', 'Mod', 'Cycle', 'Division', 'Algorithm',
+  'Class', 'Order', 'Sub', 'Element', 'Finite', 'Infinity', 'Axiom', 'Bound',
+  'Smooth', 'Jump', 'Delta', 'Metric', 'Small', 'Parameter', 'Large', 'First',
+  'Layer', 'Similar', 'Method', 'Perturb', 'Calculus', 'Test', 'Hypothesis',
+  'Experiment', 'Shock', 'Ratio', 'Decimal', 'Fraction', 'Proportion', 'Total',
+  'Edge', 'Sequence', 'Relation', 'Data', 'Information', 'Predict', 'Node',
+  'Tree', 'Sort', 'Logic', 'Input', 'Output', 'Image', 'Code', 'Error', 'Quantum',
+  'Correct', 'Numerics',
+];
+
+const cnLabels = {
+  red: 'Red',
+  blue: 'Blue',
+  bystander: 'Bystander',
+  assassin: 'Assassin',
+};
+
+function cnShuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function createCnCard(word, type) {
+  const cardEl = document.createElement('div');
+  cardEl.className = `cn-card cn-${type}`;
+  cardEl.innerHTML = `
+    <div class="cn-card-inner">
+      <div class="cn-card-front">
+        <p>${word}</p>
+      </div>
+      <div class="cn-card-back">
+        <p>${word}</p>
+        <span class="cn-label">${cnLabels[type]}</span>
+      </div>
+    </div>
+  `;
+
+  cardEl.addEventListener('click', function() {
+    cnGuess(this, type);
+  });
+
+  return cardEl;
+}
+
+let cnState = null;
+
+function cnOtherTeam(team) {
+  return team === 'red' ? 'blue' : 'red';
+}
+
+function cnCanGuess() {
+  return !cnState.winner && !cnState.turnOver && cnState.clue >= 1;
+}
+
+function cnGuess(cardEl, type) {
+  // a guess can't be taken back, so cards only flip one way
+  if (!cnCanGuess() || cardEl.classList.contains('cn-card-flipped')) return;
+
+  cardEl.classList.add('cn-card-flipped');
+  cnState.guesses++;
+  document.getElementById('cn-clue').disabled = true;
+
+  if (type === 'red' || type === 'blue') {
+    cnState.remaining[type]--;
+    if (cnState.remaining[type] === 0) cnState.winner = type;
+  } else if (type === 'assassin') {
+    cnState.winner = cnOtherTeam(cnState.turn);
+  }
+
+  if (type === cnState.turn) {
+    // up to one bonus guess beyond the called number
+    cnState.correct++;
+    if (cnState.correct >= cnState.clue + 1) cnState.turnOver = true;
+  } else {
+    cnState.turnOver = true;
+  }
+
+  cnUpdateUI();
+}
+
+function cnNextTurn() {
+  cnState.turn = cnOtherTeam(cnState.turn);
+  cnState.clue = 0;
+  cnState.correct = 0;
+  cnState.guesses = 0;
+  cnState.turnOver = false;
+
+  const clue = document.getElementById('cn-clue');
+  clue.value = '';
+  clue.disabled = false;
+
+  cnUpdateUI();
+}
+
+function cnUpdateUI() {
+  const team = cnState.winner || cnState.turn;
+  const status = document.getElementById('cn-status');
+  status.textContent = cnState.winner ? `${cnLabels[team]} wins!` : `${cnLabels[team]} turn`;
+  status.className = `cn-status cn-status-${team}`;
+
+  // any guess lets the team stop early; the board freezes on its own when the turn is over
+  const next = document.getElementById('cn-next');
+  next.disabled = !!cnState.winner || cnState.guesses === 0;
+  next.className = `cn-start cn-next-${cnOtherTeam(cnState.turn)}`;
+  document.getElementById('cn-board').classList.toggle('cn-frozen', !cnCanGuess());
+  if (cnState.winner) document.getElementById('cn-clue').disabled = true;
+}
+
+function renderCnKey(key, wildTeam) {
+  const keyEl = document.getElementById('cn-key');
+  keyEl.innerHTML = '';
+  key.forEach(type => {
+    const cell = document.createElement('div');
+    cell.className = `cn-key-cell cn-${type}`;
+    keyEl.appendChild(cell);
+  });
+
+  // frame shows the starting team's color
+  keyEl.className = `cn-key cn-key-${wildTeam}`;
+}
+
+function dealCodenames() {
+  // the wildcard goes to a random team, which then has 9 cards and goes first
+  const wildTeam = Math.random() < 0.5 ? 'red' : 'blue';
+
+  const key = cnShuffle([
+    ...Array(8).fill('red'),
+    ...Array(8).fill('blue'),
+    ...Array(7).fill('bystander'),
+    'assassin',
+    wildTeam,
+  ]);
+  const words = cnShuffle(cnWords).slice(0, 25);
+
+  const board = document.getElementById('cn-board');
+  board.innerHTML = '';
+  key.forEach((type, i) => {
+    board.appendChild(createCnCard(words[i], type));
+  });
+
+  renderCnKey(key, wildTeam);
+  document.getElementById('cn-key').hidden = true;
+  document.getElementById('cn-key-toggle').textContent = 'Check Key Card';
+
+  cnState = {
+    turn: wildTeam,
+    remaining: { red: 8, blue: 8 },
+    clue: 0,
+    correct: 0,
+    guesses: 0,
+    turnOver: false,
+    winner: null,
+  };
+  cnState.remaining[wildTeam]++;
+
+  const clue = document.getElementById('cn-clue');
+  clue.value = '';
+  clue.disabled = false;
+
+  cnUpdateUI();
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById('cn-start').addEventListener('click', dealCodenames);
+  document.getElementById('cn-next').addEventListener('click', cnNextTurn);
+
+  document.getElementById('cn-clue').addEventListener('input', function () {
+    cnState.clue = parseInt(this.value) || 0;
+    cnUpdateUI();
+  });
+
+  document.getElementById('cn-key-toggle').addEventListener('click', function () {
+    const keyEl = document.getElementById('cn-key');
+    keyEl.hidden = !keyEl.hidden;
+    this.textContent = keyEl.hidden ? 'Check Key Card' : 'Hide Key Card';
+  });
+
+  dealCodenames();
+});
+
+</script>
+</section>
 <section id="second-rule" class="level3">
 <h3 class="anchored" data-anchor-id="second-rule">5 Second Rule</h3>
 <div id="fsr-container" class="fsr-container">
