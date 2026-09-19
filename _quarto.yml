@@ -32,14 +32,14 @@ website:
       - text: SSMU
         href: ssmu.qmd
 
+      - text: Duke-Math
+        href: duke-math.qmd 
+
       - text: Design
         href: design.qmd
 
       - text: Photos
-        href: photos.qmd
-
-      - text: Math-Games
-        href: math-games.qmd  
+        href: photos.qmd 
 
       - text: Misc
         href: misc.qmd 

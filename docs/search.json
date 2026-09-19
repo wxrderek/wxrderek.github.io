@@ -35,18 +35,32 @@
     "text": "Cary Academy XCTF\nVisit caryacademy_xctf on Instagram for some design and photography work from high school. I made posts from 2023 to 2024. If you were an athlete on the Cross Country and/or Track and Field teams when I was there, and would like to see some old photos, contact me."
   },
   {
-    "objectID": "math-games.html",
-    "href": "math-games.html",
-    "title": "Custom Math (Board/Party) Games",
+    "objectID": "ssmu.html",
+    "href": "ssmu.html",
+    "title": "SSMU Research Committee",
     "section": "",
-    "text": "Here I’ve compiled some math-themed versions of board/party games. I only provide the “cards” or equivalent textual components of each game. You probably need a physical set to actually play some of these."
+    "text": "This page contains info for the Research Committee of the Duke Statistical Science Majors Union (SSMU). We run a seminar series featuring researchers doing stats-related work in academia and industry. We also run an undergrad reading group on theory/methods in modern statistics and ML.\nWe are actively looking for undergrads to join our committee! You need not be a Stats major (I’m not). If interested, email me at xiran [dot] wang [at] duke [dot] edu. There is a short application."
   },
   {
-    "objectID": "math-games.html#second-rule",
-    "href": "math-games.html#second-rule",
-    "title": "Custom Math (Board/Party) Games",
-    "section": "5 Second Rule",
-    "text": "5 Second Rule"
+    "objectID": "ssmu.html#ssmu-seminar-series",
+    "href": "ssmu.html#ssmu-seminar-series",
+    "title": "SSMU Research Committee",
+    "section": "SSMU Seminar Series",
+    "text": "SSMU Seminar Series\nWe always welcome Duke faculty, postdocs, and PhD students from all departments to talk about their research! We also welcome other student organizations to cosponsor these talks. Email me if you want to give or cosponsor a talk.\nFor the 2026-2027 school year, we plan to host one seminar in the Fall and four seminars in the Spring.\n\nUpcoming\n\n\n\n\n\nPast\n\n\n\n\n\nPast Recordings"
+  },
+  {
+    "objectID": "ssmu.html#ssmu-reading-group",
+    "href": "ssmu.html#ssmu-reading-group",
+    "title": "SSMU Research Committee",
+    "section": "SSMU Reading Group",
+    "text": "SSMU Reading Group\nThe broad topic is theory and methods in modern statistics and machine learning. We meet roughly triweekly on Fridays, 5-6pm in Perkins Link Group Study 1. At each meeting, someone presents on a manuscript, and we discuss. If you’re an undergrad interested in this field, put your name here, and show up! No prerequisites required.\nIf you would like to present a manuscript, please email me. For the 2026-2027 school year, we will meet four times in the Fall and four times in the Spring.\n\nUpcoming\n\n\n\n\n\nRecommended Manuscripts\n\n\n\n\n\nPast"
+  },
+  {
+    "objectID": "ssmu.html#members",
+    "href": "ssmu.html#members",
+    "title": "SSMU Research Committee",
+    "section": "Members",
+    "text": "Members\n\n2026-2027 (current)\n\nDerek Wang (lead) — Physics & Math, c/o 2028\nAlan Ye — Math & Philosophy, c/o 2029\nKien Le — Econ & Stats, c/o 2029\nPriyanka Rathnam — CS, c/o 2029\nEthan Fazal — Math & CS, c/o 2028\nCyrus Tsui — Math & CS, c/o 2028\nAndrew Park — Math & CS, c/o 2028\nAashish Cheruvu — BME & ECE, c/o 2028\nCooper Ruffing (exec liaison) — Stats, c/o 2027\n\n\n\n2025-2026\n\nDerek Wang (lead) — Physics & Math, c/o 2028\nAashish Cheruvu — BME & ECE, c/o 2028\nKien Le — Econ & Stats, c/o 2029\nAlan Ye — Math & Philosophy, c/o 2029\nParker Upton — Econ & Stats, c/o 2029\nEthan Fazal — Math & CS, c/o 2028\nCooper Ruffing (exec liaison) — Stats, c/o 2027"
   },
   {
     "objectID": "misc.html",
@@ -81,7 +95,7 @@
     "href": "index.html",
     "title": "Derek Wang",
     "section": "",
-    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n      Google Scholar\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nDuQuantum is the first annual quantum computing hackathon at Duke. We invite quantum enthusiasts to tackle challenges designed by industry leaders and gain experience with state-of-the-art quantum tools. All undergrad, Master’s and PhD students are eligible. Mailing list here.\n\n\n\n\n\n\n\nI’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m interested in scientific machine learning theory/methods from a (stochastic) dynamics and geometry perspective. Specifics include\n\nTheory: mathematical foundations of generative modeling, transformers\nMethods: learning dynamics, physics-informed techniques\nApplications: microbiology, materials, quantum chemistry\n\nRecently I’ve become interested in quantum information and learning. I was born in Beijing, China. My given name is Xiran; I go by Derek.\nI’ve put some notes and other stuff I’ve written here, mainly for my own reference.\n\n\n\nAs part of the Lingchong You Lab, I work on ML for time-series parameter estimation and forecasting for bacterial growth.\nIn Summer 2026, I was a research intern at Oak Ridge National Lab mentored by Stephan Irle and Max Lupo Pasini. Here I used GNNs to learn electron densities of drug-like molecules.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\nThroughout the 2025-26 school year, as part of the Liberata Algorithms Team, I developed graph- and embedding-based algorithms for a new academic publishing system based on continuous authorship shares.\n\n\n\nI’m a co-lead organizer of the new DuQuantum quantum computing hackathon at Duke. This is a collaboration between the Duke Quantum Information Society (DuQIS) and HackDuke.\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a seminar series and reading group on theory/methods in modern statistics. More here.\nI’m also a part of the Math Community Team in the Duke Math Department, where I help run undergrad activities, including a mini-colloquium series. I made some custom math board/party games here. I also serve as an Event Coordinator for the Society of Physics Students.\nI’m a graphic designer of 8+ years. Lately I use Figma. I served as a co-director of HackDuke in 2025-2026, where I led the Design Team. I also design for the Duke Math Union, in particular the annual Duke Math Meet. See some past works here.\nSee some photos here."
+    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n      Google Scholar\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nDuQuantum is the first annual quantum computing hackathon at Duke. We invite quantum enthusiasts to tackle challenges designed by industry leaders and gain experience with state-of-the-art quantum tools. All undergrad, Master’s and PhD students are eligible. Mailing list here.\n\n\n\n\n\n\n\nI’m an undergrad at Duke University studying Physics and Mathematics, with a minor in Statistical Science. I’m interested in scientific machine learning theory/methods from a (stochastic) dynamics and geometry perspective. Specifics include\n\nTheory: mathematical foundations of generative modeling, transformers\nMethods: learning dynamics, physics-informed techniques\nApplications: microbiology, materials, quantum chemistry\n\nRecently I’ve become interested in quantum information and learning. I was born in Beijing, China. My given name is Xiran; I go by Derek.\nI’ve put some notes and other stuff I’ve written here, mainly for my own reference.\n\n\n\nAs part of the Lingchong You Lab, I work on ML for time-series parameter estimation and forecasting for bacterial growth.\nI’m also working under Jianfeng Lu on the theoretical analysis of sampling algorithms for spin-glasses, with an initial focus on the Sherrington-Kirkpatrick (SK) model.\nIn Summer 2026, I was a research intern at Oak Ridge National Lab mentored by Stephan Irle and Max Lupo Pasini. Here I used GNNs to learn electron densities of drug-like molecules.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\nThroughout the 2025-26 school year, as part of the Liberata Algorithms Team, I developed graph- and embedding-based algorithms for a new academic publishing system based on continuous authorship shares.\n\n\n\nI’m a co-lead organizer of the new DuQuantum quantum computing hackathon at Duke. This is a collaboration between the Duke Quantum Information Society (DuQIS) and HackDuke.\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a seminar series and reading group on theory/methods in modern statistics. More here.\nI’m also a part of the Math Community Team in the Duke Math Department, where I help run undergrad activities, including a mini-colloquium series. I also serve as an Event Coordinator for the Society of Physics Students.\nI’m a graphic designer of 8+ years. Lately I use Figma. I served as a co-director of HackDuke in 2025-2026, where I led the Design Team. I also design for the Duke Math Union, in particular the annual Duke Math Meet. See some past works here.\nSee some photos here."
   },
   {
     "objectID": "index.html#about-me",
@@ -95,14 +109,14 @@
     "href": "index.html#experience",
     "title": "Derek Wang",
     "section": "",
-    "text": "As part of the Lingchong You Lab, I work on ML for time-series parameter estimation and forecasting for bacterial growth.\nIn Summer 2026, I was a research intern at Oak Ridge National Lab mentored by Stephan Irle and Max Lupo Pasini. Here I used GNNs to learn electron densities of drug-like molecules.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\nThroughout the 2025-26 school year, as part of the Liberata Algorithms Team, I developed graph- and embedding-based algorithms for a new academic publishing system based on continuous authorship shares."
+    "text": "As part of the Lingchong You Lab, I work on ML for time-series parameter estimation and forecasting for bacterial growth.\nI’m also working under Jianfeng Lu on the theoretical analysis of sampling algorithms for spin-glasses, with an initial focus on the Sherrington-Kirkpatrick (SK) model.\nIn Summer 2026, I was a research intern at Oak Ridge National Lab mentored by Stephan Irle and Max Lupo Pasini. Here I used GNNs to learn electron densities of drug-like molecules.\nIn Summer 2025, I was an AI R&D intern at Lenovo with the Cloud Service Providers, where I assembled an AI cluster testbed and looked at network optimization schemes.\nThroughout the 2025-26 school year, as part of the Liberata Algorithms Team, I developed graph- and embedding-based algorithms for a new academic publishing system based on continuous authorship shares."
   },
   {
     "objectID": "index.html#involvements",
     "href": "index.html#involvements",
     "title": "Derek Wang",
     "section": "",
-    "text": "I’m a co-lead organizer of the new DuQuantum quantum computing hackathon at Duke. This is a collaboration between the Duke Quantum Information Society (DuQIS) and HackDuke.\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a seminar series and reading group on theory/methods in modern statistics. More here.\nI’m also a part of the Math Community Team in the Duke Math Department, where I help run undergrad activities, including a mini-colloquium series. I made some custom math board/party games here. I also serve as an Event Coordinator for the Society of Physics Students.\nI’m a graphic designer of 8+ years. Lately I use Figma. I served as a co-director of HackDuke in 2025-2026, where I led the Design Team. I also design for the Duke Math Union, in particular the annual Duke Math Meet. See some past works here.\nSee some photos here."
+    "text": "I’m a co-lead organizer of the new DuQuantum quantum computing hackathon at Duke. This is a collaboration between the Duke Quantum Information Society (DuQIS) and HackDuke.\nI lead the Research Committee for the Statistical Science Majors Union (SSMU), where I organize a seminar series and reading group on theory/methods in modern statistics. More here.\nI’m also a part of the Math Community Team in the Duke Math Department, where I help run undergrad activities, including a mini-colloquium series. I also serve as an Event Coordinator for the Society of Physics Students.\nI’m a graphic designer of 8+ years. Lately I use Figma. I served as a co-director of HackDuke in 2025-2026, where I led the Design Team. I also design for the Duke Math Union, in particular the annual Duke Math Meet. See some past works here.\nSee some photos here."
   },
   {
     "objectID": "research.html",
@@ -147,32 +161,32 @@
     "text": "Miscellaneous Things\nSome miscellaneous things I’ve written, including course projects, workshop / seminar notes, and other stuff. This is primarily for my own reference."
   },
   {
-    "objectID": "ssmu.html",
-    "href": "ssmu.html",
-    "title": "SSMU Research Committee",
+    "objectID": "duke-math.html",
+    "href": "duke-math.html",
+    "title": "Duke Math Community Team",
     "section": "",
-    "text": "This page contains info for the Research Committee of the Duke Statistical Science Majors Union (SSMU). We run a seminar series featuring researchers doing stats-related work in academia and industry. We also run an undergrad reading group on theory/methods in modern statistics and ML.\nWe are actively looking for undergrads to join our committee! You need not be a Stats major (I’m not). If interested, email me at xiran [dot] wang [at] duke [dot] edu. There is a short application."
+    "text": "This page contains auxiliary information for the Duke Math Community Team, specifically information pertaining to undergrad events and activities."
   },
   {
-    "objectID": "ssmu.html#ssmu-seminar-series",
-    "href": "ssmu.html#ssmu-seminar-series",
-    "title": "SSMU Research Committee",
-    "section": "SSMU Seminar Series",
-    "text": "SSMU Seminar Series\nWe always welcome Duke faculty, postdocs, and PhD students from all departments to talk about their research! We also welcome other student organizations to cosponsor these talks. Email me if you want to give or cosponsor a talk.\nFor the 2026-2027 school year, we plan to host one seminar in the Fall and four seminars in the Spring.\n\nUpcoming\n\n\n\n\n\nPast\n\n\n\n\n\nPast Recordings"
+    "objectID": "duke-math.html#undergrad-math-teas",
+    "href": "duke-math.html#undergrad-math-teas",
+    "title": "Duke Math Community Team",
+    "section": "Undergrad Math Teas",
+    "text": "Undergrad Math Teas\nThe community team runs Undergrad Math Teas, now weekly on Fridays, from 1:30-2:30pm in Physics 101 (Math Lounge). These are fun community events with snacks, fellow math enthusiasts to chat with, and occasional structured programming. Grad students, postdocs, and faculty are welcomed to attend. (flyer curtesy of Ethan Fazal)."
   },
   {
-    "objectID": "ssmu.html#ssmu-reading-group",
-    "href": "ssmu.html#ssmu-reading-group",
-    "title": "SSMU Research Committee",
-    "section": "SSMU Reading Group",
-    "text": "SSMU Reading Group\nThe broad topic is theory and methods in modern statistics and machine learning. We meet roughly triweekly on Fridays, 5-6pm in Perkins Link Group Study 1. At each meeting, someone presents on a manuscript, and we discuss. If you’re an undergrad interested in this field, put your name here, and show up! No prerequisites required.\nIf you would like to present a manuscript, please email me. For the 2026-2027 school year, we will meet four times in the Fall and four times in the Spring.\n\nUpcoming\n\n\n\n\n\nRecommended Manuscripts\n\n\n\n\n\nPast"
+    "objectID": "duke-math.html#math-undergrad-mini-colloquia",
+    "href": "duke-math.html#math-undergrad-mini-colloquia",
+    "title": "Duke Math Community Team",
+    "section": "Math Undergrad Mini-Colloquia",
+    "text": "Math Undergrad Mini-Colloquia\nWe are running a new series of undergrad talks called the Math Undergrad Mini-Colloquia. These happen biweekly, during the aforementioned Math Teas on Fridays, from 1:30-2:30pm in Physics 101 (Math Lounge). The dates for Fall 2026 are below. All undergrads are welcomed to speak! Sign up to talk here. All (including non-undergrads) are welcome to attend.\n\nUpcoming\n\n\n\n\n\nPast"
   },
   {
-    "objectID": "ssmu.html#members",
-    "href": "ssmu.html#members",
-    "title": "SSMU Research Committee",
-    "section": "Members",
-    "text": "Members\n\n2026-2027 (current)\n\nDerek Wang (lead) — Physics & Math, c/o 2028\nAlan Ye — Math & Philosophy, c/o 2029\nKien Le — Econ & Stats, c/o 2029\nPriyanka Rathnam — CS, c/o 2029\nEthan Fazal — Math & CS, c/o 2028\nCyrus Tsui — Math & CS, c/o 2028\nAndrew Park — Math & CS, c/o 2028\nAashish Cheruvu — BME & ECE, c/o 2028\nCooper Ruffing (exec liaison) — Stats, c/o 2027\n\n\n\n2025-2026\n\nDerek Wang (lead) — Physics & Math, c/o 2028\nAashish Cheruvu — BME & ECE, c/o 2028\nKien Le — Econ & Stats, c/o 2029\nAlan Ye — Math & Philosophy, c/o 2029\nParker Upton — Econ & Stats, c/o 2029\nEthan Fazal — Math & CS, c/o 2028\nCooper Ruffing (exec liaison) — Stats, c/o 2027"
+    "objectID": "duke-math.html#math-games",
+    "href": "duke-math.html#math-games",
+    "title": "Duke Math Community Team",
+    "section": "Math Games",
+    "text": "Math Games\nHere I’ve compiled some math-themed versions of board/party games. I only provide the “cards” or equivalent textual components of each game. You probably need a physical set to actually play some of these.\n\n5 Second Rule"
   },
   {
     "objectID": "cv.html",

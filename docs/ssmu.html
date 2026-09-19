@@ -128,16 +128,16 @@ gtag('config', '', { 'anonymize_ip': true});
 <span class="menu-text">SSMU</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./duke-math.html"> 
+<span class="menu-text">Duke-Math</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./design.html"> 
 <span class="menu-text">Design</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./photos.html"> 
 <span class="menu-text">Photos</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./math-games.html"> 
-<span class="menu-text">Math-Games</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./misc.html"> 
@@ -562,13 +562,7 @@ document.addEventListener('DOMContentLoaded', initializeRecordings);
 
 const readingGroupData = {
   'upcoming': [
-    {
-      date: 'September 18, 2026',
-      manuscript: 'Compressed Sensing using Generative Models (Bora et al, 2017). PDF <a href="https://arxiv.org/abs/1703.03208" target="_blank">here</a>',
-      presenter: 'Derek Wang',
-      keywords: ['compressed sensing', 'signal processing', 'generative modeling']
-    },
-
+  
     {
       date: 'October 16, 2026',
       manuscript: '??',
@@ -589,6 +583,15 @@ const readingGroupData = {
       presenter: 'Derek Wang',
       keywords: ['quantum learning theory', 'quantum information', 'statistical learning theory']
     }
+  ],
+
+  'Fall 2026': [
+    {
+      date: 'September 18, 2026',
+      manuscript: 'Compressed Sensing using Generative Models (Bora et al, 2017). PDF <a href="https://arxiv.org/abs/1703.03208" target="_blank">here</a>',
+      presenter: 'Derek Wang',
+      keywords: ['compressed sensing', 'signal processing', 'generative modeling']
+    },
   ],
 
   'Spring 2026': [
@@ -616,10 +619,6 @@ const readingGroupData = {
       presenter: 'Ethan Fazal',
       keywords: ['network theory', 'graph theory', 'statistical inference']
     },
-  ],
-
-  'Fall 2026': [
-
   ],
 
 };
@@ -660,7 +659,7 @@ const recommendedData = [
   {
     manuscript: 'Markov Chain Monte Carlo with Diffusion Paths (Chen, Liu, Yang, 2026). PDF <a href="https://arxiv.org/abs/2607.11631" target="_blank">here</a>',
     keywords: ['sampling', 'stochastic dynamics', 'MCMC'],
-    prerequisite: 'Probability, exposure to stochastic calculus and measure theoretic notations.'
+    prerequisite: 'Probability, exposure to stochastic calculus.'
   },
 
   {

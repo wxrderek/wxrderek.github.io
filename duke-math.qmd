@@ -1,19 +1,189 @@
 ---
-title: "Custom Math (Board/Party) Games"
-description-meta: "Derek Wang custom math games"
+title: "Duke Math Community Team"
+description-meta: "Some info for the Duke Math Community Team"
 page-layout: full
 back-to-top-navigation: true
 toc: true
 toc-location: right
 css:
   - styles.css
-  - math-games.css
+  - duke-math.css
 ---
+
+This page contains auxiliary information for the [Duke Math Community Team](https://math.duke.edu/duke-math-community-team), specifically
+information pertaining to undergrad events and activities.
+
+## Undergrad Math Teas
+
+The community team runs **Undergrad Math Teas**, now **weekly** on **Fridays**, from **1:30-2:30pm** in **Physics 101** (Math Lounge).
+These are fun community events with snacks, fellow math enthusiasts to chat with, and occasional structured programming. 
+Grad students, postdocs, and faculty are welcomed to attend. (flyer curtesy of [Ethan Fazal](https://www.linkedin.com/in/ethan-fazal/)).
+
+<a href="files/math/math-tea-flyer-f26.jpg" target="_blank" rel="noopener noreferrer">
+  <img src="files/math/math-tea-flyer-f26.jpg" alt="Undergrad Math Tea flyer, Fall 2026" class="tea-flyer">
+</a>
+
+
+## Math Undergrad Mini-Colloquia
+
+We are running a new series of undergrad talks called the **Math Undergrad Mini-Colloquia**.
+These happen **biweekly**, during the aforementioned Math Teas on **Fridays**, from **1:30-2:30pm** in **Physics 101** (Math Lounge).
+The dates for Fall 2026 are below. All undergrads are welcomed to speak! Sign up to talk [here](https://duke.is/math-undergrad-talks). 
+All (including non-undergrads) are welcome to attend.
+
+### Upcoming
+
+<div id="mini-colloquia-upcoming" class="mc-section"></div>
+
+### Past
+
+<div id="mini-colloquia-past-container"></div>
+
+
+
+
+<script>
+
+const miniColloquiaData = {
+  'upcoming': [
+
+    {
+      date: 'October 2, 2026',
+      title: 'Stochastic localization and connections to diffusion models',
+      presenter: 'Derek Wang',
+      keywords: ['stochastic analysis', 'sampling']
+    },
+
+    {
+      date: 'October 16, 2026',
+      title: 'Complex analysis and the Riemann zeta function',
+      presenter: 'Yashraj Vishwakarma',
+      keywords: ['complex analysis', 'number theory']
+    },
+
+    {
+      date: 'October 30, 2026',
+      title: '??',
+      presenter: '??',
+      keywords: []
+    },
+
+    {
+      date: 'November 6, 2026',
+      title: '??',
+      presenter: '??',
+      keywords: []
+    },
+
+    {
+      date: 'November 20, 2026',
+      title: '??',
+      presenter: '??',
+      keywords: []
+    },
+
+    {
+      date: 'December 4, 2026',
+      title: '??',
+      presenter: '??',
+      keywords: []
+    },
+  ],
+
+  'Fall 2026': [
+    
+  ],
+
+};
+
+
+
+function createMCItem(itemData, index) {
+  const el = document.createElement('div');
+  el.className = 'mc-item';
+  el.tabIndex = 0;
+
+  el.innerHTML = `
+    <div class="mc-summary" aria-hidden="false">
+      <p class="mc-date">${itemData.date}</p>
+      <p class="mc-title">${itemData.title}</p>
+    </div>
+
+    <div class="mc-details" id="mc-details-${index}">
+      <div>
+        <p class="mc-presenter"><strong>Presenter:</strong> ${itemData.presenter}</p>
+      </div>
+      <div>
+        <p class="mc-keywords"><strong>Keywords:</strong> <span>${(itemData.keywords||[]).join(', ')}</span></p>
+      </div>
+    </div>
+  `;
+
+  el.addEventListener('click', (e) => {
+    // avoid toggling when clicking inside links or selectable areas in future
+    if (e.target.tagName.toLowerCase() === 'a') return;
+    el.classList.toggle('mc-open');
+  });
+
+  el.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      el.classList.toggle('mc-open');
+    }
+  });
+
+  return el;
+}
+
+
+function initializeMiniColloquia() {
+  // Handle upcoming section
+  const upcomingSection = document.getElementById('mini-colloquia-upcoming');
+  if (upcomingSection && miniColloquiaData.upcoming) {
+    const list = document.createElement('div');
+    list.className = 'mc-list';
+    miniColloquiaData.upcoming.forEach((item, idx) => {
+      list.appendChild(createMCItem(item, idx));
+    });
+    upcomingSection.appendChild(list);
+  }
+
+  // Handle past semesters - dynamically create dropdowns
+  const pastContainer = document.getElementById('mini-colloquia-past-container');
+  if (pastContainer) {
+    Object.entries(miniColloquiaData).forEach(([sectionName, items]) => {
+      if (sectionName !== 'upcoming' && items.length > 0) {
+        const details = document.createElement('details');
+        const summary = document.createElement('summary');
+        summary.textContent = sectionName;
+        details.appendChild(summary);
+
+        const section = document.createElement('div');
+        section.className = 'mc-section';
+        const list = document.createElement('div');
+        list.className = 'mc-list';
+        items.forEach((item, idx) => {
+          list.appendChild(createMCItem(item, idx));
+        });
+        section.appendChild(list);
+        details.appendChild(section);
+
+        pastContainer.appendChild(details);
+      }
+    });
+  }
+}
+
+
+document.addEventListener('DOMContentLoaded', initializeMiniColloquia);
+</script>
+
+## Math Games
 
 Here I've compiled some math-themed versions of board/party games. I only provide the "cards" or equivalent textual components of each game.
 You probably need a physical set to actually play some of these. 
 
-## 5 Second Rule
+### 5 Second Rule
 
 ```{=html}
 <div id="fsr-container" class="fsr-container">

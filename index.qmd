@@ -65,7 +65,10 @@ I've put some notes and other stuff I've written [here](notes.html), mainly for 
 
 ## Experience
 As part of the [Lingchong You Lab](https://www.youlab.bio/), I work on ML for time-series parameter estimation and forecasting
-for bacterial growth.
+for bacterial growth. 
+
+I'm also working under [Jianfeng Lu](https://sites.math.duke.edu/~jianfeng/) on the theoretical analysis of sampling algorithms for spin-glasses,
+with an initial focus on the Sherrington-Kirkpatrick (SK) model.
 
 In Summer 2026, I was a research intern at [Oak Ridge National Lab](https://www.ornl.gov/) mentored by
 [Stephan Irle](https://www.ornl.gov/staff-profile/stephan-irle) and [Max Lupo Pasini](https://www.ornl.gov/staff-profile/massimiliano-lupo-pasini). 
@@ -88,7 +91,7 @@ I lead the Research Committee for the Statistical Science Majors Union (SSMU), w
 seminar series and reading group on theory/methods in modern statistics. More [here](ssmu.html).
 
 I'm also a part of the Math Community Team in the Duke Math Department, where I help run undergrad activities, including a mini-colloquium series. 
-I made some custom math board/party games [here](math-games.html). I also serve as an Event Coordinator for the Society of Physics Students.
+I also serve as an Event Coordinator for the Society of Physics Students.
 
 I'm a graphic designer of 8+ years. Lately I use Figma. 
 I served as a co-director of [HackDuke](https://hackduke.org/) in 2025-2026, where I led the Design Team. 
