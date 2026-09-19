@@ -24,13 +24,13 @@ a:hover {
   color: #0f1cd5 !important;
 }
 
-/* hero heading links */
-#hero-heading a {
+/* content links (all pages) */
+:where(#quarto-document-content, #hero-heading) a {
   color: #0f1cd5;
   text-decoration: none;
 }
 
-#hero-heading a:hover {
+:where(#quarto-document-content, #hero-heading) a:hover {
   text-decoration: underline;
 }
 
