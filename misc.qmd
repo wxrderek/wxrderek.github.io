@@ -17,6 +17,11 @@ css:
   + QuEra Neutral Atom and Quantum Error Correction Workshop [Summer 2026, Oak Ridge National Lab]
   + Rhodes IID Algorithmic Advances in Generative AI Conference [Spring 2026, Duke]
 
+## Some perspectives on LLMs in math
+  + "Happy, those able to know the causes of things"; by Nestor Guillen [blog post [here](https://birdsnfrogs.github.io/2026/09/12/Felix_qui_potuit_rerum_cognoscere_causas.html)]
+  + "Mathematics in the age of AI"; by Terence Tao, public lecture at ICM 2026 [slides [here](https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf)]
+  + "A Severe Misalignment of AI in Mathematics" [declaration [here](https://mathandai.org/)]
+
 ## Resources I like
   + MSRI Summer School on Electronic Structure Theory; by Lin Lin and Jianfeng Lu; 2016 [recordings on MSRI [here](https://www.slmath.org/summer-schools/778)]
   + Handbook of Convergence Theorems for (Stochastic) Gradient Methods; by Guillaume Garrigos and Robert M. Gower; last revised 2024 [arxiv [here](https://arxiv.org/abs/2301.11235)]
