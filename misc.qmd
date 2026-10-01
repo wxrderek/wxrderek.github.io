@@ -10,6 +10,7 @@ css:
 
 ## Things I have/plan to participated in
 
+  + 2026 Triangle Computational and Applied Mathematics Symposium (TriCAMS) [link [here](https://dukemath.pages.oit.duke.edu/tricams/)] [Fall 2026, Duke]
   + 2026 Duke-ORNL Workshop on Advanced Microscopy & Data-Driven Materials Science [link [here](https://dmi.duke.edu/event/1329)] [Fall 2026, Duke]
   + Rhodes IID Adventures in Sampling [link [here](https://sites.duke.edu/adventuresinsampling/)] [Fall 2026, Duke]
   + Duke Math Graduate Summer School in Stochastics, Dynamics, and Machine Learning [link [here](https://sites.duke.edu/stochasticdynamics26/)] [Summer 2026, Duke]

@@ -63,9 +63,9 @@ const miniColloquiaData = {
 
     {
       date: 'October 30, 2026',
-      title: '??',
-      presenter: '??',
-      keywords: []
+      title: 'An introduction to random matrix theory',
+      presenter: 'Yashraj Vishwakarma',
+      keywords: ['probability theory', 'random matrix theory']
     },
 
     {
