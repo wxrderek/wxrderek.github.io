@@ -33,21 +33,6 @@ about:
 
 ---
 
-:::{#hero-heading}
-
-# Applications open for [DuQuantum 2026!](https://www.duquantum.org)
-DuQuantum is the first annual quantum computing hackathon at Duke. 
-We invite quantum enthusiasts to tackle challenges designed by industry leaders and gain experience with state-of-the-art quantum tools.
-All undergrad, Master's and PhD students are eligible.
-Mailing list [here](https://duke.is/duquantum-mailing-list).
-
-::: {style="text-align: center;"}
-# APPLY [<strong>HERE</strong>](https://duke.is/duquantum-application-2026)
-:::
-
-
----
-
 ## About Me
 I'm an undergrad at [Duke University](https://www.duke.edu) studying Physics and Mathematics, with a minor in Statistical Science. 
 I’m interested in scientific machine learning theory/methods from a (stochastic) dynamics and geometry perspective. 
