@@ -73,16 +73,16 @@ const seminarsData = {
     },
 
     {
-      speaker: 'TBD',
+      speaker: 'Anya Katsevich',
       subtitle: 'TBD',
-      affiliation: 'TBD',
-      date: 'Week of Mar. 15th',
-      time: 'TBD',
+      affiliation: 'Assistant Professor of Statistical Science and Mathematics at Duke',
+      date: 'March 16th, 2027',
+      time: '4:15 - 5:15 pm',
       location: 'TBD',
 
       description: `TBD.`,
       
-      headshot: 'files/images/math-library.jpg',
+      headshot: 'files/ssmu/anya.jpg',
       flyer: 'files/ssmu/BLANK-Seminar-Flyer.pdf'
     },
 
