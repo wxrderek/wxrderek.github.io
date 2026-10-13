@@ -45,16 +45,16 @@ const seminarsData = {
   'upcoming': [
 
     {
-      speaker: 'TBD',
+      speaker: 'Jerry Reiter',
       subtitle: 'TBD',
-      affiliation: 'TBD',
-      date: 'Week of Jan. 18th',
+      affiliation: 'Henry W. Newson Distinguished Professor of Statistical Science at Duke',
+      date: 'January 19th, 2027',
       time: 'TBD',
       location: 'TBD',
 
       description: `TBD.`,
       
-      headshot: 'files/images/math-library.jpg',
+      headshot: 'files/ssmu/reiter.jpg',
       flyer: 'files/ssmu/BLANK-Seminar-Flyer.pdf'
     },
 
