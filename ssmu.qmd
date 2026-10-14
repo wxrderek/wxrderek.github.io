@@ -335,7 +335,8 @@ The broad topic is theory and methods in modern statistics and machine learning.
 If you're an undergrad interested in this field, put your name [here](https://forms.gle/CjDY6RXVbAuidamb9), and show up! No prerequisites required.  
 
 If you would like to present a manuscript, please email me. 
-For the **2026-2027** school year, we will meet **four** times in the Fall and **four** times in the Spring.  
+For the **2026-2027** school year, we will meet **four** times in the Fall and **four** times in the Spring. 
+**Note the October 16, 2026 meeting will occur 4-5pm.**
 
 
 ### Upcoming
@@ -359,7 +360,7 @@ const readingGroupData = {
   'upcoming': [
   
     {
-      date: 'October 16, 2026',
+      date: 'October 16, 2026 (4-5pm)',
       manuscript: 'Markov Chain Monte Carlo with Diffusion Paths (Chen, Liu, Yang, 2026). PDF <a href="https://arxiv.org/abs/2607.11631" target="_blank">here</a>',
       presenter: 'Jacob Beatty',
       keywords: ['sampling', 'generative modeling']
