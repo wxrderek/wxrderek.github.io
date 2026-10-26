@@ -361,9 +361,9 @@ const readingGroupData = {
 
     {
       date: 'October 30, 2026',
-      manuscript: '??',
-      presenter: '??',
-      keywords: []
+      manuscript: 'Functional Inequalities and the Mixing Time of Markov Processes (primary reference TBD).',
+      presenter: 'Derek Wang',
+      keywords: ['sampling', 'stochastic dynamics', 'high dimensional probability']
     },
 
     {
@@ -422,6 +422,18 @@ const readingGroupData = {
 
 const recommendedData = [
   
+  {
+    manuscript: 'Dynamics-informed machine learning for recovering extensive missing systems dynamics (Wu et al, 2026). PDF <a href="https://www.nature.com/articles/s41467-026-77922-1" target="_blank">here</a>',
+    keywords: ['machine learning', 'missing data methods', 'dynamical systems'],
+    prerequisite: 'Basic understanding of ODEs/dynamical systems, and some background in applied machine learning.'
+  },
+
+  {
+    manuscript: 'Data-driven discovery of dynamical models in biology (Prokop and Gelens, 2026). PDF <a href="https://www.nature.com/articles/s42254-026-00955-4" target="_blank">here</a>',
+    keywords: ['data-driven modeling', 'dynamical systems'],
+    prerequisite: 'Regression, basic understanding of ODEs/dynamical systems.'
+  },
+
   {
     manuscript: 'Manifold-Based Signal Recovery and Parameter Estimation from Compressive Measurements (Wakin, 2010). PDF <a href="https://arxiv.org/abs/1002.1247" target="_blank">here</a>',
     keywords: ['compressed sensing', 'signal processing', 'information geometry'],
